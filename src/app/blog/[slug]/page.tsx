@@ -10,6 +10,7 @@ import SectionHeading from "@/components/SectionHeading";
 import JsonLd from "@/components/JsonLd";
 import { getAllSlugs, getPostBySlug, getRelatedPosts } from "@/lib/blog";
 import { siteConfig } from "@/lib/constants";
+import { pageMetadata } from "@/lib/seo";
 
 export function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
@@ -25,15 +26,24 @@ export async function generateMetadata({
   if (!slugs.includes(slug)) return {};
   const post = getPostBySlug(slug);
 
-  return {
+  const base = pageMetadata({
     title: post.title,
     description: post.description,
-    alternates: { canonical: `/blog/${post.slug}` },
+    path: `/blog/${post.slug}`,
+    keywords: post.keywords,
+  });
+
+  return {
+    ...base,
+    authors: [{ name: siteConfig.name }],
     openGraph: {
+      ...base.openGraph,
       type: "article",
-      title: post.title,
-      description: post.description,
       publishedTime: post.date,
+      modifiedTime: post.date,
+      authors: [siteConfig.name],
+      section: post.category,
+      tags: post.keywords,
     },
   };
 }
@@ -62,10 +72,18 @@ export default async function BlogPostPage({
     "@type": "Article",
     headline: post.title,
     description: post.description,
+    image: `${siteConfig.url}/blog/${post.slug}/opengraph-image`,
     datePublished: post.date,
     dateModified: post.date,
-    author: { "@type": "Organization", name: siteConfig.name },
-    publisher: { "@type": "Organization", name: siteConfig.name },
+    keywords: post.keywords.join(", "),
+    articleSection: post.category,
+    inLanguage: "da-DK",
+    author: { "@type": "Organization", name: siteConfig.name, url: siteConfig.url },
+    publisher: {
+      "@type": "Organization",
+      name: siteConfig.name,
+      logo: { "@type": "ImageObject", url: `${siteConfig.url}/icon.svg` },
+    },
     mainEntityOfPage: `${siteConfig.url}/blog/${post.slug}`,
   };
 

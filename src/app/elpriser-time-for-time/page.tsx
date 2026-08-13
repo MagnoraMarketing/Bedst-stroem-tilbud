@@ -7,13 +7,15 @@ import SectionHeading from "@/components/SectionHeading";
 import FaqAccordion from "@/components/FaqAccordion";
 import JsonLd, { faqJsonLd } from "@/components/JsonLd";
 import { ClockIcon } from "@/components/icons";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Elpriser time for time – se spotprisen på strøm",
   description:
     "Se hvordan elpriser time for time (spotprisen) fungerer, hvorfor prisen svinger hen over døgnet, og hvordan du kan flytte dit elforbrug til de billige timer.",
-  alternates: { canonical: "/elpriser-time-for-time" },
-};
+  path: "/elpriser-time-for-time",
+  keywords: ["elpriser time for time", "spotpris strøm", "elpris i dag", "elpriser i morgen"],
+});
 
 const hours = [
   { time: "00-06", label: "Nat", level: 25 },

@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import Container from "@/components/Container";
 import PageHero from "@/components/PageHero";
 import { siteConfig } from "@/lib/constants";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Ansvarsfraskrivelse",
   description: `Læs om ${siteConfig.name}s rolle som uafhængig markedsføringsside og vores samarbejde med findelpriser.dk.`,
-  alternates: { canonical: "/ansvarsfraskrivelse" },
-};
+  path: "/ansvarsfraskrivelse",
+});
 
 export default function AnsvarsfraskrivelsePage() {
   return (

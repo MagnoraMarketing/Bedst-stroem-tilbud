@@ -7,13 +7,15 @@ import SectionHeading from "@/components/SectionHeading";
 import FaqAccordion from "@/components/FaqAccordion";
 import JsonLd, { faqJsonLd } from "@/components/JsonLd";
 import { CheckIcon, ShieldCheckIcon } from "@/components/icons";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Billigste elselskab – find det lige nu",
   description:
     "Find det billigste elselskab lige nu. Se hvad der reelt gør et elselskab billigt, og hvad du skal kigge efter, før du skifter.",
-  alternates: { canonical: "/billigste-elselskab" },
-};
+  path: "/billigste-elselskab",
+  keywords: ["billigste elselskab", "bedst elselskab", "billig elpris", "billigt elselskab"],
+});
 
 const checklist = [
   {

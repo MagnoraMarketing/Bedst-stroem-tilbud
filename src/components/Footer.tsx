@@ -68,9 +68,20 @@ export default function Footer() {
             </Link>{" "}
             for flere detaljer.
           </p>
-          <p className="mt-4 text-xs text-foreground/50">
-            © {year} {siteConfig.name}. Alle rettigheder forbeholdes.
-          </p>
+          <div className="mt-4 flex flex-col gap-2 text-xs text-foreground/50 sm:flex-row sm:items-center sm:justify-between">
+            <p>© {year} {siteConfig.name}. Alle rettigheder forbeholdes.</p>
+            <p>
+              Made by{" "}
+              <a
+                href="https://magnoramarketing.dk"
+                target="_blank"
+                rel="noopener"
+                className="font-medium underline hover:text-brand-blue"
+              >
+                magnoramarketing.dk
+              </a>
+            </p>
+          </div>
         </div>
       </Container>
     </footer>
