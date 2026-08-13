@@ -7,6 +7,7 @@ import { CloseIcon } from "./icons";
 const STORAGE_KEY = "bsp-gardinbus-widget-shown";
 const DELAY_MS = 20000;
 const GARDINBUS_URL = "https://www.bookgardinbussen.online/";
+const DRIVE_MS = 1800;
 
 export default function GardinbusWidget() {
   const [mounted, setMounted] = useState(false);
@@ -32,7 +33,7 @@ export default function GardinbusWidget() {
     if (!open) return;
     // Double rAF so the initial (off-screen) transform paints before we
     // flip the class, otherwise the browser skips straight to the end
-    // state and there's no slide-in transition to see.
+    // state and there's no drive-in transition to see.
     const raf1 = requestAnimationFrame(() => {
       const raf2 = requestAnimationFrame(() => setSlideIn(true));
       return () => cancelAnimationFrame(raf2);
@@ -42,16 +43,17 @@ export default function GardinbusWidget() {
 
   function close() {
     setSlideIn(false);
-    window.setTimeout(() => setOpen(false), 500);
+    window.setTimeout(() => setOpen(false), DRIVE_MS);
   }
 
   if (!mounted || !open) return null;
 
   return createPortal(
     <div
-      className={`fixed bottom-8 left-4 z-[65] w-72 max-w-[calc(100vw-2rem)] transition-transform duration-500 ease-out ${
-        slideIn ? "translate-x-0" : "-translate-x-[140%]"
+      className={`fixed bottom-6 left-4 z-[65] w-80 max-w-[calc(100vw-2rem)] transition-transform ease-[cubic-bezier(0.16,1,0.3,1)] ${
+        slideIn ? "translate-x-0" : "-translate-x-[100vw]"
       }`}
+      style={{ transitionDuration: `${DRIVE_MS}ms` }}
     >
       <button
         type="button"
@@ -68,36 +70,74 @@ export default function GardinbusWidget() {
         rel="noopener"
         onClick={close}
         aria-label="Book gratis hjemmebesøg hos Gardinbussen – åbner bookgardinbussen.online"
-        className="group block drop-shadow-xl transition-transform hover:-translate-y-1"
+        className="group block text-center"
       >
-        <svg viewBox="0 0 220 110" className="w-full h-auto" aria-hidden="true">
-          <ellipse cx="110" cy="101" rx="92" ry="6" fill="rgba(11,37,69,0.15)" />
-          <rect x="8" y="22" width="204" height="58" rx="18" fill="#2f5d50" />
-          <rect x="8" y="22" width="204" height="58" rx="18" fill="none" stroke="#1f3d34" strokeOpacity="0.15" />
-          <rect x="168" y="30" width="34" height="30" rx="8" fill="#faf7f2" />
-          <rect x="24" y="30" width="34" height="22" rx="6" fill="#faf7f2" opacity="0.92" />
-          <rect x="66" y="30" width="34" height="22" rx="6" fill="#faf7f2" opacity="0.92" />
-          <rect x="8" y="55" width="204" height="21" fill="#d98a3d" />
+        <span className="inline-block rounded-2xl bg-white px-4 py-2 shadow-lg">
+          <span className="inline-flex items-center gap-1.5 text-base font-extrabold tracking-tight text-[#2f5d50]">
+            Book Gardinbussen
+            <span aria-hidden="true" className="transition-transform group-hover:translate-x-1">
+              →
+            </span>
+          </span>
+          <span className="mt-0.5 block text-xs font-medium text-foreground/55">
+            Gratis hjemmebesøg i hele Danmark
+          </span>
+        </span>
+
+        <svg
+          viewBox="0 0 260 120"
+          className="mt-2 w-full h-auto drop-shadow-xl transition-transform group-hover:-translate-y-1"
+          aria-hidden="true"
+        >
+          <defs>
+            <linearGradient id="gbBody" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stopColor="#3a6f60" />
+              <stop offset="1" stopColor="#1f3d34" />
+            </linearGradient>
+            <linearGradient id="gbGlass" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stopColor="#eef6f2" />
+              <stop offset="1" stopColor="#cfe3da" />
+            </linearGradient>
+          </defs>
+
+          {/* motion lines trailing behind */}
+          <g stroke="#3a6f60" strokeLinecap="round">
+            <line x1="0" y1="42" x2="20" y2="42" strokeWidth="4" opacity="0.5" />
+            <line x1="4" y1="58" x2="24" y2="58" strokeWidth="4" opacity="0.35" />
+            <line x1="0" y1="74" x2="18" y2="74" strokeWidth="4" opacity="0.2" />
+          </g>
+
+          <ellipse cx="140" cy="111" rx="102" ry="6" fill="rgba(11,37,69,0.15)" />
+
+          <rect x="28" y="28" width="204" height="58" rx="20" fill="url(#gbBody)" />
+
+          <rect x="44" y="34" width="100" height="24" rx="9" fill="url(#gbGlass)" opacity="0.96" />
+          <rect x="150" y="34" width="2" height="24" fill="#1f3d34" opacity="0.25" />
+          <rect x="190" y="34" width="36" height="32" rx="11" fill="url(#gbGlass)" />
+
+          <rect x="32" y="63" width="196" height="18" rx="5" fill="#d98a3d" />
           <text
-            x="110"
-            y="69.5"
+            x="130"
+            y="76"
             textAnchor="middle"
             fontFamily="Segoe UI, Arial, sans-serif"
             fontWeight="700"
-            fontSize="11"
+            fontSize="10.5"
             letterSpacing="0.5"
             fill="#241505"
           >
             GRATIS HJEMMEBESØG
           </text>
-          <circle cx="46" cy="88" r="13" fill="#1f3d34" />
-          <circle cx="46" cy="88" r="5" fill="#faf7f2" />
-          <circle cx="174" cy="88" r="13" fill="#1f3d34" />
-          <circle cx="174" cy="88" r="5" fill="#faf7f2" />
+
+          <circle cx="236" cy="58" r="4" fill="#ffd77a" />
+
+          <circle cx="70" cy="98" r="15" fill="#1f3d34" />
+          <circle cx="70" cy="98" r="9" fill="#3a6f60" />
+          <circle cx="70" cy="98" r="3.5" fill="#faf7f2" />
+          <circle cx="198" cy="98" r="15" fill="#1f3d34" />
+          <circle cx="198" cy="98" r="9" fill="#3a6f60" />
+          <circle cx="198" cy="98" r="3.5" fill="#faf7f2" />
         </svg>
-        <span className="mt-1 block text-center text-xs font-semibold text-brand-navy">
-          bookgardinbussen.online →
-        </span>
       </a>
     </div>,
     document.body
