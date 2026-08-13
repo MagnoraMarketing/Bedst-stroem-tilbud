@@ -3,12 +3,13 @@ import Container from "@/components/Container";
 import PageHero from "@/components/PageHero";
 import CtaBanner from "@/components/CtaBanner";
 import { siteConfig } from "@/lib/constants";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Kontakt",
   description: `Kom i kontakt med ${siteConfig.name}. Vi svarer gerne på spørgsmål om siden, vores indhold eller samarbejder.`,
-  alternates: { canonical: "/kontakt" },
-};
+  path: "/kontakt",
+});
 
 export default function KontaktPage() {
   return (

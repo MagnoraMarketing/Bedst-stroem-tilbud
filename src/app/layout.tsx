@@ -66,6 +66,12 @@ export default function RootLayout({
         "@id": `${siteConfig.url}/#organization`,
         name: siteConfig.name,
         url: siteConfig.url,
+        description: siteConfig.description,
+        logo: {
+          "@type": "ImageObject",
+          url: `${siteConfig.url}/icon.svg`,
+        },
+        email: siteConfig.email,
       },
       {
         "@type": "WebSite",

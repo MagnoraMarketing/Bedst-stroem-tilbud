@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import Container from "@/components/Container";
 import PageHero from "@/components/PageHero";
 import { siteConfig } from "@/lib/constants";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Privatlivspolitik",
   description: `Læs ${siteConfig.name}s privatlivspolitik, herunder hvordan vi behandler persondata og bruger cookies.`,
-  alternates: { canonical: "/privatlivspolitik" },
-};
+  path: "/privatlivspolitik",
+});
 
 export default function PrivatlivspolitikPage() {
   return (

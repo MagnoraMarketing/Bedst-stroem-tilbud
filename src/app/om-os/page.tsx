@@ -4,12 +4,13 @@ import PageHero from "@/components/PageHero";
 import CtaBanner from "@/components/CtaBanner";
 import { CheckIcon } from "@/components/icons";
 import { siteConfig } from "@/lib/constants";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Om os",
   description: `Læs om ${siteConfig.name}, og hvordan vi hjælper danskere med at sammenligne elpriser og finde en billigere elaftale.`,
-  alternates: { canonical: "/om-os" },
-};
+  path: "/om-os",
+});
 
 export default function OmOsPage() {
   return (

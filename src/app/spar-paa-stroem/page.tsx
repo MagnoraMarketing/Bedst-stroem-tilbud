@@ -8,13 +8,15 @@ import FaqAccordion from "@/components/FaqAccordion";
 import JsonLd, { faqJsonLd } from "@/components/JsonLd";
 import { StatCard } from "@/components/FeatureCard";
 import { CheckIcon } from "@/components/icons";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Spar penge på strøm – se hvor meget du kan spare",
   description:
     "Se hvor meget du kan spare på strøm ved at skifte elselskab og ændre dine vaner. Konkrete tips til at sænke elregningen for hus og lejlighed.",
-  alternates: { canonical: "/spar-paa-stroem" },
-};
+  path: "/spar-paa-stroem",
+  keywords: ["spar penge på strøm", "spar på el", "billig strøm", "sænk elregning"],
+});
 
 const savingsTips = [
   {

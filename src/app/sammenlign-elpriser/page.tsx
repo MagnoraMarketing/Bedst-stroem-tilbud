@@ -7,13 +7,20 @@ import SectionHeading from "@/components/SectionHeading";
 import FaqAccordion from "@/components/FaqAccordion";
 import JsonLd, { faqJsonLd } from "@/components/JsonLd";
 import { CheckIcon } from "@/components/icons";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Sammenlign elpriser og elselskaber",
   description:
     "Sammenlign elpriser og elselskaber i Danmark. Se forskellen på fastpris, variabel pris og flexpris, og find frem til den billigste elaftale for din husstand.",
-  alternates: { canonical: "/sammenlign-elpriser" },
-};
+  path: "/sammenlign-elpriser",
+  keywords: [
+    "sammenlign elpriser",
+    "sammenlign elselskaber",
+    "billig strøm",
+    "elpris sammenligning",
+  ],
+});
 
 const faqItems = [
   {
