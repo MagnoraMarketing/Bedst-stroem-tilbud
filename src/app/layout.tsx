@@ -4,7 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SavingsPopup from "@/components/SavingsPopup";
-import GardinbusWidget from "@/components/GardinbusWidget";
+import SideWidget from "@/components/SideWidget";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { siteConfig } from "@/lib/constants";
 
@@ -102,7 +102,7 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
         <Footer />
         <SavingsPopup />
-        <GardinbusWidget />
+        <SideWidget />
       </body>
     </html>
   );
