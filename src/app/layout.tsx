@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SavingsPopup from "@/components/SavingsPopup";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { siteConfig } from "@/lib/constants";
 
 const inter = Inter({
@@ -91,6 +92,7 @@ export default function RootLayout({
       className={`${inter.variable} ${lexend.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
+        <GoogleAnalytics />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

@@ -12,6 +12,9 @@ export const siteConfig = {
 export const AFFILIATE_URL =
   "https://www.partner-ads.com/dk/klikbanner.php?partnerid=52168&bannerid=112206";
 
+// Google Analytics (gtag.js) measurement ID.
+export const GA_MEASUREMENT_ID = "G-FJE2YES4Q3";
+
 export type NavItem = {
   label: string;
   href: string;
