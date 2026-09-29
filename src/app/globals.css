@@ -111,6 +111,24 @@ h1, h2, h3, h4 {
   text-underline-offset: 2px;
 }
 
+.prose-article a.affiliate-cta {
+  display: inline-block;
+  margin: 0.25rem 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  background: var(--accent);
+  color: var(--accent-foreground);
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.08);
+  transition: background 0.15s, transform 0.15s;
+}
+
+.prose-article a.affiliate-cta:hover {
+  background: var(--accent-dark);
+  transform: translateY(-2px);
+}
+
 .prose-article strong {
   color: var(--brand-navy);
 }

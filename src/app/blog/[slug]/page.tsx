@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import ReactMarkdown from "react-markdown";
+import ReactMarkdown, { type Components } from "react-markdown";
 import remarkGfm from "remark-gfm";
 import Container from "@/components/Container";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -9,8 +9,30 @@ import BlogCard from "@/components/BlogCard";
 import SectionHeading from "@/components/SectionHeading";
 import JsonLd from "@/components/JsonLd";
 import { getAllSlugs, getPostBySlug, getRelatedPosts } from "@/lib/blog";
-import { siteConfig } from "@/lib/constants";
+import { AFFILIATE_URL, siteConfig } from "@/lib/constants";
 import { pageMetadata } from "@/lib/seo";
+
+// Markdown links to "/tilbud" are in-article affiliate CTAs: send them to the
+// partner link and render them as buttons.
+const AFFILIATE_PLACEHOLDER = "/tilbud";
+
+const markdownComponents: Components = {
+  a({ href, children }) {
+    if (href === AFFILIATE_PLACEHOLDER) {
+      return (
+        <a
+          href={AFFILIATE_URL}
+          target="_blank"
+          rel="nofollow sponsored noopener"
+          className="affiliate-cta"
+        >
+          {children}
+        </a>
+      );
+    }
+    return <a href={href}>{children}</a>;
+  },
+};
 
 export function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
@@ -121,7 +143,7 @@ export default async function BlogPostPage({
           </div>
 
           <div className="prose-article mt-8">
-            <ReactMarkdown remarkPlugins={[remarkGfm]}>{firstHalf}</ReactMarkdown>
+            <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>{firstHalf}</ReactMarkdown>
           </div>
 
           {secondHalf && (
@@ -134,7 +156,7 @@ export default async function BlogPostPage({
                 />
               </div>
               <div className="prose-article">
-                <ReactMarkdown remarkPlugins={[remarkGfm]}>{secondHalf}</ReactMarkdown>
+                <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>{secondHalf}</ReactMarkdown>
               </div>
             </>
           )}
