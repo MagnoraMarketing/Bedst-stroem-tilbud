@@ -17,25 +17,14 @@ export default function KontaktPage() {
       <PageHero
         eyebrow="Kontakt"
         title="Kom i kontakt med os"
-        lead="Har du spørgsmål til siden, vores artikler eller et samarbejde? Skriv til os – vi svarer så hurtigt, vi kan."
+        lead="Har du spørgsmål til siden, vores artikler eller et samarbejde?"
         breadcrumb={[{ name: "Kontakt", href: "/kontakt" }]}
       />
 
       <section className="py-14">
         <Container className="max-w-2xl">
           <div className="rounded-2xl border border-border bg-white p-8">
-            <h2 className="font-display text-xl font-bold text-brand-navy">E-mail</h2>
-            <p className="mt-2 text-foreground/70">
-              Den hurtigste måde at komme i kontakt med os på er via e-mail:
-            </p>
-            <a
-              href={`mailto:${siteConfig.email}`}
-              className="mt-3 inline-block font-semibold text-brand-blue hover:underline"
-            >
-              {siteConfig.email}
-            </a>
-
-            <h2 className="mt-8 font-display text-xl font-bold text-brand-navy">
+            <h2 className="font-display text-xl font-bold text-brand-navy">
               Spørgsmål om en konkret elaftale?
             </h2>
             <p className="mt-2 text-foreground/70">

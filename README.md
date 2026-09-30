@@ -39,6 +39,5 @@ Genererer statiske sider for alle ruter, inkl. alle blogindlæg
 
 - `NEXT_PUBLIC_SITE_URL` – sæt til det endelige domæne (bruges i metadata,
   Open Graph og sitemap).
-- `src/lib/constants.ts` – kontakt-e-mail.
 - `src/app/privatlivspolitik/page.tsx` – virksomhedsnavn og CVR-nummer
   (markeret med `[Virksomhedsnavn]` / `[CVR-nummer]`).

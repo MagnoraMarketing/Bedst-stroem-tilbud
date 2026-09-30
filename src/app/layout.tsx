@@ -76,7 +76,6 @@ export default function RootLayout({
           "@type": "ImageObject",
           url: `${siteConfig.url}/icon.svg`,
         },
-        email: siteConfig.email,
       },
       {
         "@type": "WebSite",

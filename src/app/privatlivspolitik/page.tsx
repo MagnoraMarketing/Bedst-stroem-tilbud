@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Metadata } from "next";
 import Container from "@/components/Container";
 import PageHero from "@/components/PageHero";
@@ -30,8 +31,7 @@ export default function PrivatlivspolitikPage() {
             <p>
               {siteConfig.name} ejes og drives af [Virksomhedsnavn], CVR-nr.
               [CVR-nummer]. Har du spørgsmål til denne privatlivspolitik,
-              kan du kontakte os på{" "}
-              <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>.
+              kan du <Link href="/kontakt">kontakte os</Link>.
             </p>
 
             <h2>2. Hvilke oplysninger indsamler vi?</h2>
@@ -76,7 +76,7 @@ export default function PrivatlivspolitikPage() {
               Du har efter databeskyttelsesforordningen (GDPR) ret til at få
               indsigt i, berigtiget eller slettet de oplysninger, vi
               behandler om dig, samt ret til at gøre indsigelse mod
-              behandlingen. Kontakt os på {siteConfig.email} for at gøre brug
+              behandlingen. <Link href="/kontakt">Kontakt os</Link> for at gøre brug
               af dine rettigheder.
             </p>
 

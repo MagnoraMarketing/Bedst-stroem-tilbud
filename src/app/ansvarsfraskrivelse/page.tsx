@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Metadata } from "next";
 import Container from "@/components/Container";
 import PageHero from "@/components/PageHero";
@@ -66,8 +67,7 @@ export default function AnsvarsfraskrivelsePage() {
             <h2>Kontakt</h2>
             <p>
               Har du spørgsmål til denne ansvarsfraskrivelse, er du velkommen
-              til at skrive til os på{" "}
-              <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>.
+              til at <Link href="/kontakt">kontakte os</Link>.
             </p>
           </div>
         </Container>
