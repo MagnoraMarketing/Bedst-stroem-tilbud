@@ -5,7 +5,6 @@ export const siteConfig = {
     "Sammenlign elpriser og indhent op til 3 skarpe tilbud på strøm fra danske elselskaber – gratis og uforpligtende.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://bedst-stroem-tilbud.vercel.app",
   locale: "da_DK",
-  email: "kontakt@billigste-stroempris.dk",
 };
 
 // Partner-ads.com affiliate tracking link – all primary CTAs on the site point here.
