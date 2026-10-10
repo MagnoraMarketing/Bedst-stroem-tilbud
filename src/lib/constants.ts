@@ -3,7 +3,7 @@ export const siteConfig = {
   shortName: "Billig-Elrengning",
   description:
     "Sammenlign elpriser og indhent op til 3 skarpe tilbud på strøm fra danske elselskaber – gratis og uforpligtende.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.billigelrengning.dk",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://billigelrengning.dk",
   locale: "da_DK",
 };
 

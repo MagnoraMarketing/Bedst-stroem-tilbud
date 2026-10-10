@@ -1,12 +1,12 @@
 import type { NextConfig } from "next";
 
-const CANONICAL_HOST = "www.billigelrengning.dk";
+const CANONICAL_HOST = "billigelrengning.dk";
 
 const nextConfig: NextConfig = {
-  // Send traffic from the old Vercel address and the bare domain to the
-  // canonical www domain, so search engines only index one version.
+  // Send traffic from the old Vercel address and the www subdomain to the
+  // canonical bare domain, so search engines only index one version.
   async redirects() {
-    return ["bedst-stroem-tilbud.vercel.app", "billigelrengning.dk"].map(
+    return ["bedst-stroem-tilbud.vercel.app", "www.billigelrengning.dk"].map(
       (host) => ({
         source: "/:path*",
         has: [{ type: "host" as const, value: host }],
