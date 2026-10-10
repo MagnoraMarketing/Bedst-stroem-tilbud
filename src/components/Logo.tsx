@@ -8,8 +8,8 @@ export default function Logo() {
         <BoltIcon className="w-5 h-5" />
       </span>
       <span className="font-display text-lg font-bold leading-none text-brand-navy">
-        Billigste
-        <span className="text-brand-blue">-Strømpris</span>
+        Billig
+        <span className="text-brand-blue">-Elrengning</span>
         <span className="text-accent-dark">.dk</span>
       </span>
     </Link>

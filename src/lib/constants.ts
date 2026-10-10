@@ -1,9 +1,9 @@
 export const siteConfig = {
-  name: "Billigste-Strømpris.dk",
-  shortName: "Billigste-Strømpris",
+  name: "Billig-Elrengning.dk",
+  shortName: "Billig-Elrengning",
   description:
     "Sammenlign elpriser og indhent op til 3 skarpe tilbud på strøm fra danske elselskaber – gratis og uforpligtende.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://bedst-stroem-tilbud.vercel.app",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.billigelrengning.dk",
   locale: "da_DK",
 };
 

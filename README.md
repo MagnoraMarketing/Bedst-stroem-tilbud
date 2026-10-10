@@ -1,4 +1,4 @@
-# Billigste-Strømpris.dk
+# Billig-Elrengning.dk
 
 Affiliate marketingsite, der hjælper danskere med at sammenligne elpriser og
 indhente op til 3 tilbud fra danske elselskaber. Bygget med Next.js (App
