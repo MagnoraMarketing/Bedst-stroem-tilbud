@@ -22,7 +22,7 @@ import { getAllPosts } from "@/lib/blog";
 
 const faqItems = [
   {
-    question: "Er det gratis at bruge Billigste-Strømpris.dk?",
+    question: "Er det gratis at bruge Billig-Elrengning.dk?",
     answer:
       "Ja. Det er 100% gratis og uforpligtende at indhente tilbud gennem os. Du betaler aldrig for at sammenligne priser eller modtage tilbud fra elselskaber.",
   },
