@@ -1,10 +1,23 @@
 ---
 title: "Bedste elselskab 2026: Hvad kigger danskerne efter?"
-description: "Hvad kendetegner det bedste elselskab i 2026? Vi ser på pris, gennemsigtighed, kundeservice og grøn strøm."
+seoTitle: "Bedste elselskab 2026: 5 ting du skal se efter"
+description: "Hvilket elselskab er bedst i 2026? Se de 5 ting, du skal kigge efter – pris, vilkår, produkter, kundeservice og grøn strøm – og find det bedste for dig."
 excerpt: "Det bedste elselskab er ikke nødvendigvis det billigste. Her er, hvad danskerne typisk lægger vægt på i 2026."
 date: "2026-06-01"
+updated: "2026-10-14"
 category: "Elselskaber"
-keywords: ["bedste elselskab", "bedst elselskab 2026", "elselskab"]
+keywords: ["bedste elselskab", "bedste elselskab 2026", "bedst elselskab", "hvilket elselskab er bedst", "elselskab"]
+summary:
+  - "Det bedste elselskab er det, der giver den laveste totalpris for netop dit forbrug – ikke nødvendigvis den laveste kWh-pris."
+  - "Kig efter gennemsigtige vilkår, flere produkttyper, god kundeservice og mulighed for grøn strøm."
+  - "Priserne ændrer sig løbende, så sammenlign aktuelle tilbud i stedet for at stole på generelle ranglister."
+faq:
+  - question: "Hvilket elselskab er det bedste i Danmark?"
+    answer: "Der findes ikke ét elselskab, der er bedst for alle. Det afhænger af dit forbrug, om du foretrækker fast eller variabel pris, og hvad du lægger vægt på. Den sikreste vej er at sammenligne aktuelle tilbud ud fra dit eget forbrug."
+  - question: "Er det billigste elselskab også det bedste?"
+    answer: "Ikke nødvendigvis. Et elselskab med lav kWh-pris kan have høje abonnementer, gebyrer eller lang binding. Se på totalprisen og vilkårene, før du vælger."
+  - question: "Hvor ofte bør jeg tjekke, om mit elselskab stadig er det bedste?"
+    answer: "En god tommelfingerregel er mindst én gang om året – og altid når en binding udløber, eller når dit forbrug ændrer sig, fx ved køb af elbil eller varmepumpe."
 ---
 
 Når danskere leder efter det "bedste elselskab", handler det for de fleste om en kombination af pris, gennemsigtighed og tryghed – ikke kun om, hvem der har den laveste kWh-pris lige nu. Her ser vi på, hvad der i 2026 kendetegner et godt valg af elselskab.

@@ -1,10 +1,23 @@
 ---
 title: "9 skjulte strømslugere i dit hjem – nr. 4 overrasker de fleste"
-description: "Disse 9 skjulte strømslugere dræner din elregning døgnet rundt. Se hvilke apparater der bruger mest strøm, og hvordan du stopper spildet i dag."
+seoTitle: "9 skjulte strømslugere i dit hjem"
+description: "Hvad bruger mest strøm i dit hjem? Se de 9 mest oversete strømslugere – fra gamle frysere til routeren – og hvad du konkret kan gøre for at sænke elregningen."
 excerpt: "Din elregning er måske ikke høj på grund af det, du tror. Her er de 9 apparater, der i det stille sluger strøm – og hvad du gør ved det."
 date: "2026-09-29"
+updated: "2026-10-14"
 category: "Spar penge"
 keywords: ["strømslugere", "hvad bruger mest strøm", "spare strøm", "standby forbrug", "spar penge på strøm"]
+summary:
+  - "Gamle frysere, gulvvarme, standby-elektronik og routere kører ofte døgnet rundt uden at du tænker over det."
+  - "Aflæs måleren om natten, og brug en energimåler for at finde dit eget grundforbrug."
+  - "Spar dobbelt: Skær ned på strømslugerne, og sørg for at betale en konkurrencedygtig kWh-pris."
+faq:
+  - question: "Hvad bruger mest strøm i et hjem?"
+    answer: "Opvarmning med el, tørretumbler, frysere og køleskabe samt elektrisk gulvvarme er typisk blandt de største forbrugere. Standby og udstyr, der kører døgnet rundt, kan også fylde overraskende meget."
+  - question: "Hvordan finder jeg ud af, hvad der bruger strøm om natten?"
+    answer: "Aflæs elmåleren eller tjek dit timeforbrug på Eloverblik.dk om natten. Et højt grundforbrug afslører apparater, der kører konstant. En stikkontakt-energimåler viser forbruget pr. apparat."
+  - question: "Bruger en router meget strøm?"
+    answer: "Ikke meget pr. time, men den kører hele året. Sammen med mesh-enheder, netværksdrev og smart home-udstyr kan det blive til en mærkbar post."
 ---
 
 Du slukker lyset, når du forlader et rum, og du har skiftet til LED-pærer. Alligevel er elregningen højere, end du havde regnet med. Forklaringen er ofte ikke de store, synlige forbrugere – men de apparater, der kører i baggrunden hele døgnet, uden at du tænker over det.

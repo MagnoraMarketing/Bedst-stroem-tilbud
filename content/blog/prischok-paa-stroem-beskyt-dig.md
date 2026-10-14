@@ -1,10 +1,23 @@
 ---
 title: "Prischok på strøm: Er du klar, hvis elpriserne stiger igen?"
-description: "Elpriserne kan stige hurtigt og uden varsel. Se hvad der kan udløse et prischok på strøm, hvem der rammes hårdest, og hvordan du beskytter din husstand."
+seoTitle: "Prischok på strøm: Sådan beskytter du dig"
+description: "Er du klar, hvis elpriserne stiger igen? Se hvad der kan udløse et nyt prischok på strøm, hvem der rammes hårdest, og 5 måder at beskytte din husstand på."
 excerpt: "Mange husker energikrisen. Spørgsmålet er ikke, om elpriserne stiger igen – men om din husstand er klar, når det sker."
 date: "2026-09-17"
+updated: "2026-10-14"
 category: "Elpriser"
 keywords: ["prischok strøm", "elpriser stiger igen", "beskyt dig mod høje elpriser", "fastpris strøm", "stigende elpriser"]
+summary:
+  - "Vindstille kulde, tørre år i Norden og uro på gasmarkedet kan sende elprisen hurtigt op."
+  - "Husstande med højt aftenforbrug, elvarme, elbil eller dyre tillæg rammes hårdest."
+  - "Kend din aftale, overvej fastpris som forsikring, og sammenlign, før krisen rammer."
+faq:
+  - question: "Kan der komme en ny energikrise?"
+    answer: "Elmarkedet er fortsat følsomt over for vejr, brændselspriser og driftsforstyrrelser. Ingen kan forudsige det præcist, men priserne kan stige hurtigt, når flere faktorer rammer samtidig."
+  - question: "Beskytter fastpris mod prischok?"
+    answer: "Ja, i aftalens løbetid. Fastpris fungerer som en slags forsikring: Du betaler typisk lidt for trygheden, men er beskyttet mod pludselige stigninger."
+  - question: "Hvad er det første, jeg skal gøre for at være forberedt?"
+    answer: "Find ud af, hvilken type aftale du har, hvor stort dit tillæg er, og hvad opsigelsesvarslet er. Så kan du handle hurtigt, hvis priserne stiger."
 ---
 
 Mange danskere husker stadig energikrisen, hvor elregningen pludselig kunne være flere gange højere end normalt. Siden er priserne faldet igen – men elmarkedet er fortsat følsomt, og priserne kan stige hurtigt.

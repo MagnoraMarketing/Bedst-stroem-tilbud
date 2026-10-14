@@ -1,10 +1,23 @@
 ---
 title: "Sådan påvirker vejret elpriserne (vind, sol og vand)"
-description: "Vejret har stor betydning for elpriserne i Danmark. Se hvordan vind, sol og nedbør påvirker, hvor billig eller dyr strømmen bliver."
+seoTitle: "Sådan påvirker vejret elpriserne"
+description: "Vind, sol, regn og kulde påvirker elprisen fra dag til dag. Se hvordan vejret styrer spotprisen i Danmark, og hvordan du bruger det til billigere strøm."
 excerpt: "Danmark og Norden er tæt forbundet til vejret, når det gælder elpriser. Her er sammenhængen forklaret enkelt."
 date: "2026-05-25"
+updated: "2026-10-14"
 category: "Elpriser"
-keywords: ["elpriser og vejr", "elpriser vind", "spotpris"]
+keywords: ["elpriser og vejr", "elpriser vind", "vindkraft elpris", "spotpris", "hvorfor svinger elprisen"]
+summary:
+  - "Meget vind presser elprisen ned, mens vindstille perioder ofte giver høje priser."
+  - "Solen sænker priserne midt på dagen om sommeren; vandkraft fra Norden påvirker hele året."
+  - "Kulde øger efterspørgslen og prisen – milde, blæsende dage giver typisk billig strøm."
+faq:
+  - question: "Hvorfor bliver strømmen billig, når det blæser?"
+    answer: "Vindkraft har meget lave driftsomkostninger. Når vindmøllerne producerer meget, dækkes efterspørgslen af billig strøm, og spotprisen falder."
+  - question: "Påvirker regn i Norge danske elpriser?"
+    answer: "Ja. Danmark er forbundet med Norge og Sverige, hvor meget strøm kommer fra vandkraft. Fyldte vandmagasiner kan sænke priserne i hele Norden."
+  - question: "Kan jeg bruge vejrudsigten til at spare på strøm?"
+    answer: "Ja, hvis du har variabel elpris. Blæsende, milde perioder giver ofte lavere priser, så det kan betale sig at lægge fleksibelt forbrug der."
 ---
 
 Danmark er et af de lande i verden med størst andel af vindkraft i elproduktionen, og det betyder, at vejret spiller en direkte og mærkbar rolle for, hvor høj eller lav elprisen er fra dag til dag.
@@ -42,3 +55,5 @@ I takt med at en større andel af elproduktionen kommer fra vind og sol, er det 
 ## Kom videre
 
 Uanset hvilken prisstrategi du foretrækker, kan det betale sig at [sammenligne elpriser fra flere elselskaber](/sammenlign-elpriser) for at finde den aftale, der passer bedst til din situation.
+
+**Læs også:** [Elpriser om vinteren](/blog/elpriser-om-vinteren-saadan-undgaar-du-en-kaempe-elregning), [elpriser i DK1 vs. DK2](/blog/elpriser-i-dk1-vs-dk2) og [prischok på strøm](/blog/prischok-paa-stroem-beskyt-dig).

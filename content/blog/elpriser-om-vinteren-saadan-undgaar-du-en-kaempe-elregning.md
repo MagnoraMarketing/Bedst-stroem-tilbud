@@ -1,10 +1,23 @@
 ---
 title: "Elpriser om vinteren: Sådan undgår du en kæmpe elregning"
-description: "Elpriserne stiger typisk om vinteren. Se hvorfor, og få konkrete råd til at undgå en unødvendig stor elregning, når kulden sætter ind."
+seoTitle: "Elpriser om vinteren: Undgå en kæmpe elregning"
+description: "Hvorfor er strøm dyrere om vinteren? Få forklaringen og 4 konkrete råd til at undgå en kæmpe elregning, når kulden sætter ind og forbruget stiger."
 excerpt: "Koldere vejr betyder ofte højere elpriser og højere forbrug samtidig. Her er, hvordan du holder vinterregningen nede."
 date: "2026-08-13"
+updated: "2026-10-14"
 category: "Elpriser"
-keywords: ["elpriser vinter", "elregning vinter", "spar penge på strøm om vinteren"]
+keywords: ["elpriser vinter", "elregning vinter", "strømpriser vinter", "spar strøm om vinteren", "spar penge på strøm om vinteren"]
+summary:
+  - "Om vinteren stiger både forbruget og ofte elprisen – mindre sol og vindstille kulde presser priserne op."
+  - "Sikr dig en konkurrencedygtig elaftale, før kulden rammer, fordi en dyr aftale koster mest i vintermånederne."
+  - "Optimer opvarmningen, flyt forbrug til billige timer, og læg lidt ekstra til side i budgettet."
+faq:
+  - question: "Hvorfor er strøm dyrere om vinteren?"
+    answer: "Efterspørgslen stiger på grund af opvarmning og belysning, solcellerne producerer mindre, og kolde, vindstille perioder giver lav vindproduktion. Tilsammen presser det spotprisen op."
+  - question: "Skal jeg vælge fastpris inden vinteren?"
+    answer: "Det kan give ro i budgettet, hvis du er bekymret for prisudsving. Til gengæld får du ikke gavn af eventuelle prisfald. Sammenlign fastpris og variabel pris ud fra dit forbrug."
+  - question: "Hvad er det bedste tip til en lavere elregning om vinteren?"
+    answer: "Start med at sikre dig en billig elaftale – det kræver ingen ændring af dine vaner. Kombinér derefter med lavere indetemperatur og forbrug i de billige timer."
 ---
 
 Vinteren er den periode, hvor de fleste danske husstande for alvor mærker elregningen. Kulden øger forbruget til opvarmning, samtidig med at elpriserne ofte er højere end resten af året. Her får du forklaringen og konkrete råd til at holde regningen nede.

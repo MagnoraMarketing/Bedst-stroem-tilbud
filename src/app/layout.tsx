@@ -37,7 +37,18 @@ export const metadata: Metadata = {
     "skift elselskab",
   ],
   authors: [{ name: siteConfig.name }],
-  alternates: { canonical: "/" },
+  alternates: {
+    canonical: "/",
+    types: {
+      "application/rss+xml": [
+        { url: "/blog/rss.xml", title: `${siteConfig.name} – Blog` },
+      ],
+    },
+  },
+  creator: siteConfig.name,
+  publisher: siteConfig.name,
+  category: "Energi og privatøkonomi",
+  formatDetection: { telephone: false, address: false, email: false },
   openGraph: {
     type: "website",
     locale: siteConfig.locale,
@@ -51,12 +62,29 @@ export const metadata: Metadata = {
     title: `${siteConfig.name} – Sammenlign elpriser og spar penge på strøm`,
     description: siteConfig.description,
   },
+  // Allow large image previews and full-length snippets in Google (Search,
+  // Discover) and Bing – both honour these directives.
   robots: {
     index: true,
     follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+    "max-video-preview": -1,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
   },
   verification: {
     google: "VyA32DNWtav_JQZS28vcFTBY1enJBWnvLC6ndXBx9GY",
+    // Bing Webmaster Tools: set NEXT_PUBLIC_BING_SITE_VERIFICATION to the
+    // msvalidate.01 code from Bing to verify the site via meta tag.
+    ...(process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION && {
+      other: { "msvalidate.01": process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION },
+    }),
   },
 };
 
@@ -76,6 +104,14 @@ export default function RootLayout({
           "@type": "ImageObject",
           url: `${siteConfig.url}/icon.svg`,
         },
+        areaServed: { "@type": "Country", name: "Danmark" },
+        knowsAbout: [
+          "elpriser",
+          "billig strøm",
+          "skift af elselskab",
+          "spotpris",
+          "strømbesparelse",
+        ],
       },
       {
         "@type": "WebSite",

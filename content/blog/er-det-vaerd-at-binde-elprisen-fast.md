@@ -1,10 +1,23 @@
 ---
 title: "Er det værd at binde din elpris fast et helt år?"
-description: "Skal du binde din elpris fast i et år? Vi ser på fordele og ulemper ved lang binding, og hvornår det giver mening."
+seoTitle: "Er det værd at binde elprisen fast i et år?"
+description: "Skal du binde din elpris fast? Se fordele og ulemper ved fastpris og binding, hvornår det giver mening, og hvordan du mindsker risikoen, før du skriver under."
 excerpt: "At binde elprisen fast giver forudsigelighed – men også en risiko for at gå glip af prisfald. Her er, hvad du bør overveje."
 date: "2026-04-06"
+updated: "2026-10-14"
 category: "Elaftaler"
-keywords: ["binde elpris fast", "fastpris elaftale", "elaftale binding"]
+keywords: ["binde elpris fast", "fastpris elaftale", "elaftale binding", "fastpris strøm", "bindingsperiode el"]
+summary:
+  - "Binding giver forudsigelighed og beskyttelse mod prisstigninger i aftaleperioden."
+  - "Til gengæld går du glip af prisfald, og fastpris indeholder ofte en risikopræmie."
+  - "Vælg en kort bindingsperiode, og læs opsigelsesvilkårene, før du skriver under."
+faq:
+  - question: "Hvad koster det at komme ud af en fastprisaftale før tid?"
+    answer: "Det afhænger af elselskabet. Nogle opkræver et gebyr ved opsigelse i bindingsperioden, mens andre har kort opsigelsesvarsel. Læs altid vilkårene, før du skriver under."
+  - question: "Er fastpris dyrere end variabel pris?"
+    answer: "Historisk har variabel pris ofte været billigere i gennemsnit, fordi fastpris indeholder en risikopræmie. Til gengæld beskytter fastpris dig mod pludselige prisstigninger."
+  - question: "Hvornår giver det mening at binde elprisen fast?"
+    answer: "Når du har et stramt budget, prioriterer forudsigelighed eller forventer stigende priser – og ikke ønsker at følge elmarkedet løbende."
 ---
 
 Nogle elselskaber tilbyder attraktive priser mod, at du binder dig i op til et år eller mere. Men er det egentlig en god idé at binde sin elpris fast så længe? Svaret afhænger af dine prioriteter.
@@ -44,3 +57,5 @@ Omvendt kan variabel pris være mere fordelagtig, hvis du kan tåle udsving og g
 ## Konklusion
 
 Der er ikke ét rigtigt svar på, om det er værd at binde sin elpris fast. Det afhænger af, hvor meget du værdsætter forudsigelighed kontra fleksibilitet, og af din forventning til udviklingen i elpriserne. Uanset hvad du vælger, bør beslutningen tages på baggrund af konkrete, sammenlignede tilbud – ikke en generel fornemmelse af markedet.
+
+**Læs også:** [Prischok på strøm: Sådan beskytter du dig](/blog/prischok-paa-stroem-beskyt-dig) og [skjulte gebyrer i din elaftale](/blog/skjulte-gebyrer-i-din-elaftale).

@@ -1,10 +1,23 @@
 ---
 title: "Sådan læser du din elregning – undgå at blive snydt"
-description: "Lær at læse din elregning trin for trin, forstå de forskellige poster, og find ud af, om du reelt betaler en konkurrencedygtig pris."
+seoTitle: "Sådan læser du din elregning – trin for trin"
+description: "Forstå din elregning post for post: forbrug, kWh-pris, abonnement, nettarif, elafgift og moms. Se hvordan du tjekker, om du betaler for meget for din strøm."
 excerpt: "En elregning kan virke uoverskuelig ved første øjekast. Her lærer du at afkode den, post for post."
 date: "2026-04-20"
+updated: "2026-10-14"
 category: "Elaftaler"
-keywords: ["læse elregning", "elregning forklaret", "elpris"]
+keywords: ["læse elregning", "elregning forklaret", "forstå elregning", "elpris", "elregning poster"]
+summary:
+  - "Elregningen viser forbrug, kWh-pris, abonnement, nettarif, elafgift og moms."
+  - "Sammenlign din kWh-pris og dit abonnement med aktuelle tilbud for at se, om du betaler for meget."
+  - "Svinger regningen meget, skyldes det ofte variabel pris eller sæsonudsving i forbruget."
+faq:
+  - question: "Hvor finder jeg min kWh-pris på elregningen?"
+    answer: "Den står typisk under posten for elforbrug eller elpris. Har du variabel pris, vises ofte en gennemsnitspris for perioden plus elselskabets tillæg."
+  - question: "Hvorfor er min elregning højere end sidst?"
+    answer: "Det kan skyldes højere forbrug (fx om vinteren), højere spotpris, stigende nettariffer eller nye gebyrer. Sammenlign posterne med din forrige regning."
+  - question: "Hvad gør jeg, hvis noget på elregningen virker forkert?"
+    answer: "Kontakt dit elselskab og bed dem gennemgå fakturaen post for post. Tjek samtidig dit forbrug på Eloverblik.dk."
 ---
 
 En elregning kan ved første øjekast se kompliceret ud med mange forskellige poster og forkortelser. Når du først forstår opbygningen, bliver det til gengæld nemt at gennemskue, om du betaler en fair pris.

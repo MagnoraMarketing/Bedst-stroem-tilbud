@@ -1,10 +1,23 @@
 ---
 title: "Sådan sparer du penge på din elregning i 2026"
-description: "Konkrete råd til, hvordan du sparer penge på strøm i 2026 – fra at skifte elselskab til at ændre dine forbrugsvaner."
+seoTitle: "Spar penge på elregningen i 2026: 5 råd"
+description: "5 konkrete måder at spare penge på din elregning i 2026: Sammenlign elpriser, vælg rigtig aftaletype, flyt forbrug, undgå gebyrer og sænk dit forbrug."
 excerpt: "Vil du sænke elregningen i 2026? Her får du de mest effektive greb, sorteret efter, hvor meget de reelt batter."
 date: "2026-08-10"
+updated: "2026-10-14"
 category: "Spar penge"
-keywords: ["spar penge på strøm", "billig strøm", "elregning 2026"]
+keywords: ["spar penge på strøm", "spar penge på elregningen", "billig strøm", "elregning 2026", "sænk elregningen"]
+summary:
+  - "Den hurtigste besparelse er at sammenligne elpriser og skifte til en billigere aftale."
+  - "Vælg bevidst mellem fast og variabel pris, og flyt forbrug til billige timer."
+  - "Hold øje med gebyrer, og sænk forbruget med enkle vaner – og tjek aftalen mindst én gang om året."
+faq:
+  - question: "Hvad er den nemmeste måde at spare på elregningen?"
+    answer: "At sammenligne elpriser og skifte til en billigere elaftale. Det tager få minutter og kræver ingen ændring af dine vaner."
+  - question: "Hvor meget kan jeg spare på strøm om året?"
+    answer: "Det afhænger af dit forbrug og din nuværende aftale. Kombinerer du en billigere aftale med flytning af forbrug og lavere standby, kan besparelsen blive mærkbar."
+  - question: "Hvornår bør jeg gense min elaftale?"
+    answer: "Mindst én gang om året, når en binding udløber, eller når dit forbrug ændrer sig."
 ---
 
 Elpriserne har svinget meget de seneste år, og mange danske husstande betaler stadig mere for strøm, end de behøver. Den gode nyhed er, at der findes flere konkrete og relativt enkle måder at sænke elregningen på i 2026 – uden at gå på kompromis med komforten i hjemmet.

@@ -1,10 +1,23 @@
 ---
 title: "Elpriserne stiger: 6 advarselstegn på, at din elaftale er for dyr"
-description: "Stigende elpriser rammer hårdest, hvis din elaftale er dyr. Se de 6 advarselstegn på, at du betaler for meget – og hvad du gør ved det."
+seoTitle: "6 tegn på, at din elaftale er for dyr"
+description: "Betaler du for meget for strøm? Se de 6 advarselstegn på, at din elaftale er for dyr – og hvad du kan gøre, når elpriserne stiger."
 excerpt: "Når elpriserne stiger, er det de dyre aftaler, der gør mest ondt. Genkender du bare ét af disse 6 tegn, bør du tjekke din aftale nu."
 date: "2026-09-28"
+updated: "2026-10-14"
 category: "Elpriser"
-keywords: ["elpriser stiger", "dyr elaftale", "betaler for meget for strøm", "stigende elpriser", "skift elselskab"]
+keywords: ["dyr elaftale", "elpriser stiger", "betaler for meget for strøm", "stigende elpriser", "skift elselskab"]
+summary:
+  - "Har du ikke skiftet eller genforhandlet i over 2 år, betaler du sandsynligvis for meget."
+  - "Kender du ikke dit tillæg og abonnement, har du ikke sammenlignet – og det koster."
+  - "Uforståelige gebyrer og en fastpris låst på et højt niveau er klassiske advarselstegn."
+faq:
+  - question: "Hvordan ved jeg, om min elaftale er for dyr?"
+    answer: "Sammenlign dit tillæg pr. kWh og dit abonnement med aktuelle tilbud. Har du haft samme aftale i årevis, eller indeholder regningen gebyrer, du ikke forstår, er det et tegn på, at du kan spare."
+  - question: "Hvad er et tillæg på elregningen?"
+    answer: "Tillægget er det beløb pr. kWh, elselskabet lægger oven i spotprisen. Det er selskabets fortjeneste og varierer betydeligt mellem selskaberne."
+  - question: "Kan jeg komme ud af en dyr fastprisaftale?"
+    answer: "Det afhænger af vilkårene. Mange aftaler kan opsiges med kort varsel, mens andre har et gebyr i bindingsperioden. Tjek dine opsigelsesvilkår."
 ---
 
 Når elpriserne stiger, kigger de fleste på spotprisen og tænker: "Det kan jeg ikke gøre noget ved." Det er kun halvt rigtigt. Du kan ikke styre markedet – men du kan styre, hvor meget ekstra du betaler **oven i** markedsprisen.

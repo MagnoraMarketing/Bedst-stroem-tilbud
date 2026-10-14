@@ -1,10 +1,23 @@
 ---
 title: "Elpris, elafgift og transport: Sådan er din elregning sat sammen"
-description: "Forstå de forskellige poster på din elregning – elpris, elafgift, transport og moms – og find ud af, hvor du reelt kan spare penge."
+seoTitle: "Sådan er din elregning sat sammen"
+description: "Hvad betaler du for på elregningen? Se fordelingen mellem elpris, transport, elafgift og moms – og hvilken del du selv kan påvirke ved at skifte elselskab."
 excerpt: "Din elregning består af flere dele, og kun én af dem kan du reelt påvirke ved at skifte elselskab. Her er overblikket."
 date: "2026-06-08"
+updated: "2026-10-14"
 category: "Elpriser"
-keywords: ["elregning", "elafgift", "elpris"]
+keywords: ["elregning", "elafgift", "elpris", "hvad består elregningen af", "transport strøm"]
+summary:
+  - "Elregningen består af elpris, transport (nettarif), elafgift og moms."
+  - "Transport og elafgift er ens, uanset hvilket elselskab du vælger."
+  - "Elprisen og elselskabets abonnement er de poster, du kan påvirke ved at skifte."
+faq:
+  - question: "Hvor stor en del af elregningen er selve elprisen?"
+    answer: "Det varierer med prisniveauet, dit forbrug og din bopæl. Ofte udgør selve elprisen kun en del af regningen, mens transport, afgifter og moms udgør resten."
+  - question: "Hvem fastsætter elafgiften?"
+    answer: "Elafgiften fastsættes politisk af Folketinget og er den samme for alle husstande, uanset elselskab."
+  - question: "Kan jeg spare på transporten af strøm?"
+    answer: "Ikke ved at skifte elselskab, da transporten betales til dit lokale netselskab. Men du kan spare ved at flytte forbrug væk fra spidslasttimerne, hvor tariffen er højest."
 ---
 
 Mange bliver overraskede, når de kigger nærmere på deres elregning og opdager, hvor mange forskellige poster den faktisk består af. At forstå opbygningen kan hjælpe dig med at se, hvor du reelt kan spare penge.

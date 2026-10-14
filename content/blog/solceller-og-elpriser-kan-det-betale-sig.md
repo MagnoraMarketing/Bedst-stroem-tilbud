@@ -1,10 +1,23 @@
 ---
 title: "Solceller og elpriser: Kan det betale sig i 2026?"
-description: "Overvejer du solceller? Se hvordan solceller spiller sammen med din elaftale og elpriserne, og hvad der har betydning for, om det kan betale sig."
+seoTitle: "Solceller og elpriser: Kan det betale sig i 2026?"
+description: "Kan solceller betale sig i 2026? Se hvordan solceller spiller sammen med din elaftale, hvem der får mest ud af dem, og om et batteri er værd at overveje."
 excerpt: "Solceller kan sænke din elregning markant – men det afhænger af din elaftale og dit forbrugsmønster. Her er, hvad du skal vide."
 date: "2026-08-11"
+updated: "2026-10-14"
 category: "Grøn strøm"
-keywords: ["solceller", "solceller og elpriser", "grøn strøm"]
+keywords: ["solceller", "kan solceller betale sig", "solceller og elpriser", "solceller 2026", "grøn strøm"]
+summary:
+  - "Solceller betaler sig bedst, når du kan bruge en stor del af strømmen selv i dagtimerne."
+  - "Afregning af overskudsstrøm afhænger af elselskabets vilkår – sammenlign dem."
+  - "Du har stadig brug for en billig elaftale til det forbrug, solcellerne ikke dækker."
+faq:
+  - question: "Kan solceller betale sig i Danmark?"
+    answer: "Det kan de for mange husstande med et egnet tag og et forbrug i dagtimerne. Tilbagebetalingstiden afhænger af anlæggets pris, dit forbrug, og hvordan overskudsstrøm afregnes."
+  - question: "Hvad får jeg for den strøm, jeg sælger til nettet?"
+    answer: "Det afhænger af dit elselskabs vilkår og den gældende afregningsmodel. Ofte er det mere værd at bruge strømmen selv end at sælge den."
+  - question: "Har jeg stadig brug for et elselskab med solceller?"
+    answer: "Ja. Om aftenen, om natten og om vinteren producerer solcellerne lidt eller intet, så du skal stadig købe strøm fra nettet."
 ---
 
 Solceller er blevet et populært valg for danske husstande, der vil sænke elregningen og samtidig producere grøn strøm. Men om det kan betale sig, afhænger af flere faktorer end selve solcelleanlægget – herunder din elaftale.

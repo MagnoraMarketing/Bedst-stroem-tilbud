@@ -1,10 +1,23 @@
 ---
 title: "Sammenlign elpriser: Derfor betaler danskere for meget for strøm"
-description: "Hvorfor ender så mange danskere med at betale for meget for strøm? Vi ser på de mest almindelige årsager, og hvordan du undgår dem."
+seoTitle: "Derfor betaler danskere for meget for strøm"
+description: "Mange danskere betaler for meget for strøm. Se de 5 mest almindelige årsager – fra gamle aftaler til skjulte gebyrer – og hvordan du undgår dem."
 excerpt: "Uopmærksomhed og gamle aftaler koster danskerne dyrt hvert år. Her er de typiske faldgruber."
 date: "2026-04-27"
+updated: "2026-10-14"
 category: "Elpriser"
-keywords: ["sammenlign elpriser", "betale for meget for strøm", "elpriser danmark"]
+keywords: ["betaler for meget for strøm", "sammenlign elpriser", "elpriser danmark", "dyr strøm", "skift elselskab"]
+summary:
+  - "Den største årsag er inerti: Mange bliver siddende på en gammel elaftale i årevis."
+  - "Fokus på kWh-prisen alene overser abonnementer og gebyrer, der gør aftalen dyrere."
+  - "At skifte elselskab tager typisk under 5 minutter, og det nye selskab klarer resten."
+faq:
+  - question: "Hvorfor er min elregning højere end naboens?"
+    answer: "Det kan skyldes et højere forbrug, men også en dyrere elaftale. Elselskaberne sætter selv deres tillæg og abonnementer, så to husstande med samme forbrug kan betale vidt forskellige beløb."
+  - question: "Er det ikke samme pris hos alle elselskaber?"
+    answer: "Nej. Transport, elafgift og moms er ens, men elselskaberne fastsætter selv deres elpris, tillæg og gebyrer. Det giver reelle prisforskelle ved præcis samme forbrug."
+  - question: "Hvor ofte skal jeg sammenligne elpriser?"
+    answer: "Mindst én gang om året og altid når en binding udløber, eller dit forbrug ændrer sig markant."
 ---
 
 Selvom elmarkedet i Danmark er liberaliseret, og det er nemt at skifte elselskab, ender mange husstande alligevel med at betale mere for strøm, end de behøver. Her ser vi på de mest almindelige årsager.

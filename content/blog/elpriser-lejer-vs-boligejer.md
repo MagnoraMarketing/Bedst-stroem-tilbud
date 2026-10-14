@@ -1,10 +1,23 @@
 ---
 title: "Elpriser for lejere vs. boligejere: Hvad er forskellen?"
-description: "Er der forskel på elpriser og elaftaler for lejere og boligejere? Se hvad du som lejer eller ejer skal være opmærksom på."
+seoTitle: "Elpriser for lejere vs. boligejere"
+description: "Kan du som lejer frit vælge elselskab? Se forskellene for lejere og boligejere, hvad du skal være opmærksom på, og hvordan du får den billigste elaftale."
 excerpt: "Elprisen i sig selv er den samme, men rammerne omkring elaftalen kan se forskellige ud, afhængigt af om du lejer eller ejer."
 date: "2026-08-04"
+updated: "2026-10-14"
 category: "Elselskaber"
-keywords: ["lejer elpriser", "boligejer elpriser", "elselskab lejlighed"]
+keywords: ["lejer elselskab", "lejer elpriser", "boligejer elpriser", "elselskab lejlighed", "vælge elselskab som lejer"]
+summary:
+  - "Lejere kan som udgangspunkt frit vælge elselskab, præcis som boligejere."
+  - "Tjek om el er inkluderet i huslejen, og undgå lang binding, hvis du snart flytter igen."
+  - "Elprisen er den samme for lejere og ejere – forskellen ligger i de praktiske rammer."
+faq:
+  - question: "Må man selv vælge elselskab, når man bor til leje?"
+    answer: "Ja, som udgangspunkt. Står du selv som kunde hos elselskabet, kan du frit skifte. Er el inkluderet i huslejen eller afregnet via udlejer, gælder andre regler – tjek din lejekontrakt."
+  - question: "Hvilken elaftale passer bedst til en lejer?"
+    answer: "Mange lejere har fordel af en aftale uden binding og med lavt abonnement, så de kan skifte eller flytte uden gebyrer."
+  - question: "Skal jeg huske noget med strømmen, når jeg fraflytter?"
+    answer: "Ja. Meld flytning til dit elselskab i god tid, så du ikke bliver opkrævet for forbrug i en bolig, du er flyttet fra."
 ---
 
 Uanset om du lejer eller ejer din bolig, kan du frit vælge elselskab i Danmark. Men der er alligevel praktiske forskelle, som er værd at kende, afhængigt af din boligsituation.

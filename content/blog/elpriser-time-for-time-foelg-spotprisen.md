@@ -1,10 +1,23 @@
 ---
 title: "Elpriser time for time: Sådan følger du spotprisen"
-description: "Lær hvordan du følger elpriser time for time, forstår spotprisen på strøm, og bruger det til at planlægge dit elforbrug smartere."
+seoTitle: "Elpriser time for time: Sådan følger du spotprisen"
+description: "Hvad er spotprisen, og hvorfor svinger elprisen time for time? Lær at følge elpriserne og flytte forbruget til de billigste timer, så du sparer penge."
 excerpt: "Elprisen svinger time for time. Her lærer du at læse mønstret og bruge det til at flytte dit forbrug til de billige timer."
 date: "2026-07-27"
+updated: "2026-10-14"
 category: "Elpriser"
-keywords: ["elpriser time for time", "spotpris", "strømpriser"]
+keywords: ["elpriser time for time", "spotpris", "strømpris i dag", "hvornår er strøm billigst", "strømpriser"]
+summary:
+  - "Spotprisen fastsættes time for time på elbørsen Nord Pool – separat for DK1 og DK2."
+  - "Prisen påvirkes af vind, sol, forbrug, temperatur og handel med nabolandene."
+  - "Flyt vask, opvask og opladning til de billige timer for at sænke din gennemsnitspris."
+faq:
+  - question: "Hvad er spotprisen på strøm?"
+    answer: "Spotprisen er engrosprisen på el, som handles time for time på den nordiske elbørs Nord Pool. Har du en variabel elaftale, betaler du spotprisen plus elselskabets tillæg, transport, afgifter og moms."
+  - question: "Hvornår på døgnet er strømmen billigst?"
+    answer: "Typisk om natten og midt på dagen, især når det blæser eller solen skinner. Dyrest er det ofte om morgenen og fra kl. 17 til 21."
+  - question: "Hvornår offentliggøres morgendagens elpriser?"
+    answer: "Spotpriserne for det kommende døgn offentliggøres normalt dagen før omkring middagstid, så du kan planlægge dit forbrug på forhånd."
 ---
 
 Har du en elaftale med variabel pris, betyder det, at prisen på din strøm ændrer sig time for time hen over døgnet. At forstå, hvordan elpriser time for time fungerer, kan hjælpe dig med at planlægge dit forbrug klogere og spare penge.

@@ -71,6 +71,11 @@ h1, h2, h3, h4 {
   color: var(--brand-navy);
 }
 
+.prose-article h2[id] {
+  /* Keep TOC jump targets clear of the sticky header. */
+  scroll-margin-top: 6rem;
+}
+
 .prose-article h3 {
   font-size: 1.2rem;
   font-weight: 700;
@@ -140,6 +145,15 @@ h1, h2, h3, h4 {
   margin: 1.5rem 0;
   border-radius: 0.5rem;
   font-style: italic;
+}
+
+.prose-article .table-wrap {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.prose-article .table-wrap table {
+  margin: 0;
 }
 
 .prose-article table {

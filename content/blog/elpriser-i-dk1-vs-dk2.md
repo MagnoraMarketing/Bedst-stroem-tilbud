@@ -1,10 +1,23 @@
 ---
 title: "Elpriser i DK1 vs. DK2: Hvorfor er der forskel på øst og vest?"
-description: "Danmark er delt i to elprisområder, DK1 og DK2. Se hvorfor priserne kan være forskellige i Vest- og Østdanmark, og hvad det betyder for dig."
+seoTitle: "DK1 vs. DK2: Derfor er elprisen forskellig"
+description: "Hvad er forskellen på DK1 og DK2? Se hvorfor elprisen kan være forskellig i Vest- og Østdanmark, og hvad det betyder for din elregning og dit valg af elselskab."
 excerpt: "Vestdanmark og Østdanmark har hver deres spotpris. Her er forklaringen på, hvorfor der er forskel."
 date: "2026-04-13"
+updated: "2026-10-14"
 category: "Elpriser"
-keywords: ["DK1 DK2", "elpriser øst vest", "spotpris"]
+keywords: ["DK1 DK2", "DK1 og DK2 forskel", "elpriser øst vest", "elprisområder danmark", "spotpris"]
+summary:
+  - "DK1 dækker Jylland og Fyn, DK2 dækker Sjælland og øerne."
+  - "Spotprisen kan variere mellem områderne, fordi de har forskellige udlandsforbindelser og produktion."
+  - "Din adresse bestemmer dit prisområde – men du kan frit vælge det billigste elselskab inden for det."
+faq:
+  - question: "Hvilket prisområde hører jeg til – DK1 eller DK2?"
+    answer: "Bor du i Jylland eller på Fyn, hører du til DK1 (Vestdanmark). Bor du på Sjælland, Lolland-Falster, Møn eller Bornholm, hører du til DK2 (Østdanmark)."
+  - question: "Kan jeg vælge at købe strøm i det billigste prisområde?"
+    answer: "Nej. Prisområdet bestemmes af din bopæl og kan ikke ændres ved at skifte elselskab. Du kan dog vælge det elselskab, der har det laveste tillæg i dit område."
+  - question: "Hvorfor er strømmen nogle gange billigere i Vestdanmark?"
+    answer: "DK1 har meget vindkraft og stærke forbindelser til Norge og Tyskland. Når det blæser meget i vest, kan spotprisen i DK1 falde under prisen i DK2."
 ---
 
 Har du undret dig over, at elprisen nogle gange er forskellig, alt efter om du bor i Jylland eller på Sjælland? Det skyldes, at Danmark er opdelt i to separate elprisområder: DK1 og DK2.
@@ -40,3 +53,5 @@ I takt med at elnettet og forbindelserne mellem øst og vest styrkes, kan forske
 ## Konklusion
 
 Forskellen mellem DK1 og DK2 skyldes geografi, produktionsprofil og forbindelser til udlandet – ikke hvilket elselskab du vælger. Uanset prisområde er det stadig værd at sammenligne elselskaber for at finde den bedste aftale for dig.
+
+**Læs også:** [Sådan påvirker vejret elpriserne](/blog/vejret-og-elpriserne) og [hvorfor stiger elpriserne?](/blog/hvorfor-stiger-elpriserne)

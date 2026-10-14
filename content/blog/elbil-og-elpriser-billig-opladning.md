@@ -1,10 +1,23 @@
 ---
 title: "Elbil og elpriser: Sådan lader du billigst"
-description: "Har du elbil? Se hvordan du udnytter elpriser time for time til at lade billigst muligt, og hvad du skal overveje ved valg af elaftale."
+seoTitle: "Elbil og elpriser: Sådan lader du billigst"
+description: "Sådan lader du din elbil billigst: Vælg den rigtige elaftale, lad om natten når spotprisen er lav, og brug smart ladeboks. Se alle tips til billig opladning."
 excerpt: "Opladning af elbil kan udgøre en stor del af elregningen. Her er, hvordan du lader smartest og billigst."
 date: "2026-05-18"
+updated: "2026-10-14"
 category: "Spar penge"
-keywords: ["elbil elpriser", "lade elbil billigt", "spar penge på strøm"]
+keywords: ["lade elbil billigt", "elbil elpriser", "billig opladning elbil", "hvornår er det billigst at lade elbil", "spar penge på strøm"]
+summary:
+  - "Med elbil fylder kWh-prisen mere end abonnementet – vælg en aftale med lavt tillæg pr. kWh."
+  - "Lad i de billige timer, typisk om natten, og undgå spidslasttimerne kl. 17–21."
+  - "En smart ladeboks kan automatisk følge spotprisen og lade, når strømmen er billigst."
+faq:
+  - question: "Hvornår er det billigst at lade elbilen?"
+    answer: "Typisk om natten og i perioder med meget vind eller sol. Dyrest er det ofte sidst på eftermiddagen og om aftenen, hvor både spotpris og nettarif er højest."
+  - question: "Skal jeg have fast eller variabel elpris med elbil?"
+    answer: "Fordi opladning ofte kan planlægges, vælger mange elbilsejere variabel pris for at udnytte de billige timer. Foretrækker du et forudsigeligt budget, kan fastpris dog stadig give mening."
+  - question: "Hvor meget strøm bruger en elbil om året?"
+    answer: "Det afhænger af, hvor meget du kører, og bilens forbrug. For mange husstande lægger en elbil typisk et par tusinde kWh oveni årsforbruget."
 ---
 
 Flere og flere danskere har elbil, og for mange husstande bliver opladning af bilen den enkeltstående største post på elregningen. Heldigvis er der flere måder at sænke omkostningen ved opladning på.

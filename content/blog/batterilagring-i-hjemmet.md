@@ -1,10 +1,23 @@
 ---
 title: "Batterilagring i hjemmet: Fremtidens måde at spare på strøm?"
-description: "Kan et hjemmebatteri hjælpe dig med at spare penge på strøm? Se hvordan batterilagring fungerer, og hvem der har mest gavn af det."
+seoTitle: "Hjemmebatteri: Kan batterilagring betale sig?"
+description: "Kan et hjemmebatteri sænke din elregning? Se hvordan batterilagring virker med solceller og variabel elpris – og hvornår investeringen kan betale sig."
 excerpt: "Hjemmebatterier bliver stadig mere udbredte. Her er, hvordan de fungerer, og hvornår det kan betale sig at investere i ét."
 date: "2026-08-08"
+updated: "2026-10-14"
 category: "Spar penge"
-keywords: ["batterilagring", "hjemmebatteri", "spar penge på strøm"]
+keywords: ["batterilagring", "hjemmebatteri", "batteri til solceller", "kan hjemmebatteri betale sig", "spar penge på strøm"]
+summary:
+  - "Et hjemmebatteri gemmer strøm fra solceller eller fra nettet i billige timer, så du kan bruge den, når prisen er høj."
+  - "Størst gavn har husstande med solceller eller et stort, planlægbart forbrug på en variabel elaftale."
+  - "Batterier er stadig dyre i anskaffelse – en billigere elaftale giver ofte en hurtigere og mere sikker besparelse."
+faq:
+  - question: "Kan et hjemmebatteri betale sig uden solceller?"
+    answer: "Det kan det i nogle tilfælde, hvis du har en variabel elaftale og et stort forbrug. Batteriet oplades i de billige timer og bruges, når spotprisen er høj. Tilbagebetalingstiden er dog ofte lang, fordi prisforskellen mellem billige og dyre timer skal dække batteriets pris."
+  - question: "Hvor lang er tilbagebetalingstiden på et hjemmebatteri?"
+    answer: "Den afhænger af batteriets pris, dit forbrug, din elaftale og om du har solceller. For mange husstande er tilbagebetalingstiden stadig lang, så regn altid på din egen situation, før du investerer."
+  - question: "Kan et hjemmebatteri bruges som backup ved strømsvigt?"
+    answer: "Nogle batterisystemer kan levere nødstrøm ved strømafbrydelser, men det kræver en opsætning, der understøtter det. Spørg installatøren, om løsningen har backup-funktion."
 ---
 
 Batterilagring i private hjem er gået fra at være et nichefænomen til at blive en reel mulighed for danske husstande, der vil have mere kontrol over deres elforbrug og -udgifter. Men hvordan fungerer det egentlig, og hvem har mest gavn af det?

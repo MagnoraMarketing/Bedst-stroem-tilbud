@@ -1,10 +1,23 @@
 ---
 title: "Bruger du mere strøm end naboen? Se det gennemsnitlige forbrug for din husstand"
-description: "Hvad er et normalt strømforbrug for en lejlighed eller et hus i Danmark? Sammenlign dit forbrug med gennemsnittet, og se hvor du kan spare."
+seoTitle: "Gennemsnitligt strømforbrug for en husstand"
+description: "Hvad er et normalt strømforbrug? Se typisk årsforbrug i kWh for 1 person, par og familier i lejlighed og hus – og tjek, om du betaler for meget for strøm."
 excerpt: "Mange tror, de har et helt normalt strømforbrug – indtil de sammenligner. Her er tommelfingerreglerne, og hvad du gør, hvis du ligger over."
 date: "2026-09-27"
+updated: "2026-10-14"
 category: "Spar penge"
-keywords: ["gennemsnitligt strømforbrug", "normalt elforbrug", "strømforbrug husstand", "kWh om året", "spare strøm"]
+keywords: ["gennemsnitligt strømforbrug", "normalt elforbrug", "strømforbrug husstand", "kWh om året", "strømforbrug 1 person", "spare strøm"]
+summary:
+  - "En familie i hus uden elvarme og elbil bruger typisk ca. 3.500–5.000 kWh om året."
+  - "Varmepumpe og elbil kan løfte forbruget med flere tusinde kWh."
+  - "Din regning er forbrug × pris – en dyr elaftale koster lige så meget som et højt forbrug."
+faq:
+  - question: "Hvad er et normalt strømforbrug for 1 person?"
+    answer: "En person i lejlighed uden elvarme bruger typisk omkring 1.000–1.800 kWh om året. Det varierer med hvidevarer, vaner og boligens størrelse."
+  - question: "Hvad er et normalt strømforbrug for en familie på 4?"
+    answer: "En familie i hus uden elvarme og elbil ligger ofte omkring 3.500–5.000 kWh om året. Med varmepumpe eller elbil kan forbruget være markant højere."
+  - question: "Hvor kan jeg se mit eget strømforbrug?"
+    answer: "På din årsopgørelse, på Min side hos dit elselskab eller netselskab og på Eloverblik.dk, hvor du kan se forbruget helt ned på timeniveau."
 ---
 
 Spørg en tilfældig dansker, om de har et højt strømforbrug, og svaret er næsten altid: "Nej, helt normalt." Men hvad er normalt egentlig? Og hvad betyder det for din elregning, hvis du ligger bare lidt over?

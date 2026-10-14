@@ -1,10 +1,23 @@
 ---
 title: "Derfor stiger din elregning – selvom elprisen falder"
-description: "Elprisen er faldet, men regningen er ikke? Forklaringen gemmer sig ofte i nettarif, abonnementer og tillæg. Se hvad du betaler for, og hvad du kan gøre."
+seoTitle: "Nettarif: Derfor stiger elregningen trods lav elpris"
+description: "Hvorfor stiger elregningen, selvom spotprisen falder? Se hvordan nettarif og tidsdifferentierede tariffer påvirker regningen – og 4 måder at modvirke det."
 excerpt: "Nyhederne siger, at strømmen er blevet billigere. Din elregning siger noget andet. Her er forklaringen – og den del, du faktisk kan gøre noget ved."
 date: "2026-09-21"
+updated: "2026-10-14"
 category: "Elpriser"
-keywords: ["elregning stiger", "nettarif", "transport af strøm", "stigende elpriser", "elregning forklaret"]
+keywords: ["nettarif", "elregning stiger", "transport af strøm", "tidsdifferentierede tariffer", "stigende elpriser", "elregning forklaret"]
+summary:
+  - "Elprisen er kun én del af regningen – nettarif, abonnementer, afgifter og moms udgør resten."
+  - "Tidsdifferentierede tariffer gør strømmen dyrest at transportere i spidslasten kl. 17–21."
+  - "Du kan ikke vælge netselskab, men du kan vælge elselskab og hvornår du bruger strømmen."
+faq:
+  - question: "Hvad er nettarif?"
+    answer: "Nettariffen er betalingen til dit lokale netselskab for at transportere strømmen frem til din bolig. Den er den samme, uanset hvilket elselskab du har."
+  - question: "Hvornår er nettariffen højest?"
+    answer: "Hos de fleste netselskaber er nettariffen højest i spidslastperioden, typisk kl. 17–21, og lavest om natten."
+  - question: "Kan jeg undgå at betale nettarif ved at skifte elselskab?"
+    answer: "Nej. Netselskabet bestemmes af din adresse. Du kan derimod sænke regningen ved at vælge et elselskab med lavt tillæg og flytte forbruget væk fra de dyre timer."
 ---
 
 Du har måske set overskrifterne om, at spotprisen på strøm er faldet. Og alligevel er din elregning ikke blevet mindre. Hvordan kan det hænge sammen?
