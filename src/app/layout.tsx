@@ -82,9 +82,13 @@ export const metadata: Metadata = {
     google: "VyA32DNWtav_JQZS28vcFTBY1enJBWnvLC6ndXBx9GY",
     // Bing Webmaster Tools: set NEXT_PUBLIC_BING_SITE_VERIFICATION to the
     // msvalidate.01 code from Bing to verify the site via meta tag.
-    ...(process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION && {
-      other: { "msvalidate.01": process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION },
-    }),
+    other: {
+      "ahrefs-site-verification":
+        "d2571a624e717dd082fd44f57f876da105fda2b13689e9959df2a467e2653744",
+      ...(process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION && {
+        "msvalidate.01": process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION,
+      }),
+    },
   },
 };
 
