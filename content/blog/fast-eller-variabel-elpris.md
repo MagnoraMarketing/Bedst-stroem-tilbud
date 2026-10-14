@@ -1,10 +1,23 @@
 ---
 title: "Fast eller variabel elpris – hvad skal du vælge?"
-description: "Skal du vælge fast eller variabel elpris? Se fordele og ulemper ved begge typer, og find ud af, hvad der passer bedst til din husstand."
+seoTitle: "Fast eller variabel elpris – hvad skal du vælge?"
+description: "Fast eller variabel elpris? Se forskellen på fastpris, spotpris og flexpris, fordele og ulemper ved hver, og 3 spørgsmål der hjælper dig med at vælge rigtigt."
 excerpt: "Fastpris giver forudsigelighed, variabel pris følger markedet. Her er, hvad du skal overveje, før du vælger."
 date: "2026-07-20"
+updated: "2026-10-14"
 category: "Elaftaler"
-keywords: ["fast eller variabel elpris", "elaftale", "elpris"]
+keywords: ["fast eller variabel elpris", "fastpris eller spotpris", "variabel elpris", "flexpris", "elaftale"]
+summary:
+  - "Fastpris giver en fast kWh-pris i en aftalt periode og beskytter mod prisstigninger."
+  - "Variabel pris følger spotprisen time for time og har historisk ofte været billigst over tid."
+  - "Valget afhænger af, om du kan tåle udsving, og om du kan flytte forbrug til billige timer."
+faq:
+  - question: "Hvad er bedst – fast eller variabel elpris?"
+    answer: "Der er ikke ét rigtigt svar. Variabel pris har historisk ofte været billigst over tid, mens fastpris giver forudsigelighed. Kan du flytte forbrug til billige timer og tåle udsving, taler meget for variabel pris."
+  - question: "Hvad er flexpris?"
+    answer: "Flexpris er en mellemting, hvor prisen justeres løbende – fx månedligt – men ikke time for time. Det giver lidt mere forudsigelighed end ren spotpris uden lang binding."
+  - question: "Kan jeg skifte fra fastpris til variabel pris?"
+    answer: "Ja, men har du binding, kan det koste et gebyr at skifte før tid. Tjek dine vilkår, og skift gerne, når bindingsperioden udløber."
 ---
 
 Et af de første valg, du skal træffe, når du vælger elselskab, er, om du vil have fast eller variabel elpris. Der er ikke ét rigtigt svar for alle – det afhænger af din økonomi, dit forbrugsmønster og hvor meget du er villig til at følge med i markedet.
@@ -50,3 +63,5 @@ Uanset hvad du vælger, er det en god idé at [sammenligne elpriser](/sammenlign
 ## Konklusion
 
 Der findes ikke ét facit for, om fast eller variabel elpris er bedst – det afhænger af din risikovillighed og dit forbrugsmønster. Det vigtigste er, at du forstår forskellen, inden du vælger, så du undgår overraskelser senere.
+
+**Læs også:** [Er det værd at binde elprisen fast?](/blog/er-det-vaerd-at-binde-elprisen-fast) og [timeafregning: sådan flytter du dit forbrug](/blog/timeafregning-flyt-dit-forbrug).

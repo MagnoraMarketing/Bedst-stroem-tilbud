@@ -1,20 +1,38 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import ReactMarkdown, { type Components } from "react-markdown";
 import remarkGfm from "remark-gfm";
+import type { ReactNode } from "react";
 import Container from "@/components/Container";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CtaBanner from "@/components/CtaBanner";
 import BlogCard from "@/components/BlogCard";
 import SectionHeading from "@/components/SectionHeading";
-import JsonLd from "@/components/JsonLd";
-import { getAllSlugs, getPostBySlug, getRelatedPosts } from "@/lib/blog";
+import FaqAccordion from "@/components/FaqAccordion";
+import JsonLd, { faqJsonLd } from "@/components/JsonLd";
+import {
+  getAllSlugs,
+  getPostBySlug,
+  getRelatedPosts,
+  getToc,
+  slugify,
+} from "@/lib/blog";
 import { AFFILIATE_URL, siteConfig } from "@/lib/constants";
 import { pageMetadata } from "@/lib/seo";
 
 // Markdown links to "/tilbud" are in-article affiliate CTAs: send them to the
 // partner link and render them as buttons.
 const AFFILIATE_PLACEHOLDER = "/tilbud";
+
+function textOf(node: ReactNode): string {
+  if (typeof node === "string" || typeof node === "number") return String(node);
+  if (Array.isArray(node)) return node.map(textOf).join("");
+  if (node && typeof node === "object" && "props" in node) {
+    return textOf((node.props as { children?: ReactNode }).children);
+  }
+  return "";
+}
 
 const markdownComponents: Components = {
   a({ href, children }) {
@@ -30,9 +48,35 @@ const markdownComponents: Components = {
         </a>
       );
     }
-    return <a href={href}>{children}</a>;
+    if (href?.startsWith("/")) {
+      return <Link href={href}>{children}</Link>;
+    }
+    return (
+      <a href={href} target="_blank" rel="noopener">
+        {children}
+      </a>
+    );
+  },
+  // Anchor ids on h2s power the table of contents and give search engines
+  // "jump to" links into the article.
+  h2({ children }) {
+    return <h2 id={slugify(textOf(children))}>{children}</h2>;
+  },
+  table({ children }) {
+    return (
+      <div className="table-wrap">
+        <table>{children}</table>
+      </div>
+    );
   },
 };
+
+const formatDate = (date: string) =>
+  new Date(date).toLocaleDateString("da-DK", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
 
 export function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
@@ -49,7 +93,7 @@ export async function generateMetadata({
   const post = getPostBySlug(slug);
 
   const base = pageMetadata({
-    title: post.title,
+    title: post.seoTitle,
     description: post.description,
     path: `/blog/${post.slug}`,
     keywords: post.keywords,
@@ -57,15 +101,20 @@ export async function generateMetadata({
 
   return {
     ...base,
-    authors: [{ name: siteConfig.name }],
+    authors: [{ name: siteConfig.name, url: `${siteConfig.url}/om-os` }],
     openGraph: {
       ...base.openGraph,
+      title: post.title,
       type: "article",
       publishedTime: post.date,
-      modifiedTime: post.date,
+      modifiedTime: post.updated,
       authors: [siteConfig.name],
       section: post.category,
       tags: post.keywords,
+    },
+    twitter: {
+      ...base.twitter,
+      title: post.title,
     },
   };
 }
@@ -81,6 +130,8 @@ export default async function BlogPostPage({
 
   const post = getPostBySlug(slug);
   const related = getRelatedPosts(post);
+  const toc = getToc(post.content);
+  const url = `${siteConfig.url}/blog/${post.slug}`;
 
   // Split the markdown body on top-level headings so we can insert an
   // in-article CTA roughly halfway through the piece.
@@ -91,27 +142,45 @@ export default async function BlogPostPage({
 
   const articleJsonLd = {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
+    "@id": `${url}#article`,
     headline: post.title,
+    alternativeHeadline: post.seoTitle !== post.title ? post.seoTitle : undefined,
     description: post.description,
-    image: `${siteConfig.url}/blog/${post.slug}/opengraph-image`,
+    abstract: post.summary.length > 0 ? post.summary.join(" ") : undefined,
+    image: {
+      "@type": "ImageObject",
+      url: `${url}/opengraph-image`,
+      width: 1200,
+      height: 630,
+    },
     datePublished: post.date,
-    dateModified: post.date,
+    dateModified: post.updated,
+    wordCount: post.wordCount,
+    timeRequired: `PT${Math.max(1, Math.round(post.wordCount / 190))}M`,
     keywords: post.keywords.join(", "),
     articleSection: post.category,
     inLanguage: "da-DK",
-    author: { "@type": "Organization", name: siteConfig.name, url: siteConfig.url },
-    publisher: {
+    isAccessibleForFree: true,
+    author: {
       "@type": "Organization",
+      "@id": `${siteConfig.url}/#organization`,
       name: siteConfig.name,
-      logo: { "@type": "ImageObject", url: `${siteConfig.url}/icon.svg` },
+      url: `${siteConfig.url}/om-os`,
     },
-    mainEntityOfPage: `${siteConfig.url}/blog/${post.slug}`,
+    publisher: { "@id": `${siteConfig.url}/#organization` },
+    isPartOf: { "@id": `${siteConfig.url}/#website` },
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["#artikel-titel", "#kort-fortalt"],
+    },
   };
 
   return (
     <>
       <JsonLd data={articleJsonLd} />
+      {post.faq.length > 0 && <JsonLd data={faqJsonLd(post.faq)} />}
       <article className="py-10 sm:py-14">
         <Container className="max-w-3xl">
           <Breadcrumbs
@@ -121,22 +190,79 @@ export default async function BlogPostPage({
             ]}
           />
 
-          <div className="mt-4 flex items-center gap-3 text-xs font-medium text-brand-blue">
+          <div className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs font-medium text-brand-blue">
             <span className="rounded-full bg-brand-sky px-3 py-1">{post.category}</span>
             <span className="text-foreground/40">{post.readingTime}</span>
-            <time dateTime={post.date} className="text-foreground/40">
-              {new Date(post.date).toLocaleDateString("da-DK", {
-                day: "numeric",
-                month: "long",
-                year: "numeric",
-              })}
-            </time>
+            <span className="text-foreground/40">
+              Udgivet <time dateTime={post.date}>{formatDate(post.date)}</time>
+            </span>
+            {post.updated !== post.date && (
+              <span className="text-foreground/40">
+                Opdateret <time dateTime={post.updated}>{formatDate(post.updated)}</time>
+              </span>
+            )}
           </div>
 
-          <h1 className="mt-3 font-display text-3xl font-bold text-brand-navy sm:text-4xl">
+          <h1
+            id="artikel-titel"
+            className="mt-3 font-display text-3xl font-bold text-brand-navy sm:text-4xl"
+          >
             {post.title}
           </h1>
           <p className="mt-4 text-lg text-foreground/70">{post.excerpt}</p>
+          <p className="mt-3 text-sm text-foreground/50">
+            Af redaktionen på{" "}
+            <Link href="/om-os" className="underline underline-offset-2 hover:text-brand-blue">
+              {siteConfig.name}
+            </Link>
+          </p>
+
+          {post.summary.length > 0 && (
+            <aside
+              id="kort-fortalt"
+              aria-label="Kort fortalt"
+              className="mt-8 rounded-2xl border border-border bg-brand-sky/50 p-6"
+            >
+              <p className="font-display text-sm font-bold uppercase tracking-wide text-brand-blue">
+                Kort fortalt
+              </p>
+              <ul className="mt-3 space-y-2 text-[0.95rem] leading-relaxed text-brand-navy">
+                {post.summary.map((point) => (
+                  <li key={point} className="flex gap-2">
+                    <span aria-hidden="true" className="mt-0.5 text-brand-blue">✓</span>
+                    <span>{point}</span>
+                  </li>
+                ))}
+              </ul>
+            </aside>
+          )}
+
+          {toc.length >= 3 && (
+            <nav
+              aria-label="Indholdsfortegnelse"
+              className="mt-6 rounded-2xl border border-border bg-white p-6"
+            >
+              <p className="font-display text-sm font-bold uppercase tracking-wide text-brand-navy">
+                Indhold
+              </p>
+              <ol className="mt-3 list-decimal space-y-1.5 pl-5 text-sm text-foreground/75">
+                {toc.map((item) => (
+                  <li key={item.id}>
+                    <a href={`#${item.id}`} className="hover:text-brand-blue hover:underline">
+                      {item.text}
+                    </a>
+                  </li>
+                ))}
+                {post.faq.length > 0 && (
+                  <li>
+                    <a href="#ofte-stillede-spoergsmaal" className="hover:text-brand-blue hover:underline">
+                      Ofte stillede spørgsmål
+                    </a>
+                  </li>
+                )}
+              </ol>
+            </nav>
+          )}
 
           <div className="mt-8">
             <CtaBanner compact />
@@ -159,6 +285,15 @@ export default async function BlogPostPage({
                 <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>{secondHalf}</ReactMarkdown>
               </div>
             </>
+          )}
+
+          {post.faq.length > 0 && (
+            <section id="ofte-stillede-spoergsmaal" className="mt-12 scroll-mt-24">
+              <h2 className="mb-5 font-display text-2xl font-bold text-brand-navy">
+                Ofte stillede spørgsmål
+              </h2>
+              <FaqAccordion items={post.faq} />
+            </section>
           )}
 
           <div className="mt-12">

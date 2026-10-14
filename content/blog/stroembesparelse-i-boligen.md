@@ -1,10 +1,23 @@
 ---
 title: "Strømbesparelse i boligen: Varmepumpe, hvidevarer og standby"
-description: "Se hvor i boligen du typisk bruger mest strøm, og hvordan du sparer på varmepumpe, hvidevarer og standby-forbrug."
+seoTitle: "Strømbesparelse i boligen: Varmepumpe og standby"
+description: "Hvor bruger din bolig mest strøm? Få konkrete råd til strømbesparelse på varmepumpe, hvidevarer, standby og belysning – og se, hvor du sparer mest."
 excerpt: "De fleste husstandes elforbrug er koncentreret om nogle få apparater. Her får du overblikket over, hvor du kan spare mest."
 date: "2026-05-04"
+updated: "2026-10-14"
 category: "Spar penge"
-keywords: ["strømbesparelse", "varmepumpe strøm", "standby strøm"]
+keywords: ["strømbesparelse", "spare strøm i boligen", "varmepumpe strøm", "standby strøm", "LED besparelse"]
+summary:
+  - "Har du varmepumpe, ligger den største besparelse typisk i korrekt indstilling og smart styring."
+  - "Energieffektive hvidevarer, afrimning og fyldte maskiner sænker forbruget i køkken og vaskerum."
+  - "Standby og gammel belysning er lavthængende frugter – og en billig elaftale supplerer det hele."
+faq:
+  - question: "Hvordan sparer jeg strøm på min varmepumpe?"
+    answer: "Indstil temperaturen korrekt, få den serviceret jævnligt, og brug smart styring, så den prioriterer opvarmning i billige timer, hvis du har variabel elpris."
+  - question: "Kan det betale sig at skifte til LED-pærer?"
+    answer: "Ja. LED bruger markant mindre strøm end glødepærer og halogen og holder langt længere."
+  - question: "Hvor skal jeg starte, hvis jeg vil spare strøm?"
+    answer: "Start med det, der fylder mest i dit hjem – ofte opvarmning eller hvidevarer – og sørg samtidig for at have en konkurrencedygtig elaftale."
 ---
 
 Når du vil sænke elregningen gennem lavere forbrug, kan det være svært at vide, hvor du skal starte. Her er en gennemgang af de områder i boligen, der typisk fylder mest på elregningen – og hvad du kan gøre ved dem.

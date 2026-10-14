@@ -1,10 +1,23 @@
 ---
 title: "Sådan bruger du mindre strøm i hverdagen: 15 nemme tips"
-description: "15 konkrete og nemme tips til, hvordan du bruger mindre strøm i hverdagen og sænker elregningen, uden det går ud over komforten."
+seoTitle: "Brug mindre strøm i hverdagen: 15 nemme tips"
+description: "15 nemme tips til at bruge mindre strøm i køkken, vaskerum, stue og varme – uden at gå på kompromis med komforten. Se hvordan små vaner sænker din elregning."
 excerpt: "Små justeringer i hverdagen kan give en mærkbar besparelse over et år. Her er 15 konkrete tips."
 date: "2026-06-15"
+updated: "2026-10-14"
 category: "Spar penge"
-keywords: ["bruge mindre strøm", "spar penge på strøm", "energibesparelse"]
+keywords: ["bruge mindre strøm", "spare strøm tips", "spar penge på strøm", "energibesparelse", "sænke elforbrug"]
+summary:
+  - "Små vaneændringer i køkken, vaskerum og stue giver tilsammen en mærkbar besparelse."
+  - "Standby-forbrug, gamle pærer og høje temperaturer er lavthængende frugter."
+  - "Den største enkeltbesparelse kommer ofte fra at kombinere vanerne med en billigere elaftale."
+faq:
+  - question: "Hvad bruger mest strøm i et almindeligt hjem?"
+    answer: "Typisk opvarmning (hvis du har elvarme eller varmepumpe), tørretumbler, frysere og køleskabe samt elektronik på standby."
+  - question: "Kan det betale sig at slukke for standby?"
+    answer: "Ja. Hvert apparat bruger ikke meget, men tilsammen kan standby-forbruget løbe op i flere hundrede kroner om året."
+  - question: "Hvilken temperatur skal køleskabet stå på?"
+    answer: "Omkring 5 grader er passende for de fleste køleskabe. Hver grad koldere øger strømforbruget."
 ---
 
 Du behøver ikke ændre hele din livsstil for at sænke elforbruget. Mange af de mest effektive tips handler om små, enkle justeringer, du kan indføre i hverdagen uden at gå på kompromis med komforten.
@@ -47,3 +60,5 @@ De fleste af tipsene ovenfor giver den største effekt, når de kombineres med e
 ## Konklusion
 
 Du behøver ikke store investeringer for at sænke elforbruget. Ved at kombinere små, vedvarende vaneændringer med en fornuftig elaftale kan du opnå en solid besparelse over året.
+
+**Læs også:** [9 skjulte strømslugere i dit hjem](/blog/skjulte-stroemslugere-i-hjemmet), [kør hvidevarerne billigere](/blog/koer-hvidevarerne-billigere) og [gennemsnitligt strømforbrug for en husstand](/blog/gennemsnitligt-stroemforbrug-husstand).

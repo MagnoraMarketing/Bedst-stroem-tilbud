@@ -1,10 +1,23 @@
 ---
 title: "Sådan påvirker en flytning eller ny bolig din elaftale"
-description: "Skal du flytte eller har du fået ny bolig? Se hvad der sker med din elaftale, og hvordan du undgår at betale for meget i den nye bolig."
+seoTitle: "Flytning og elaftale: Sådan gør du ved ny bolig"
+description: "Skal du flytte? Se om din elaftale følger med til den nye adresse, hvad du skal huske, og hvorfor en flytning er det perfekte tidspunkt at skifte elselskab."
 excerpt: "En flytning er et oplagt tidspunkt at gentænke din elaftale på. Her er, hvad du skal huske."
 date: "2026-08-06"
+updated: "2026-10-14"
 category: "Elaftaler"
-keywords: ["flytte elselskab", "ny bolig strøm", "skift adresse elaftale"]
+keywords: ["flytte elselskab", "elaftale ved flytning", "ny bolig strøm", "skift adresse elaftale", "flytning strøm"]
+summary:
+  - "Nogle elaftaler kan flyttes med til den nye adresse, andre skal genoprettes – tjek med dit elselskab."
+  - "En flytning ændrer ofte dit forbrug, så en anden aftaletype kan pludselig passe bedre."
+  - "Meld flytning i god tid, og sammenlign tilbud ud fra dit forventede forbrug i den nye bolig."
+faq:
+  - question: "Følger min elaftale automatisk med, når jeg flytter?"
+    answer: "Ikke altid. Nogle elselskaber kan flytte aftalen med til den nye adresse, mens andre kræver en ny aftale. Kontakt dit elselskab, eller tjek dine vilkår."
+  - question: "Hvornår skal jeg melde flytning til elselskabet?"
+    answer: "Gerne så tidligt som muligt og senest et par uger før overtagelsesdagen, så der ikke opstår tvivl om, hvem der betaler for strømmen i overlapsperioden."
+  - question: "Er der strøm i den nye bolig, når jeg flytter ind?"
+    answer: "Normalt ja – strømmen afbrydes sjældent ved ejerskifte. Men du skal sørge for at have en elaftale på adressen, så forbruget bliver registreret på dig."
 ---
 
 En flytning betyder ofte en masse praktik – og elaftalen bliver nemt overset midt i det hele. Men en flytning er faktisk et oplagt tidspunkt til at sikre dig en bedre elaftale i din nye bolig.

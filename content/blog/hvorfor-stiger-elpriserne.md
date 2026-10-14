@@ -1,10 +1,23 @@
 ---
 title: "Hvorfor stiger elpriserne, og hvad kan du gøre?"
-description: "Forstå hvorfor elpriserne stiger og svinger, hvilke faktorer der påvirker prisen på strøm, og hvad du selv kan gøre for at afbøde det."
+seoTitle: "Hvorfor stiger elpriserne? 4 årsager forklaret"
+description: "Hvorfor stiger elpriserne? Se de 4 vigtigste årsager – vejr, efterspørgsel, gaspriser og afgifter – og hvad du selv kan gøre for at holde elregningen nede."
 excerpt: "Elpriserne påvirkes af langt flere faktorer, end de fleste tror. Her får du forklaringen – og dine muligheder."
 date: "2026-07-06"
+updated: "2026-10-14"
 category: "Elpriser"
-keywords: ["elpriser stiger", "strømpriser", "elpris"]
+keywords: ["elpriser stiger", "hvorfor stiger elpriserne", "strømpriser", "elpris", "stigende elpriser"]
+summary:
+  - "Elprisen stiger især ved lidt vind, tørre år i Norden, kulde og uro på gasmarkedet."
+  - "Afgifter og nettariffer udgør en stor del af regningen og følger deres egne regler."
+  - "Du kan ikke styre markedet, men du kan vælge en billig aftale og flytte forbrug til billige timer."
+faq:
+  - question: "Hvorfor er elpriserne så høje?"
+    answer: "Elprisen sættes af udbud og efterspørgsel. Lav produktion fra vind og vandkraft, høj efterspørgsel og dyr gas i Europa kan presse prisen op – især i enkelte timer."
+  - question: "Falder elpriserne igen?"
+    answer: "Elpriserne svinger begge veje. De kan falde i perioder med meget vind, sol og fyldte vandmagasiner, men vil sandsynligvis fortsat svinge en del."
+  - question: "Hvad kan jeg gøre, når elpriserne stiger?"
+    answer: "Sammenlign elselskaber, så du ikke betaler for højt et tillæg, overvej fastpris for forudsigelighed, og flyt forbrug til de billige timer."
 ---
 
 Mange danskere har oplevet, at elregningen svinger mere fra måned til måned, end den plejede. Der er flere grunde til, at elpriserne kan stige, og forståelse for mekanismerne kan hjælpe dig med at reagere klogt, når det sker.

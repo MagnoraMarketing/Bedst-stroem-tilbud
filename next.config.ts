@@ -3,6 +3,7 @@ import type { NextConfig } from "next";
 const CANONICAL_HOST = "www.billigelrengning.dk";
 
 const nextConfig: NextConfig = {
+  poweredByHeader: false,
   // Send traffic from the old Vercel address and the bare domain to the
   // canonical www domain, so search engines only index one version.
   async redirects() {

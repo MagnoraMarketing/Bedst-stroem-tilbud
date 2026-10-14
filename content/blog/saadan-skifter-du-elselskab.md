@@ -1,10 +1,23 @@
 ---
 title: "Sådan skifter du elselskab på 5 minutter"
-description: "Trin-for-trin guide til at skifte elselskab. Se hvad du skal bruge, hvor lang tid det tager, og hvad der sker med din strømforsyning undervejs."
+seoTitle: "Sådan skifter du elselskab på 5 minutter"
+description: "Skift elselskab på 5 minutter: Se trin for trin, hvordan du sammenligner, tjekker binding og tilmelder dig med MitID – uden afbrydelse af strømmen."
 excerpt: "At skifte elselskab er nemmere, end de fleste tror. Her er hele processen fra start til slut."
 date: "2026-07-13"
+updated: "2026-10-14"
 category: "Elselskaber"
-keywords: ["skift elselskab", "skifte elselskab", "elselskab"]
+keywords: ["skift elselskab", "skifte elselskab", "hvordan skifter man elselskab", "skifte el udbyder", "elselskab"]
+summary:
+  - "Sammenlign tilbud, tjek din nuværende binding, og tilmeld dig det nye elselskab med MitID."
+  - "Det nye selskab opsiger din gamle aftale og klarer skiftet via Energinets DataHub."
+  - "Strømmen bliver ikke afbrudt – netselskabet leverer fortsat strømmen til din bolig."
+faq:
+  - question: "Hvor lang tid tager det at skifte elselskab?"
+    answer: "Selve tilmeldingen tager typisk under 5 minutter. Det praktiske skifte sker automatisk, ofte inden for få uger, afhængigt af din nuværende binding."
+  - question: "Skal jeg selv opsige mit gamle elselskab?"
+    answer: "Nej, som regel ikke. Det nye elselskab sender opsigelsen og sørger for, at skiftet sker på den rigtige dato."
+  - question: "Koster det noget at skifte elselskab?"
+    answer: "Selve skiftet er normalt gratis. Er du bundet i en fastprisaftale, kan dit nuværende selskab dog opkræve et gebyr for at komme ud før tid."
 ---
 
 Mange danskere bliver siddende på en dyr elaftale, fordi de tror, at det er besværligt eller risikabelt at skifte elselskab. I virkeligheden er processen enkel, og du oplever ingen afbrydelse i din strømforsyning undervejs.
@@ -19,7 +32,7 @@ Inden du skifter, er det en god idé at tjekke, om du er bundet i din nuværende
 
 ## Trin 3: Tilmeld dig det nye elselskab
 
-Når du har fundet et tilbud, du vil sige ja tak til, tilmelder du dig typisk online med NemID/MitID og dit CPR-nummer eller din adresse. Det nye elselskab indhenter herefter automatisk oplysninger om dit målernummer via Energinets datahub.
+Når du har fundet et tilbud, du vil sige ja tak til, tilmelder du dig typisk online med MitID og dit CPR-nummer eller din adresse. Det nye elselskab indhenter herefter automatisk oplysninger om dit målernummer via Energinets DataHub.
 
 ## Trin 4: Det nye selskab klarer resten
 
@@ -40,3 +53,5 @@ Der er sjældent en grund til at vente. Hvis du finder et tilbud, der er billige
 ## Kom i gang
 
 Det første skridt er at få overblik over dine muligheder. [Sammenlign priser fra danske elselskaber](/billigste-elselskab), og find ud af, om du kan spare penge ved at skifte allerede i dag.
+
+**Læs også:** [6 tegn på, at din elaftale er for dyr](/blog/tegn-paa-at-din-elaftale-er-for-dyr) og [10 myter om elpriser](/blog/myter-om-elpriser).

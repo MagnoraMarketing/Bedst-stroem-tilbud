@@ -26,7 +26,15 @@ export function pageMetadata({
     title,
     description,
     keywords,
-    alternates: { canonical: path },
+    alternates: {
+      canonical: path,
+      // Advertise the blog feed on every page so Bing/feed readers find it.
+      types: {
+        "application/rss+xml": [
+          { url: "/blog/rss.xml", title: `${siteConfig.name} – Blog` },
+        ],
+      },
+    },
     openGraph: {
       type: "website",
       locale: siteConfig.locale,

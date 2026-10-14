@@ -1,10 +1,23 @@
 ---
 title: "Grøn strøm: Er det dyrere at vælge vedvarende energi?"
-description: "Er grøn strøm dyrere end almindelig strøm? Vi ser på, hvad oprindelsesgarantier betyder, og om det koster ekstra at vælge vedvarende energi."
+seoTitle: "Grøn strøm: Er det dyrere end almindelig strøm?"
+description: "Koster grøn strøm mere? Se hvad grøn strøm og oprindelsesgarantier betyder, og hvordan du finder et tilbud, der er både grønt og billigt."
 excerpt: "Mange tror stadig, at grøn strøm koster ekstra. Sådan hænger det faktisk sammen."
 date: "2026-06-29"
+updated: "2026-10-14"
 category: "Grøn strøm"
-keywords: ["grøn strøm", "vedvarende energi", "billig strøm"]
+keywords: ["grøn strøm", "er grøn strøm dyrere", "oprindelsesgaranti", "vedvarende energi", "billig grøn strøm"]
+summary:
+  - "Grøn strøm betyder typisk, at elselskabet køber oprindelsesgarantier svarende til dit forbrug."
+  - "Mange elselskaber tilbyder grøn strøm uden eller med et lille tillæg."
+  - "Forskellen mellem grøn og almindelig strøm er ofte mindre end forskellen mellem dyre og billige elselskaber."
+faq:
+  - question: "Hvad er en oprindelsesgaranti?"
+    answer: "En oprindelsesgaranti er et certifikat, der dokumenterer, at en mængde strøm svarende til dit forbrug er produceret fra vedvarende energi som vind, sol eller vandkraft."
+  - question: "Får jeg andre elektroner, hvis jeg vælger grøn strøm?"
+    answer: "Nej. Al strøm i nettet er fysisk blandet. Med grøn strøm betaler du for, at der produceres en tilsvarende mængde vedvarende energi."
+  - question: "Hvor meget dyrere er grøn strøm?"
+    answer: "Ofte kun lidt eller slet ikke. Nogle elselskaber har grøn strøm som standard, mens andre tager et lille tillæg pr. kWh eller pr. måned."
 ---
 
 Flere og flere danskere ønsker strøm fra vedvarende energikilder, men mange er usikre på, om det koster ekstra at vælge grøn strøm. Svaret er ikke entydigt, men det er ofte mindre dyrt, end de fleste forestiller sig.
@@ -34,3 +47,5 @@ At vælge grøn strøm og oprindelsesgarantier sender et markedssignal om efters
 ## Konklusion
 
 Grøn strøm behøver ikke koste meget mere end almindelig strøm, og i mange tilfælde er forskellen minimal. Det bedste råd er at sammenligne konkrete tilbud, så du kan se den reelle prisforskel for netop de produkter, du overvejer.
+
+**Læs også:** [Solceller og elpriser – kan det betale sig?](/blog/solceller-og-elpriser-kan-det-betale-sig) og [bedste elselskab i 2026](/blog/bedste-elselskab-2026).

@@ -1,10 +1,23 @@
 ---
 title: "De skjulte gebyrer i din elaftale, du skal kigge efter"
-description: "Se hvilke skjulte gebyrer der kan gemme sig i din elaftale, og hvordan du undgår at betale for meget, selvom kWh-prisen ser billig ud."
+seoTitle: "Skjulte gebyrer i din elaftale – det skal du tjekke"
+description: "Abonnement, opkrævningsgebyr, oprettelse og framelding: Se de skjulte gebyrer i elaftaler, og lær at regne den reelle årlige pris ud, før du vælger elselskab."
 excerpt: "En lav kWh-pris er ikke altid det samme som en billig aftale. Her er de gebyrer, du skal holde øje med."
 date: "2026-06-22"
+updated: "2026-10-14"
 category: "Elaftaler"
-keywords: ["skjulte gebyrer", "elaftale", "elselskab gebyrer"]
+keywords: ["skjulte gebyrer", "gebyrer elaftale", "elselskab gebyrer", "abonnement elselskab", "elaftale"]
+summary:
+  - "Typiske gebyrer er abonnement, opkrævningsgebyr, oprettelsesgebyr og gebyr ved framelding."
+  - "Årlig totalpris = kWh-pris × forbrug + abonnement × 12 + øvrige gebyrer."
+  - "Læs vilkårene, og vælg elektronisk faktura og betalingsservice for at undgå unødige gebyrer."
+faq:
+  - question: "Hvilke gebyrer kan der være i en elaftale?"
+    answer: "De mest almindelige er et fast månedligt abonnement, opkrævningsgebyr pr. faktura, oprettelsesgebyr og gebyr for at opsige en bunden aftale før tid."
+  - question: "Hvordan sammenligner jeg elaftaler med forskellige gebyrer?"
+    answer: "Regn den samlede årlige pris ud ud fra dit eget forbrug: kWh-pris gange forbrug plus abonnement gange 12 plus øvrige gebyrer."
+  - question: "Kan jeg undgå opkrævningsgebyr?"
+    answer: "Ofte ja, ved at vælge betalingsservice og elektronisk faktura i stedet for papirfaktura."
 ---
 
 Når du sammenligner elpriser, er det fristende kun at kigge på kWh-prisen. Men flere elselskaber lægger ekstra gebyrer oveni, som kan gøre en tilsyneladende billig aftale dyrere, end den ser ud til ved første øjekast.
@@ -51,3 +64,5 @@ Skjulte gebyrer er en af de primære grunde til, at to "billige" tilbud kan ende
 ## Kom videre
 
 Når du indhenter tilbud gennem os, får du mulighed for at sammenligne flere elselskaber og stille spørgsmål til deres konkrete vilkår, før du forpligter dig til noget. [Se hvordan du finder det billigste elselskab](/billigste-elselskab) uden ubehagelige overraskelser.
+
+**Læs også:** [6 tegn på, at din elaftale er for dyr](/blog/tegn-paa-at-din-elaftale-er-for-dyr) og [sådan læser du din elregning](/blog/saadan-laeser-du-din-elregning).

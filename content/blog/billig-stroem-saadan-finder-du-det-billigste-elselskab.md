@@ -1,10 +1,23 @@
 ---
 title: "Billig strøm: Sådan finder du det billigste elselskab"
-description: "Guide til, hvordan du finder billig strøm og det billigste elselskab for netop din husstand – uden at gå på kompromis med vilkårene."
+seoTitle: "Billig strøm: Find det billigste elselskab"
+description: "Sådan finder du billig strøm: Regn totalprisen ud, tjek binding og gebyrer, og sammenlign friske tilbud. Se hvilket elselskab der er billigst for dig."
 excerpt: "Billig strøm handler om mere end kWh-prisen alene. Her er de faktorer, der reelt afgør, hvad du ender med at betale."
 date: "2026-08-03"
+updated: "2026-10-14"
 category: "Elselskaber"
-keywords: ["billig strøm", "billigste elselskab", "elselskaber"]
+keywords: ["billig strøm", "billigste elselskab", "billigste strøm", "billig el", "elselskaber"]
+summary:
+  - "Hvilket elselskab der er billigst, afhænger af dit forbrug – lavt forbrug favoriserer lavt abonnement, højt forbrug lav kWh-pris."
+  - "Regn den årlige totalpris ud: forbrug × kWh-pris + abonnement × 12 + gebyrer."
+  - "Friske, tilpassede tilbud er mere pålidelige end generelle ranglister, fordi priserne ændrer sig løbende."
+faq:
+  - question: "Hvordan finder jeg det billigste elselskab?"
+    answer: "Find dit årsforbrug i kWh, indhent tilbud fra flere elselskaber, og regn den samlede årlige pris ud inklusive abonnement og gebyrer. Det tilbud med den laveste totalpris for dit forbrug er det billigste for dig."
+  - question: "Er billig strøm dårligere strøm?"
+    answer: "Nej. Strømmen er fysisk den samme, og det er dit lokale netselskab, der leverer den til din bolig. Prisforskellen ligger i elselskabets tillæg, abonnement og vilkår."
+  - question: "Hvor meget kan jeg spare ved at skifte til billigere strøm?"
+    answer: "Det afhænger af dit forbrug og din nuværende aftale. Jo højere forbrug og jo ældre aftale, desto større er besparelsen typisk. For mange husstande kan det dreje sig om flere hundrede kroner om året."
 ---
 
 Når man søger efter "billig strøm", støder man hurtigt på lister og ranglister, der lover at pege på det billigste elselskab. Problemet er, at elpriserne ændrer sig løbende, og at "billigst" afhænger af, hvor meget du bruger, og hvor du bor. Her får du en praktisk tilgang til at finde billig strøm, der reelt passer til din husstand.

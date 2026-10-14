@@ -1,10 +1,23 @@
 ---
 title: "Timeafregning: Sådan sparer du ved at flytte dit elforbrug"
-description: "Hvad er timeafregning, og hvordan kan du bruge det til at spare penge ved at flytte dit elforbrug til de billige timer på døgnet?"
+seoTitle: "Timeafregning: Spar ved at flytte dit elforbrug"
+description: "Hvad er timeafregning, og hvem sparer mest? Se hvordan du flytter elforbruget til de billigste timer med elbil, varmepumpe og hvidevarer."
 excerpt: "Timeafregning belønner dig for at bruge strøm på de rigtige tidspunkter. Sådan kommer du i gang."
 date: "2026-05-11"
+updated: "2026-10-14"
 category: "Spar penge"
-keywords: ["timeafregning", "flyt elforbrug", "spar penge på strøm"]
+keywords: ["timeafregning", "flyt elforbrug", "timeafregning el", "billige timer strøm", "spar penge på strøm"]
+summary:
+  - "Med timeafregning betaler du spotprisen for netop de timer, du bruger strøm i."
+  - "Størst gevinst har husstande med elbil, varmepumpe eller fleksible hvidevarer."
+  - "Brug timere og smart styring, så forbruget automatisk lægges i de billige timer."
+faq:
+  - question: "Har alle danskere timeafregning?"
+    answer: "Alle husstande har i dag fjernaflæste målere, der registrerer forbruget time for time. Om du får gavn af det, afhænger af, at din elaftale følger spotprisen."
+  - question: "Hvem har mest gavn af timeafregning?"
+    answer: "Husstande, der kan flytte en stor del af forbruget – fx opladning af elbil, varmepumpe og hvidevarer – til de billige timer om natten eller midt på dagen."
+  - question: "Hvordan kommer jeg i gang med at flytte mit forbrug?"
+    answer: "Find de apparater, der kan køre fleksibelt, brug udskudt start eller smart styring, og følg elpriserne time for time."
 ---
 
 Timeafregning betyder, at dit elforbrug og din elpris opgøres time for time, i stedet for som et samlet gennemsnit over måneden. Det åbner mulighed for at spare penge ved at flytte dit forbrug til de timer, hvor strømmen er billigst.

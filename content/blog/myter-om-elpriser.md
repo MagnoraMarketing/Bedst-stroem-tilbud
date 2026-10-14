@@ -1,10 +1,23 @@
 ---
 title: "10 myter om elpriser, du bør stoppe med at tro på"
-description: "Vi punkterer 10 udbredte myter om elpriser og elselskaber i Danmark – fra prisgaranti til grøn strøm og skift af elselskab."
+seoTitle: "10 myter om elpriser, du bør stoppe med at tro på"
+description: "Er det besværligt at skifte elselskab? Har alle samme pris? Vi afliver 10 udbredte myter om elpriser, der koster danskere penge – og giver dig fakta i stedet."
 excerpt: "Der florerer mange misforståelser om elpriser. Her går vi 10 af de mest udbredte myter efter i sømmene."
 date: "2026-03-30"
+updated: "2026-10-14"
 category: "Elpriser"
-keywords: ["myter om elpriser", "elpriser danmark", "elselskab myter"]
+keywords: ["myter om elpriser", "elpriser danmark", "elselskab myter", "skifte elselskab", "elpris fakta"]
+summary:
+  - "Elselskaberne har ikke samme pris – tillæg, abonnement og gebyrer varierer betydeligt."
+  - "Det tager under 5 minutter at skifte elselskab, og strømmen bliver ikke afbrudt."
+  - "Den laveste kWh-pris er ikke altid billigst – se altid på totalprisen."
+faq:
+  - question: "Bliver strømmen afbrudt, når man skifter elselskab?"
+    answer: "Nej. Skiftet handler kun om, hvem der sælger dig strømmen. Dit lokale netselskab leverer fortsat strømmen gennem de samme kabler."
+  - question: "Har alle elselskaber samme pris på strøm?"
+    answer: "Nej. Transport, elafgift og moms er ens, men hvert elselskab fastsætter selv sin elpris, sit tillæg og sine gebyrer."
+  - question: "Skal man binde sig for at få en god elpris?"
+    answer: "Nej. Der findes konkurrencedygtige aftaler både med og uden binding. Sammenlign tilbud, og vælg den aftaleform, der passer til dig."
 ---
 
 Elmarkedet er fyldt med misforståelser, som kan koste dig penge, hvis du tager dem for gode varer. Her går vi ti af de mest udbredte myter om elpriser efter i sømmene.
