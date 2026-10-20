@@ -4,9 +4,9 @@ seoTitle: "Sådan skifter du elselskab på 5 minutter"
 description: "Skift elselskab på 5 minutter: Se trin for trin, hvordan du sammenligner, tjekker binding og tilmelder dig med MitID – uden afbrydelse af strømmen."
 excerpt: "At skifte elselskab er nemmere, end de fleste tror. Her er hele processen fra start til slut."
 date: "2026-07-13"
-updated: "2026-10-14"
+updated: "2026-10-20"
 category: "Elselskaber"
-keywords: ["skift elselskab", "skifte elselskab", "hvordan skifter man elselskab", "skifte el udbyder", "elselskab"]
+keywords: ["skift elselskab", "skifte elselskab", "hvordan skifter man elselskab", "skifte el udbyder", "skift elselskab MitID"]
 summary:
   - "Sammenlign tilbud, tjek din nuværende binding, og tilmeld dig det nye elselskab med MitID."
   - "Det nye selskab opsiger din gamle aftale og klarer skiftet via Energinets DataHub."
@@ -49,6 +49,26 @@ Selve tilmeldingen tager typisk under 5 minutter. Det praktiske skifte af levera
 ## Hvornår bør du skifte?
 
 Der er sjældent en grund til at vente. Hvis du finder et tilbud, der er billigere end din nuværende aftale, kan det ofte betale sig at skifte med det samme – medmindre du er bundet i en fastprisaftale, hvor det kan koste et gebyr at komme ud før tid. Tjek altid dine vilkår først.
+
+## Det skal du bruge for at skifte
+
+Hav disse oplysninger klar, så går tilmeldingen hurtigt:
+
+- **MitID** til at bekræfte din identitet
+- **Din adresse** – elselskabet finder selv din elmåler ud fra adressen
+- **Evt. dit målepunkts-ID** (18 cifre), hvis adressen har flere målere
+- **Dit forventede årsforbrug** i kWh, så du får et retvisende tilbud
+- **Ønsket startdato**, hvis du fx venter på, at en binding udløber
+
+## Fortrydelsesret og slutregning
+
+Indgår du aftalen online eller over telefonen, har du som udgangspunkt 14 dages fortrydelsesret efter forbrugeraftaleloven. Fortryder du, kan du altså trække dig uden begrundelse inden for fristen.
+
+Når skiftet er gennemført, sender dit gamle elselskab en slutregning for forbruget frem til skiftedatoen. Tjek, at:
+
+- perioden stopper på den dato, hvor det nye selskab overtog
+- der ikke er opkrævet gebyrer, du ikke var informeret om
+- et eventuelt tilgodehavende fra aconto-betalinger bliver udbetalt
 
 ## Kom i gang
 

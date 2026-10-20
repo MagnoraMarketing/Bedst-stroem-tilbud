@@ -50,7 +50,7 @@ export default function SideWidget() {
   return createPortal(
     <div
       role="dialog"
-      aria-label="Tilbud fra Billig-Elrengning.dk"
+      aria-label="Tilbud fra Billigelrengning.dk"
       className={`fixed bottom-5 left-5 z-[65] w-80 max-w-[calc(100vw-2.5rem)] rounded-2xl border border-border bg-white p-5 shadow-2xl transition-transform duration-500 ease-out ${
         slideIn ? "translate-x-0" : "-translate-x-[140%]"
       }`}

@@ -1,12 +1,12 @@
 ---
-title: "Sammenlign elpriser: Derfor betaler danskere for meget for strøm"
-seoTitle: "Derfor betaler danskere for meget for strøm"
+title: "Derfor betaler danskere for meget for strøm – 5 årsager"
+seoTitle: "Derfor betaler du for meget for strøm"
 description: "Mange danskere betaler for meget for strøm. Se de 5 mest almindelige årsager – fra gamle aftaler til skjulte gebyrer – og hvordan du undgår dem."
 excerpt: "Uopmærksomhed og gamle aftaler koster danskerne dyrt hvert år. Her er de typiske faldgruber."
 date: "2026-04-27"
-updated: "2026-10-14"
+updated: "2026-10-20"
 category: "Elpriser"
-keywords: ["betaler for meget for strøm", "sammenlign elpriser", "elpriser danmark", "dyr strøm", "skift elselskab"]
+keywords: ["betaler for meget for strøm", "dyr strøm", "for høj elregning", "gamle elaftaler", "for dyr elaftale"]
 summary:
   - "Den største årsag er inerti: Mange bliver siddende på en gammel elaftale i årevis."
   - "Fokus på kWh-prisen alene overser abonnementer og gebyrer, der gør aftalen dyrere."
@@ -41,6 +41,28 @@ Mange undlader at skifte elselskab, fordi de forventer, at det er en kompliceret
 ## 5. Man er ikke klar over prisforskellene mellem selskaber
 
 Fordi alle elselskaber transporterer strøm gennem det samme net og betaler samme afgifter, er det let at tro, at prisen er ens overalt. I virkeligheden sætter hvert elselskab sin egen avance og sine egne produkter, hvilket kan give betydelige prisforskelle ved præcis samme forbrug.
+
+## Hvad koster det at blive siddende?
+
+Små forskelle i tillæg og abonnement lyder ubetydelige, men de løber op. Et regneeksempel med fiktive, men realistiske tal for en husstand med et forbrug på 4.000 kWh om året:
+
+- **10 øre højere tillæg pr. kWh:** 400 kr. ekstra om året
+- **20 kr. højere abonnement pr. måned:** 240 kr. ekstra om året
+- **Samlet:** 640 kr. om året – eller over 3.000 kr. på fem år
+
+Og det er vel at mærke uden de gebyrer, prisstigninger efter en introperiode eller dyre fastpriser, der kan komme oveni. Det er præcis den slags beløb, der forsvinder ubemærket, fordi elregningen sjældent bliver gennemgået linje for linje.
+
+## Hurtig tjekliste: Betaler du for meget?
+
+Svar ærligt på disse fem spørgsmål:
+
+1. Ved du, hvad dit tillæg pr. kWh er?
+2. Har du sammenlignet elpriser inden for de seneste 12 måneder?
+3. Ved du, om din aftale er fastpris, variabel eller flexpris?
+4. Kender du dit årlige forbrug i kWh?
+5. Ved du, om du har binding – og hvornår den udløber?
+
+Svarer du nej til to eller flere, er der en god chance for, at du betaler mere end nødvendigt.
 
 ## Sådan undgår du at betale for meget
 

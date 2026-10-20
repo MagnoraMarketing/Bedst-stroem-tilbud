@@ -1,12 +1,12 @@
 ---
 title: "Sådan bruger du mindre strøm i hverdagen: 15 nemme tips"
-seoTitle: "Brug mindre strøm i hverdagen: 15 nemme tips"
+seoTitle: "Brug mindre strøm: 15 nemme tips"
 description: "15 nemme tips til at bruge mindre strøm i køkken, vaskerum, stue og varme – uden at gå på kompromis med komforten. Se hvordan små vaner sænker din elregning."
 excerpt: "Små justeringer i hverdagen kan give en mærkbar besparelse over et år. Her er 15 konkrete tips."
 date: "2026-06-15"
-updated: "2026-10-14"
+updated: "2026-10-20"
 category: "Spar penge"
-keywords: ["bruge mindre strøm", "spare strøm tips", "spar penge på strøm", "energibesparelse", "sænke elforbrug"]
+keywords: ["bruge mindre strøm", "spare strøm tips", "energibesparelse", "sænke elforbrug", "strømspare tips hverdag"]
 summary:
   - "Små vaneændringer i køkken, vaskerum og stue giver tilsammen en mærkbar besparelse."
   - "Standby-forbrug, gamle pærer og høje temperaturer er lavthængende frugter."
@@ -56,6 +56,24 @@ Enkeltvis lyder mange af disse tips som småting, men lagt sammen over et helt �
 ## Kombinér med en billigere elaftale
 
 De fleste af tipsene ovenfor giver den største effekt, når de kombineres med en konkurrencedygtig elpris. Selve elaftalen er ofte den enkeltstående faktor, der batter mest på den samlede regning. [Sammenlign priser fra danske elselskaber](/sammenlign-elpriser), og se om du kan finde en bedre aftale, samtidig med at du justerer dine vaner.
+
+## Din 4-ugers plan til et lavere forbrug
+
+Det er nemmere at ændre vaner én ad gangen end alle på én gang. Prøv denne plan:
+
+**Uge 1 – Find dit udgangspunkt.** Notér dit forbrug for en hel uge via din elmåler, dit netselskab eller Eloverblik.dk. Læg især mærke til forbruget om natten – det er dit grundforbrug.
+
+**Uge 2 – Køkken og vaskerum.** Fyld opvaskemaskinen helt, vask ved lavere temperatur, og brug eco-programmerne. Det er nogle af de nemmeste vaner at ændre.
+
+**Uge 3 – Standby og belysning.** Sæt stikdåser med afbryder på tv-hjørnet og computeren, og skift de sidste gamle pærer til LED.
+
+**Uge 4 – Varme og timing.** Skru en grad ned, luft kort og effektivt, og læg det fleksible forbrug i de billigste timer.
+
+Sammenlign derefter ugeforbruget med uge 1. Mange bliver overrasket over, hvor meget små ændringer kan flytte – og det motiverer til at holde fast.
+
+## Involvér hele husstanden
+
+De bedste spareråd virker kun, hvis alle i hjemmet følger dem. Gør det konkret og synligt: Hæng en lille seddel ved vaskemaskinen med de billigste tidspunkter, lad børnene få ansvar for at slukke for skærme og konsoller om aftenen, og del resultatet, når regningen falder. Når det bliver en fælles indsats, holder vanerne længere.
 
 ## Konklusion
 

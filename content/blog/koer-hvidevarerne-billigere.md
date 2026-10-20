@@ -1,12 +1,12 @@
 ---
 title: "Vaskemaskine, opvasker og tumbler: Sådan kører du dem langt billigere"
-seoTitle: "Vaskemaskine og tørretumbler: Kør dem billigere"
+seoTitle: "Vaskemaskine og tumbler: Kør dem billigere"
 description: "Kør vaskemaskine, opvasker og tørretumbler langt billigere: Vælg det rigtige tidspunkt, brug eco-programmer, og betal den rigtige strømpris."
 excerpt: "Det er ikke kun hvad du vasker, men hvornår og hvordan. Små ændringer i dine vaner kan gøre hvidevarerne markant billigere at bruge."
 date: "2026-09-24"
 updated: "2026-10-14"
 category: "Spar penge"
-keywords: ["hvornår er strøm billigst", "vaskemaskine strømforbrug", "tørretumbler strøm", "opvaskemaskine strøm", "spar strøm"]
+keywords: ["vaskemaskine strømforbrug", "tørretumbler strøm", "opvaskemaskine strøm", "hvidevarer billig strøm", "eco program strøm"]
 summary:
   - "Kør maskinerne om natten – kl. 17–21 er typisk de dyreste timer for både spotpris og nettarif."
   - "Eco-programmer, lavere temperatur og fyldte maskiner sparer mest pr. vask."

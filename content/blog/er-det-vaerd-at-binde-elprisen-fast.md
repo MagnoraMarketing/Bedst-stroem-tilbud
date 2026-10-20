@@ -1,10 +1,10 @@
 ---
 title: "Er det værd at binde din elpris fast et helt år?"
-seoTitle: "Er det værd at binde elprisen fast i et år?"
+seoTitle: "Binde elprisen fast? Fordele og ulemper"
 description: "Skal du binde din elpris fast? Se fordele og ulemper ved fastpris og binding, hvornår det giver mening, og hvordan du mindsker risikoen, før du skriver under."
 excerpt: "At binde elprisen fast giver forudsigelighed – men også en risiko for at gå glip af prisfald. Her er, hvad du bør overveje."
 date: "2026-04-06"
-updated: "2026-10-14"
+updated: "2026-10-20"
 category: "Elaftaler"
 keywords: ["binde elpris fast", "fastpris elaftale", "elaftale binding", "fastpris strøm", "bindingsperiode el"]
 summary:
@@ -53,6 +53,22 @@ Omvendt kan variabel pris være mere fordelagtig, hvis du kan tåle udsving og g
 - Vælg en kortere bindingsperiode, hvis muligt, for at bevare noget fleksibilitet.
 - Læs vilkårene for framelding grundigt, så du ved, hvad det koster at komme ud før tid.
 - Sammenlign flere fastprisaftaler, i stedet for at vælge den første, du støder på – se vores overblik over, hvordan du [sammenligner elpriser](/sammenlign-elpriser).
+
+## Hvad koster trygheden?
+
+En fastpris er i praksis en slags forsikring. Elselskabet påtager sig risikoen for, at markedsprisen stiger, og den risiko er typisk regnet med i prisen. Over en længere periode betaler man derfor ofte lidt mere for en fastpris end for en variabel pris – men til gengæld undgår man de dyre perioder.
+
+Et enkelt tankeeksperiment: Hvis en fastpris ligger 15 øre over den forventede gennemsnitlige spotpris, og du bruger 4.000 kWh om året, betaler du cirka 600 kr. om året for trygheden. Spørgsmålet er, om det er værd for dig at undgå risikoen for en vinter, hvor spotprisen pludselig stiger kraftigt.
+
+## 5 spørgsmål, før du binder dig
+
+1. Hvor længe gælder prisen, og hvad sker der, når perioden udløber?
+2. Er det kun selve elprisen, der er fast – eller også tillæg og abonnement?
+3. Hvad koster det at opsige aftalen før tid?
+4. Hvordan ligger fastprisen i forhold til den gennemsnitlige spotpris det seneste år?
+5. Ville din økonomi kunne klare en periode med markant højere elpriser uden fastpris?
+
+Husk også, at nettarif, elafgift og moms ikke er omfattet af en fastpris. De kan ændre sig, selvom din elpris er låst.
 
 ## Konklusion
 

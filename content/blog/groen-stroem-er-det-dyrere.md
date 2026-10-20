@@ -1,12 +1,12 @@
 ---
 title: "Grøn strøm: Er det dyrere at vælge vedvarende energi?"
-seoTitle: "Grøn strøm: Er det dyrere end almindelig strøm?"
+seoTitle: "Er grøn strøm dyrere end almindelig strøm?"
 description: "Koster grøn strøm mere? Se hvad grøn strøm og oprindelsesgarantier betyder, og hvordan du finder et tilbud, der er både grønt og billigt."
 excerpt: "Mange tror stadig, at grøn strøm koster ekstra. Sådan hænger det faktisk sammen."
 date: "2026-06-29"
-updated: "2026-10-14"
+updated: "2026-10-20"
 category: "Grøn strøm"
-keywords: ["grøn strøm", "er grøn strøm dyrere", "oprindelsesgaranti", "vedvarende energi", "billig grøn strøm"]
+keywords: ["grøn strøm", "er grøn strøm dyrere", "oprindelsesgaranti", "grøn elaftale", "billig grøn strøm"]
 summary:
   - "Grøn strøm betyder typisk, at elselskabet køber oprindelsesgarantier svarende til dit forbrug."
   - "Mange elselskaber tilbyder grøn strøm uden eller med et lille tillæg."
@@ -43,6 +43,25 @@ Det er en misforståelse, at man skal vælge mellem "billigst" og "grønnest". M
 ## Er grøn strøm bedre for klimaet?
 
 At vælge grøn strøm og oprindelsesgarantier sender et markedssignal om efterspørgsel efter vedvarende energi, hvilket over tid kan understøtte investeringer i mere grøn produktion. Den enkeltstående mest effektive handling er dog stadig generelt at reducere sit elforbrug – se vores tips til, [hvordan du bruger mindre strøm i hverdagen](/blog/saadan-bruger-du-mindre-stroem-i-hverdagen).
+
+## Ikke al grøn strøm er lige grøn
+
+Selvom de fleste grønne elaftaler bygger på oprindelsesgarantier, er der forskel på, hvad du får for pengene:
+
+- **Standard oprindelsesgarantier:** Garantier fra eksisterende anlæg, fx ældre vandkraftværker i Norden. De er billige, men har begrænset betydning for, om der bygges ny vedvarende energi.
+- **Garantier fra danske anlæg:** Nogle selskaber tilbyder strøm dokumenteret fra danske vind- eller solcelleanlæg. Det kan koste lidt mere.
+- **Strøm fra nye anlæg:** Enkelte produkter er knyttet til, at der bygges ny kapacitet. Det er det, der kaldes "additionalitet", og det har den største klimaeffekt.
+
+## Sådan tjekker du et grønt tilbud
+
+Stil disse spørgsmål til elselskabet:
+
+1. Er strømmen dokumenteret med oprindelsesgarantier – og fra hvilke typer anlæg og lande?
+2. Hvor meget koster den grønne del ekstra pr. kWh eller pr. måned?
+3. Bidrager produktet til, at der bygges ny vedvarende energi?
+4. Kan du til- og fravælge den grønne del uden at skifte hele aftalen?
+
+Så kan du træffe et valg, der både passer til din pengepung og dine klimaambitioner.
 
 ## Konklusion
 

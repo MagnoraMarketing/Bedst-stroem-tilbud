@@ -1,12 +1,12 @@
 ---
 title: "Derfor stiger din elregning – selvom elprisen falder"
-seoTitle: "Nettarif: Derfor stiger elregningen trods lav elpris"
+seoTitle: "Nettarif: Derfor stiger din elregning"
 description: "Hvorfor stiger elregningen, selvom spotprisen falder? Se hvordan nettarif og tidsdifferentierede tariffer påvirker regningen – og 4 måder at modvirke det."
 excerpt: "Nyhederne siger, at strømmen er blevet billigere. Din elregning siger noget andet. Her er forklaringen – og den del, du faktisk kan gøre noget ved."
 date: "2026-09-21"
 updated: "2026-10-14"
 category: "Elpriser"
-keywords: ["nettarif", "elregning stiger", "transport af strøm", "tidsdifferentierede tariffer", "stigende elpriser", "elregning forklaret"]
+keywords: ["nettarif", "elregning stiger", "transport af strøm", "tidsdifferentierede tariffer", "spidslast tarif"]
 summary:
   - "Elprisen er kun én del af regningen – nettarif, abonnementer, afgifter og moms udgør resten."
   - "Tidsdifferentierede tariffer gør strømmen dyrest at transportere i spidslasten kl. 17–21."

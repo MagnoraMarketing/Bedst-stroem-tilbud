@@ -1,12 +1,12 @@
 ---
 title: "Timeafregning: Sådan sparer du ved at flytte dit elforbrug"
-seoTitle: "Timeafregning: Spar ved at flytte dit elforbrug"
+seoTitle: "Timeafregning: Spar ved at flytte forbrug"
 description: "Hvad er timeafregning, og hvem sparer mest? Se hvordan du flytter elforbruget til de billigste timer med elbil, varmepumpe og hvidevarer."
 excerpt: "Timeafregning belønner dig for at bruge strøm på de rigtige tidspunkter. Sådan kommer du i gang."
 date: "2026-05-11"
-updated: "2026-10-14"
+updated: "2026-10-20"
 category: "Spar penge"
-keywords: ["timeafregning", "flyt elforbrug", "timeafregning el", "billige timer strøm", "spar penge på strøm"]
+keywords: ["timeafregning", "flyt elforbrug", "timeafregning el", "billige timer strøm", "afregning time for time"]
 summary:
   - "Med timeafregning betaler du spotprisen for netop de timer, du bruger strøm i."
   - "Størst gevinst har husstande med elbil, varmepumpe eller fleksible hvidevarer."
@@ -50,6 +50,22 @@ De fleste oplever, at det kræver en kort tilvænningsperiode, men at det hurtig
 ## Kombinér med den rigtige elaftale
 
 Timeafregning giver kun mening, hvis din elaftale reelt afspejler prisudsving time for time. Sørg for at [sammenligne elselskaber](/sammenlign-elpriser), der tilbyder gennemsigtig variabel eller flexpris, så du er sikker på, at din indsats med at flytte forbrug rent faktisk kan mærkes på regningen.
+
+## Sådan kan en dag med timeafregning se ud
+
+Her er et eksempel på, hvordan en familie med elbil og varmepumpe kan planlægge et typisk døgn:
+
+- **Om natten:** Elbilen lader automatisk i de billigste timer, og opvaskemaskinen fra aftensmaden kører med udskudt start.
+- **Om morgenen:** Varmepumpen har varmet huset lidt ekstra op i nattens billige timer, så den ikke skal arbejde hårdt i morgentoppen.
+- **Midt på dagen:** Vaskemaskinen kører, mens familien er på arbejde – især på solrige eller blæsende dage, hvor prisen ofte er lav.
+- **Sidst på eftermiddagen og om aftenen:** Familien undgår at starte tørretumbler og andre store forbrugere, fordi både spotpris og nettarif typisk er højest.
+
+## Faldgruber at være opmærksom på
+
+- **At kigge på spotprisen alene:** Nettariffen kan ændre billedet, især i spidslasttimerne. Se på den samlede pris.
+- **At gå på kompromis med komforten:** Skal du stå op om natten for at starte vaskemaskinen, holder vanen sjældent. Brug timere og automatisk styring.
+- **At glemme brandsikkerheden:** Lad ikke tørretumbleren køre om natten uden opsyn, og følg producentens anvisninger.
+- **At have den forkerte aftale:** Timeafregning giver kun fuld effekt, hvis du har en variabel elaftale, der afregner efter dit faktiske forbrug time for time.
 
 ## Konklusion
 

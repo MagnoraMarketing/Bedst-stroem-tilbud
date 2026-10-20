@@ -4,9 +4,9 @@ seoTitle: "DK1 vs. DK2: Derfor er elprisen forskellig"
 description: "Hvad er forskellen på DK1 og DK2? Se hvorfor elprisen kan være forskellig i Vest- og Østdanmark, og hvad det betyder for din elregning og dit valg af elselskab."
 excerpt: "Vestdanmark og Østdanmark har hver deres spotpris. Her er forklaringen på, hvorfor der er forskel."
 date: "2026-04-13"
-updated: "2026-10-14"
+updated: "2026-10-20"
 category: "Elpriser"
-keywords: ["DK1 DK2", "DK1 og DK2 forskel", "elpriser øst vest", "elprisområder danmark", "spotpris"]
+keywords: ["DK1 DK2", "DK1 og DK2 forskel", "elpriser øst vest", "elprisområder danmark", "elpris Jylland Sjælland"]
 summary:
   - "DK1 dækker Jylland og Fyn, DK2 dækker Sjælland og øerne."
   - "Spotprisen kan variere mellem områderne, fordi de har forskellige udlandsforbindelser og produktion."
@@ -49,6 +49,24 @@ De fleste elselskaber og prisoversigter viser spotprisen opdelt på DK1 og DK2, 
 ## Bliver forskellen mellem DK1 og DK2 mindre over tid?
 
 I takt med at elnettet og forbindelserne mellem øst og vest styrkes, kan forskellen mellem de to prisområder blive mindre markant over tid. Indtil videre er det dog stadig relevant at være opmærksom på, hvilket område du hører til, når du følger med i elpriserne.
+
+## Hvad betyder prisområdet, når du sammenligner tilbud?
+
+Når du sammenligner elaftaler, er det vigtigt at sammenligne priser for dit eget prisområde. Det gælder især for:
+
+- **Variabel pris:** Du betaler spotprisen for DK1 eller DK2 plus elselskabets tillæg. Tillægget er ofte det samme i hele landet, men selve spotprisen følger dit område.
+- **Fastpris:** Elselskabet køber strøm ind til en fast pris for dit område. Fastprisen kan derfor være forskellig, alt efter om du bor øst eller vest for Storebælt.
+- **Prisoversigter og apps:** Tjek, at den app eller hjemmeside, du bruger til at følge elprisen, viser priser for det rigtige område. Mange viser DK1 som standard.
+
+## Hvornår skiller priserne sig mest ud?
+
+Over et helt år ligger gennemsnitspriserne i DK1 og DK2 ofte tæt på hinanden, men på enkeltdage kan forskellen være stor. Typisk sker det, når:
+
+- det blæser kraftigt i Vestdanmark, mens der er mindre vind i øst – så kan DK1 være markant billigere
+- forbindelserne mellem områderne eller til nabolandene er begrænsede, fx på grund af vedligeholdelse
+- der er stor forskel på prisniveauet i nabolandene, fx mellem Sverige og Tyskland
+
+For dig som forbruger betyder det, at du ikke kan sammenligne direkte med en ven eller et familiemedlem i den anden del af landet. Sammenlign i stedet med tilbud for din egen adresse.
 
 ## Konklusion
 

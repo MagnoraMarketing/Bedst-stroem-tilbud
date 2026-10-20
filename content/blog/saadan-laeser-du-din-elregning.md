@@ -1,12 +1,12 @@
 ---
 title: "Sådan læser du din elregning – undgå at blive snydt"
-seoTitle: "Sådan læser du din elregning – trin for trin"
+seoTitle: "Sådan læser du din elregning"
 description: "Forstå din elregning post for post: forbrug, kWh-pris, abonnement, nettarif, elafgift og moms. Se hvordan du tjekker, om du betaler for meget for din strøm."
 excerpt: "En elregning kan virke uoverskuelig ved første øjekast. Her lærer du at afkode den, post for post."
 date: "2026-04-20"
-updated: "2026-10-14"
+updated: "2026-10-20"
 category: "Elaftaler"
-keywords: ["læse elregning", "elregning forklaret", "forstå elregning", "elpris", "elregning poster"]
+keywords: ["læse elregning", "forstå elregning", "elregning poster", "aconto elregning", "elregning forklaret"]
 summary:
   - "Elregningen viser forbrug, kWh-pris, abonnement, nettarif, elafgift og moms."
   - "Sammenlign din kWh-pris og dit abonnement med aktuelle tilbud for at se, om du betaler for meget."
@@ -62,6 +62,25 @@ Har du en variabel elaftale, følger prisen markedet, hvilket betyder, at regnin
 ## Hvad hvis noget virker forkert?
 
 Hvis du oplever store, uforklarlige udsving i din regning, bør du kontakte dit elselskab direkte for en forklaring. De kan gennemgå din faktura post for post og forklare eventuelle afvigelser.
+
+## Aconto eller faktisk forbrug?
+
+Mange husstande betaler aconto – et fast beløb, der er beregnet ud fra et forventet forbrug. En gang om året (eller oftere) laves en opgørelse, hvor dit faktiske forbrug sammenlignes med det, du har betalt:
+
+- **Har du betalt for meget**, får du penge tilbage eller modregnet i de næste betalinger.
+- **Har du betalt for lidt**, skal du betale en efterregulering.
+
+Har din husstand ændret sig – fx flere personer, elbil eller varmepumpe – bør du bede om at få justeret aconto-beløbet, så du undgår en stor efterregning. Mange elselskaber afregner i dag i stedet månedsvis efter dit faktiske forbrug, og så er regningen mere retvisende fra måned til måned.
+
+## Gem dine regninger
+
+Dine elregninger er det bedste grundlag, når du skal sammenligne elpriser. Gem som minimum den seneste årsopgørelse, og notér:
+
+1. dit årlige forbrug i kWh
+2. dit tillæg pr. kWh og dit månedlige abonnement
+3. hvilken aftaletype du har, og om der er binding
+
+Med de tre oplysninger kan du på få minutter se, om et nyt tilbud reelt er billigere end din nuværende aftale.
 
 ## Kom videre
 

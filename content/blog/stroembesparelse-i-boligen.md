@@ -1,10 +1,10 @@
 ---
 title: "Strømbesparelse i boligen: Varmepumpe, hvidevarer og standby"
-seoTitle: "Strømbesparelse i boligen: Varmepumpe og standby"
+seoTitle: "Strømbesparelse i boligen: De største greb"
 description: "Hvor bruger din bolig mest strøm? Få konkrete råd til strømbesparelse på varmepumpe, hvidevarer, standby og belysning – og se, hvor du sparer mest."
 excerpt: "De fleste husstandes elforbrug er koncentreret om nogle få apparater. Her får du overblikket over, hvor du kan spare mest."
 date: "2026-05-04"
-updated: "2026-10-14"
+updated: "2026-10-20"
 category: "Spar penge"
 keywords: ["strømbesparelse", "spare strøm i boligen", "varmepumpe strøm", "standby strøm", "LED besparelse"]
 summary:
@@ -54,6 +54,23 @@ LED-pærer bruger markant mindre strøm end ældre pæretyper og har en betydeli
 ## Sådan prioriterer du
 
 Start med de områder, der fylder mest i dit specifikke hjem. Har du varmepumpe, er det typisk her, den største besparelse ligger. Har du derimod mange elektroniske apparater, kan standby-forbrug være værd at kigge nærmere på. Se flere konkrete tips i vores artikel om, [hvordan du bruger mindre strøm i hverdagen](/blog/saadan-bruger-du-mindre-stroem-i-hverdagen).
+
+## Lejlighed eller hus – forskellige sparegreb
+
+Hvor du kan spare mest, afhænger meget af boligtypen:
+
+- **I en lejlighed** er forbruget typisk lavere, og varmen kommer oftest fra fjernvarme. De største greb er derfor hvidevarer, standby og belysning. Her kan selv små ændringer udgøre en stor procentdel af regningen.
+- **I et hus med elvarme eller varmepumpe** er opvarmningen næsten altid den største post. Isolering, tætning og den rigtige indstilling af varmepumpen giver mest.
+- **I et hus med fjernvarme eller gas** ligner forbruget mere en lejligheds, men med flere kvadratmeter at belyse og ofte flere apparater, fx fryser i bryggerset og pumper i varmesystemet.
+
+## Små investeringer med hurtig tilbagebetaling
+
+Nogle tiltag koster næsten ingenting og tjener sig hurtigt hjem:
+
+- **LED-pærer:** Bruger en brøkdel af strømmen sammenlignet med gamle glødepærer og holder mange gange længere.
+- **Stikdåser med afbryder:** Gør det nemt at slukke helt for tv, konsoller og computerudstyr.
+- **Timerstik:** Til fx varmekabler, akvariepumper og opladere, så de kun kører, når der er brug for dem.
+- **Energimåler til stikkontakten:** Afslører, hvilke apparater der bruger mest – og gør det nemmere at prioritere.
 
 ## Glem ikke selve elaftalen
 

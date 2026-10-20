@@ -4,9 +4,9 @@ seoTitle: "Elbil og elpriser: Sådan lader du billigst"
 description: "Sådan lader du din elbil billigst: Vælg den rigtige elaftale, lad om natten når spotprisen er lav, og brug smart ladeboks. Se alle tips til billig opladning."
 excerpt: "Opladning af elbil kan udgøre en stor del af elregningen. Her er, hvordan du lader smartest og billigst."
 date: "2026-05-18"
-updated: "2026-10-14"
+updated: "2026-10-20"
 category: "Spar penge"
-keywords: ["lade elbil billigt", "elbil elpriser", "billig opladning elbil", "hvornår er det billigst at lade elbil", "spar penge på strøm"]
+keywords: ["lade elbil billigt", "elbil elpriser", "billig opladning elbil", "hvornår er det billigst at lade elbil", "ladeboks spotpris"]
 summary:
   - "Med elbil fylder kWh-prisen mere end abonnementet – vælg en aftale med lavt tillæg pr. kWh."
   - "Lad i de billige timer, typisk om natten, og undgå spidslasttimerne kl. 17–21."
@@ -47,6 +47,23 @@ Fordi opladning ofte kan planlægges fleksibelt, vælger mange elbilsejere en va
 - Lad kun op til det niveau, du reelt har brug for i hverdagen, medmindre du skal ud at køre langt.
 - Hold øje med, om dit boligforening eller din arbejdsplads tilbyder ladeløsninger til favorable priser.
 - Overvej solceller, hvis din bolig egner sig til det, som et supplement til opladning i dagtimerne.
+
+## Hvad koster det at lade elbilen?
+
+Et forenklet regnestykke: Kører du 15.000 km om året i en elbil, der bruger omkring 18 kWh pr. 100 km, lader du cirka 2.700 kWh om året. Det kan nemt fordoble strømforbruget i en almindelig husstand.
+
+Derfor betyder både tidspunktet og elaftalen meget:
+
+- **Tidspunktet:** Er strømmen i gennemsnit 1 kr. billigere pr. kWh om natten end i spidslasttimerne sidst på eftermiddagen, sparer du omkring 2.700 kr. om året ved at lade om natten.
+- **Tillægget:** Forskellen på et tillæg på 5 øre og 25 øre pr. kWh er 540 kr. om året på opladningen alene.
+- **Ladetab:** Regn med, at en del af strømmen går tabt som varme under opladningen. Lader du med en almindelig stikkontakt, er tabet typisk større end med en ladeboks.
+
+## Det skal du se efter i en ladeboks
+
+- **Smart styring efter spotpris:** Boksen eller bilens app bør kunne starte opladningen automatisk i de billigste timer.
+- **Planlægning efter afgangstid:** Du angiver, hvornår bilen skal være klar, og systemet finder de billigste timer frem til da.
+- **Effektstyring:** Fordeler strømmen, så du ikke overbelaster husets hovedsikring, når fx komfur og varmepumpe også kører.
+- **Overblik over forbrug:** Gør det nemt at se, hvor meget opladningen faktisk koster.
 
 ## Konklusion
 

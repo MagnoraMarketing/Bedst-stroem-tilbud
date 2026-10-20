@@ -6,7 +6,7 @@ excerpt: "Mange tror, de har et helt normalt strømforbrug – indtil de sammenl
 date: "2026-09-27"
 updated: "2026-10-14"
 category: "Spar penge"
-keywords: ["gennemsnitligt strømforbrug", "normalt elforbrug", "strømforbrug husstand", "kWh om året", "strømforbrug 1 person", "spare strøm"]
+keywords: ["gennemsnitligt strømforbrug", "normalt elforbrug", "strømforbrug husstand", "kWh om året", "strømforbrug 1 person"]
 summary:
   - "En familie i hus uden elvarme og elbil bruger typisk ca. 3.500–5.000 kWh om året."
   - "Varmepumpe og elbil kan løfte forbruget med flere tusinde kWh."

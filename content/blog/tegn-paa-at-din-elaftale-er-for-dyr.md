@@ -6,7 +6,7 @@ excerpt: "Når elpriserne stiger, er det de dyre aftaler, der gør mest ondt. Ge
 date: "2026-09-28"
 updated: "2026-10-14"
 category: "Elpriser"
-keywords: ["dyr elaftale", "elpriser stiger", "betaler for meget for strøm", "stigende elpriser", "skift elselskab"]
+keywords: ["dyr elaftale", "elaftale for dyr", "tjek din elaftale", "elpriser stiger", "advarselstegn elaftale"]
 summary:
   - "Har du ikke skiftet eller genforhandlet i over 2 år, betaler du sandsynligvis for meget."
   - "Kender du ikke dit tillæg og abonnement, har du ikke sammenlignet – og det koster."

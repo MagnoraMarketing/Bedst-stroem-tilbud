@@ -1,12 +1,12 @@
 ---
 title: "Billig strøm: Sådan finder du det billigste elselskab"
-seoTitle: "Billig strøm: Find det billigste elselskab"
+seoTitle: "Billig strøm: Sådan finder du den"
 description: "Sådan finder du billig strøm: Regn totalprisen ud, tjek binding og gebyrer, og sammenlign friske tilbud. Se hvilket elselskab der er billigst for dig."
 excerpt: "Billig strøm handler om mere end kWh-prisen alene. Her er de faktorer, der reelt afgør, hvad du ender med at betale."
 date: "2026-08-03"
-updated: "2026-10-14"
+updated: "2026-10-20"
 category: "Elselskaber"
-keywords: ["billig strøm", "billigste elselskab", "billigste strøm", "billig el", "elselskaber"]
+keywords: ["billig strøm", "billigste strøm", "billig el", "billig strøm guide", "billig elaftale"]
 summary:
   - "Hvilket elselskab der er billigst, afhænger af dit forbrug – lavt forbrug favoriserer lavt abonnement, højt forbrug lav kWh-pris."
   - "Regn den årlige totalpris ud: forbrug × kWh-pris + abonnement × 12 + gebyrer."
@@ -47,6 +47,32 @@ Prisen er vigtig, men ikke det eneste. Nogle vælger bevidst et elselskab med go
 ## Sådan kommer du videre
 
 Den mest pålidelige metode til at finde det aktuelt billigste elselskab for dig er at indhente friske, tilpassede tilbud i stedet for at stole på generelle ranglister. Se vores overblik over, hvordan du finder [det billigste elselskab lige nu](/billigste-elselskab), og kom i gang med at sammenligne.
+
+## Regneeksempel: Abonnement eller tillæg?
+
+Forestil dig to fiktive tilbud på variabel pris:
+
+| | Tilbud A | Tilbud B |
+|---|---|---|
+| Abonnement | 0 kr./md. | 29 kr./md. |
+| Tillæg pr. kWh | 20 øre | 5 øre |
+| Pris ved 1.500 kWh/år | 300 kr. | 423 kr. |
+| Pris ved 5.000 kWh/år | 1.000 kr. | 598 kr. |
+
+(Spotprisen er den samme i begge tilbud og er derfor ikke medregnet.)
+
+Med et lavt forbrug er tilbud A billigst, fordi du slipper for abonnementet. Med et højt forbrug vinder tilbud B, fordi det lave tillæg betyder mest. Skæringspunktet ligger i eksemplet ved cirka 2.300 kWh om året. Pointen er, at "billigst" altid afhænger af dit eget forbrug – derfor skal du sammenligne med dit faktiske årsforbrug i hånden.
+
+## Hvornår skal du tjekke prisen igen?
+
+Billig strøm i dag er ikke nødvendigvis billig strøm om et år. Sæt et tjek i kalenderen, når:
+
+- din binding eller introduktionsrabat udløber
+- dit elselskab sender et prisvarsel
+- dit forbrug ændrer sig, fx ved køb af elbil eller varmepumpe
+- du flytter til en ny bolig
+
+Et årligt tjek tager få minutter og sikrer, at du ikke langsomt glider over på en dyr aftale.
 
 ## Konklusion
 

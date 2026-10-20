@@ -6,7 +6,7 @@ excerpt: "Mange husker energikrisen. Spørgsmålet er ikke, om elpriserne stiger
 date: "2026-09-17"
 updated: "2026-10-14"
 category: "Elpriser"
-keywords: ["prischok strøm", "elpriser stiger igen", "beskyt dig mod høje elpriser", "fastpris strøm", "stigende elpriser"]
+keywords: ["prischok strøm", "elpriser stiger igen", "beskyt dig mod høje elpriser", "elkrise", "sikre sig mod høje elpriser"]
 summary:
   - "Vindstille kulde, tørre år i Norden og uro på gasmarkedet kan sende elprisen hurtigt op."
   - "Husstande med højt aftenforbrug, elvarme, elbil eller dyre tillæg rammes hårdest."
