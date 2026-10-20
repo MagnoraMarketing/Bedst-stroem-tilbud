@@ -4,9 +4,9 @@ seoTitle: "Sådan er din elregning sat sammen"
 description: "Hvad betaler du for på elregningen? Se fordelingen mellem elpris, transport, elafgift og moms – og hvilken del du selv kan påvirke ved at skifte elselskab."
 excerpt: "Din elregning består af flere dele, og kun én af dem kan du reelt påvirke ved at skifte elselskab. Her er overblikket."
 date: "2026-06-08"
-updated: "2026-10-14"
+updated: "2026-10-20"
 category: "Elpriser"
-keywords: ["elregning", "elafgift", "elpris", "hvad består elregningen af", "transport strøm"]
+keywords: ["elregning", "elafgift", "hvad består elregningen af", "elpris", "nettarif og elafgift"]
 summary:
   - "Elregningen består af elpris, transport (nettarif), elafgift og moms."
   - "Transport og elafgift er ens, uanset hvilket elselskab du vælger."
@@ -51,6 +51,26 @@ De fleste elregninger opdeler posterne tydeligt, så du kan se, hvor meget du be
 ## Eksempel på fordelingen
 
 Som tommelfingerregel udgør elprisen typisk omkring en tredjedel af den samlede regning, mens afgifter, transport og moms udgør resten. Den præcise fordeling varierer dog afhængigt af dit forbrug, din bopæl og det aktuelle prisniveau på elmarkedet.
+
+## Hvilke dele kan du selv påvirke?
+
+| Post | Hvem bestemmer prisen? | Kan du påvirke den? |
+|---|---|---|
+| Elpris og tillæg | Elselskabet og elmarkedet | Ja – ved at vælge elselskab, aftaletype og tidspunkt for forbruget |
+| Abonnement | Elselskabet | Ja – ved at vælge et selskab med lavt eller intet abonnement |
+| Nettarif | Dit netselskab (reguleret) | Delvist – kun ved at flytte forbrug væk fra spidslasttimerne |
+| Elafgift | Staten | Nej – kun ved at bruge mindre strøm |
+| Moms | Staten | Nej – men den beregnes af alle de andre poster |
+
+Tabellen viser, hvorfor det kan betale sig at fokusere på elprisen og tidspunktet for dit forbrug: Det er de eneste dele, hvor dine valg giver direkte udslag.
+
+## Elselskab, netselskab og Energinet – hvem gør hvad?
+
+- **Elselskabet** sælger dig strømmen og sender regningen. Det er her, du har frit valg.
+- **Netselskabet** ejer kablerne og elmåleren i dit område og står for at transportere strømmen hjem til dig. Du kan ikke vælge netselskab – det afhænger af din adresse.
+- **Energinet** driver det overordnede elnet i Danmark og datahubben, hvor alle måledata samles. Deres tarif indgår i den samlede transportpris.
+
+Når du kender rollefordelingen, er det nemmere at vide, hvem du skal kontakte, hvis noget på regningen ser forkert ud.
 
 ## Konklusion
 

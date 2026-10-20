@@ -1,12 +1,12 @@
 ---
 title: "Solceller og elpriser: Kan det betale sig i 2026?"
-seoTitle: "Solceller og elpriser: Kan det betale sig i 2026?"
+seoTitle: "Kan solceller betale sig i 2026?"
 description: "Kan solceller betale sig i 2026? Se hvordan solceller spiller sammen med din elaftale, hvem der får mest ud af dem, og om et batteri er værd at overveje."
 excerpt: "Solceller kan sænke din elregning markant – men det afhænger af din elaftale og dit forbrugsmønster. Her er, hvad du skal vide."
 date: "2026-08-11"
-updated: "2026-10-14"
+updated: "2026-10-20"
 category: "Grøn strøm"
-keywords: ["solceller", "kan solceller betale sig", "solceller og elpriser", "solceller 2026", "grøn strøm"]
+keywords: ["solceller", "kan solceller betale sig", "solceller og elpriser", "solceller 2026", "egetforbrug solceller"]
 summary:
   - "Solceller betaler sig bedst, når du kan bruge en stor del af strømmen selv i dagtimerne."
   - "Afregning af overskudsstrøm afhænger af elselskabets vilkår – sammenlign dem."
@@ -45,6 +45,24 @@ En stigende trend er at kombinere solceller med et hjemmebatteri, så overskudsp
 ## Er grøn strøm fra solceller "grønnere" end grøn strøm fra elselskabet?
 
 Begge dele bidrager til den grønne omstilling, men på forskellige måder. Solceller producerer strøm direkte til dit eget forbrug, mens et grønt produkt fra dit elselskab er baseret på oprindelsesgarantier. Har du ikke mulighed for at installere solceller selv, kan et grønt elprodukt være et godt alternativ – se om [grøn strøm er dyrere](/blog/groen-stroem-er-det-dyrere) end almindelig strøm.
+
+## Egetforbruget er nøglen til økonomien
+
+Den vigtigste faktor for, om solceller kan betale sig, er hvor stor en del af strømmen du selv bruger. Det skyldes, at strøm, du selv bruger, og strøm, du sælger, er meget forskelligt værd:
+
+- **Strøm, du selv bruger,** sparer dig for hele prisen: spotpris, tillæg, nettarif, elafgift og moms.
+- **Strøm, du sælger til nettet,** giver dig typisk kun spotprisen – ofte minus et gebyr til det selskab, der køber den. Og når solen skinner, er spotprisen ofte lav, fordi mange andre solceller også producerer.
+
+Derfor kan det betale sig at flytte forbruget til de solrige timer: Kør opvaskemaskine og vaskemaskine midt på dagen, lad elbilen, når solen står højt, og lad varmepumpen eller varmtvandsbeholderen varme op i dagtimerne.
+
+## Elaftale for solcelleejere – det skal du tjekke
+
+Har du solceller, er det ikke nok at kigge på prisen for den strøm, du køber. Tjek også:
+
+1. Hvad får du for den strøm, du sælger – og hvilket gebyr trækkes fra?
+2. Afregnes salget time for time efter spotprisen?
+3. Er der et ekstra abonnement for at være solcelleejer?
+4. Passer aftaletypen til dit forbrugsmønster? Med solceller vil en variabel pris ofte passe bedre end en fastpris, fordi du kan udnytte de billige timer.
 
 ## Sådan kommer du videre
 

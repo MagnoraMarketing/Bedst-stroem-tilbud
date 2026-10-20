@@ -1,12 +1,12 @@
 ---
 title: "10 myter om elpriser, du bør stoppe med at tro på"
-seoTitle: "10 myter om elpriser, du bør stoppe med at tro på"
+seoTitle: "10 myter om elpriser – og fakta"
 description: "Er det besværligt at skifte elselskab? Har alle samme pris? Vi afliver 10 udbredte myter om elpriser, der koster danskere penge – og giver dig fakta i stedet."
 excerpt: "Der florerer mange misforståelser om elpriser. Her går vi 10 af de mest udbredte myter efter i sømmene."
 date: "2026-03-30"
 updated: "2026-10-14"
 category: "Elpriser"
-keywords: ["myter om elpriser", "elpriser danmark", "elselskab myter", "skifte elselskab", "elpris fakta"]
+keywords: ["myter om elpriser", "elpriser danmark", "elselskab myter", "elpris fakta", "misforståelser elpris"]
 summary:
   - "Elselskaberne har ikke samme pris – tillæg, abonnement og gebyrer varierer betydeligt."
   - "Det tager under 5 minutter at skifte elselskab, og strømmen bliver ikke afbrudt."

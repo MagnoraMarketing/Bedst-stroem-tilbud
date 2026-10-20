@@ -1,12 +1,12 @@
 ---
 title: "Elpriser om vinteren: Sådan undgår du en kæmpe elregning"
-seoTitle: "Elpriser om vinteren: Undgå en kæmpe elregning"
+seoTitle: "Elpriser om vinteren: Undgå høj elregning"
 description: "Hvorfor er strøm dyrere om vinteren? Få forklaringen og 4 konkrete råd til at undgå en kæmpe elregning, når kulden sætter ind og forbruget stiger."
 excerpt: "Koldere vejr betyder ofte højere elpriser og højere forbrug samtidig. Her er, hvordan du holder vinterregningen nede."
 date: "2026-08-13"
-updated: "2026-10-14"
+updated: "2026-10-20"
 category: "Elpriser"
-keywords: ["elpriser vinter", "elregning vinter", "strømpriser vinter", "spar strøm om vinteren", "spar penge på strøm om vinteren"]
+keywords: ["elpriser vinter", "elregning vinter", "strømpriser vinter", "spar strøm om vinteren", "vinter elforbrug"]
 summary:
   - "Om vinteren stiger både forbruget og ofte elprisen – mindre sol og vindstille kulde presser priserne op."
   - "Sikr dig en konkurrencedygtig elaftale, før kulden rammer, fordi en dyr aftale koster mest i vintermånederne."
@@ -51,6 +51,25 @@ Har du en elaftale med variabel pris, kan du stadig udnytte prisudsving hen over
 ## Skab et realistisk budget
 
 Fordi elregningen naturligt er højere om vinteren, kan det være en god idé at afsætte lidt ekstra i budgettet til denne periode i stedet for at blive overrasket. Mange elselskaber tilbyder også en jævn, aconto-baseret betaling hen over året, så udsvingene føles mindre.
+
+## Typiske vinterfælder på elregningen
+
+Det er sjældent én ting, der får vinterregningen til at stige. Oftest er det flere små vaner, der lægger sig oven i hinanden:
+
+- **Ekstra varmeblæsere og elradiatorer:** Bruges de i stedet for husets almindelige varmekilde, kan de blive en af de dyreste ting i hjemmet.
+- **Gulvvarme og varmekabler:** Står de tændt døgnet rundt – også når ingen er hjemme – bruger de meget strøm.
+- **Tørretumbleren:** Om vinteren tørrer tøjet langsommere udenfor, og mange bruger tumbleren dagligt.
+- **Belysning:** Flere mørke timer betyder mere lys. Har du stadig gamle pærer, er vinteren det tidspunkt, hvor det koster mest.
+- **Aconto, der ikke passer:** Betaler du aconto ud fra sommerforbruget, kan efterreguleringen blive en ubehagelig overraskelse.
+
+## Sådan får du mest ud af varmepumpen om vinteren
+
+Har du en luft-til-luft- eller luft-til-vand-varmepumpe, er den typisk det største strømforbrug om vinteren:
+
+- Hold en jævn temperatur i stedet for at skrue meget ned om natten og op igen om morgenen – store udsving kan koste mere end de sparer.
+- Rens filtrene jævnligt. Tilstoppede filtre får pumpen til at arbejde hårdere.
+- Hold udedelen fri for sne og blade.
+- Kan pumpen styres efter spotprisen, så lad den varme lidt ekstra op i de billige timer.
 
 ## Kom godt gennem vinteren
 

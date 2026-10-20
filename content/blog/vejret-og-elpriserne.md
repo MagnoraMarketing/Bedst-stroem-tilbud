@@ -4,9 +4,9 @@ seoTitle: "Sådan påvirker vejret elpriserne"
 description: "Vind, sol, regn og kulde påvirker elprisen fra dag til dag. Se hvordan vejret styrer spotprisen i Danmark, og hvordan du bruger det til billigere strøm."
 excerpt: "Danmark og Norden er tæt forbundet til vejret, når det gælder elpriser. Her er sammenhængen forklaret enkelt."
 date: "2026-05-25"
-updated: "2026-10-14"
+updated: "2026-10-20"
 category: "Elpriser"
-keywords: ["elpriser og vejr", "elpriser vind", "vindkraft elpris", "spotpris", "hvorfor svinger elprisen"]
+keywords: ["elpriser og vejr", "elpriser vind", "vindkraft elpris", "hvorfor svinger elprisen", "negative elpriser"]
 summary:
   - "Meget vind presser elprisen ned, mens vindstille perioder ofte giver høje priser."
   - "Solen sænker priserne midt på dagen om sommeren; vandkraft fra Norden påvirker hele året."
@@ -51,6 +51,19 @@ Har du en elaftale med variabel pris, kan du udnytte dette ved at flytte fleksib
 ## Betyder det, at priserne bliver mere ustabile fremover?
 
 I takt med at en større andel af elproduktionen kommer fra vind og sol, er det sandsynligt, at elpriserne fortsat vil svinge en del afhængigt af vejret. Det gør det endnu vigtigere at have en elaftale, der passer til dit forbrugsmønster – uanset om det er fastpris for forudsigelighed eller variabel pris for at kunne udnytte de billige perioder.
+
+## Elprisernes årstider
+
+Vejret giver elpriserne et mønster, der går igen år efter år:
+
+- **Forår:** Ofte blæsende og med stigende solproduktion, mens behovet for opvarmning falder. Det giver mange billige timer – og af og til negative spotpriser midt på dagen.
+- **Sommer:** Solcellerne producerer meget midt på dagen, men om aftenen, når solen går ned, kan prisen stige markant. Forskellen mellem dag og aften er ofte størst om sommeren.
+- **Efterår:** Stormvejr kan give meget lave priser, men er vandmagasinerne i Norge og Sverige lave efter en tør sommer, kan det trække prisen op.
+- **Vinter:** Kulde øger efterspørgslen, og der er kun lidt sol. Vindstille, kolde dage er typisk de dyreste dage på året.
+
+## Hvad betyder negative elpriser for dig?
+
+Når der produceres mere strøm, end der bruges – fx på en blæsende og solrig søndag – kan spotprisen blive negativ. Det betyder dog sjældent, at du får penge for at bruge strøm. Du betaler stadig elselskabets tillæg, nettarif, elafgift og moms, så den samlede pris er som regel stadig positiv. Men har du en variabel elaftale, er netop de timer et oplagt tidspunkt at lade elbilen, vaske tøj eller varme vandet op.
 
 ## Kom videre
 

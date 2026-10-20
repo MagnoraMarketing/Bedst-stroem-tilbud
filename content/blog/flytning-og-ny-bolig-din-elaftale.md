@@ -1,10 +1,10 @@
 ---
 title: "Sådan påvirker en flytning eller ny bolig din elaftale"
-seoTitle: "Flytning og elaftale: Sådan gør du ved ny bolig"
+seoTitle: "Flytning og elaftale: Sådan gør du"
 description: "Skal du flytte? Se om din elaftale følger med til den nye adresse, hvad du skal huske, og hvorfor en flytning er det perfekte tidspunkt at skifte elselskab."
 excerpt: "En flytning er et oplagt tidspunkt at gentænke din elaftale på. Her er, hvad du skal huske."
 date: "2026-08-06"
-updated: "2026-10-14"
+updated: "2026-10-20"
 category: "Elaftaler"
 keywords: ["flytte elselskab", "elaftale ved flytning", "ny bolig strøm", "skift adresse elaftale", "flytning strøm"]
 summary:
@@ -46,6 +46,20 @@ Flytter du fra lejlighed til hus – eller omvendt – kan dit forbrug ændre si
 ## Lejebolig eller ejerbolig?
 
 Vilkårene for, hvem der står for elaftalen, kan være anderledes afhængigt af boligtype. Læs mere om forskellene i vores artikel om [elpriser for lejere vs. boligejere](/blog/elpriser-lejer-vs-boligejer).
+
+## Tjekliste: El ved flytning
+
+Brug listen her, så du ikke glemmer noget i flytterodet:
+
+1. **Find dit målepunkts-ID.** Det er et nummer på 18 cifre, der identificerer elmåleren på den nye adresse. Du kan ofte finde det på Eloverblik.dk eller få det af den tidligere beboer, udlejeren eller netselskabet.
+2. **Meld flytningen til dit elselskab i god tid.** Opgiv flyttedato og ny adresse – eller tilmeld dig et nyt elselskab, hvis du vil skifte.
+3. **Aflæs måleren på flyttedagen.** De fleste boliger har i dag fjernaflæste målere, men en dateret aflæsning eller et billede af måleren kan være nyttigt, hvis der opstår tvivl om forbruget.
+4. **Tjek slutregningen fra den gamle adresse.** Den bør kun dække forbruget frem til din flyttedato.
+5. **Justér dit aconto-beløb.** Den nye bolig kan have et helt andet forbrug end den gamle. Betaler du aconto, så få det tilpasset, så du undgår en stor efterregulering.
+
+## Hvis du flytter sammen med nogen
+
+Flytter I sammen, skal I beslutte, hvem der står på elaftalen. Det er den person, der hæfter for regningen. Er I to om at betale, så overvej at aftale en fast fordeling, og sammenlign samtidig elpriser – to husstandes forbrug samlet i én kan ændre, hvilken aftaletype der er billigst.
 
 ## Kom godt fra start i den nye bolig
 

@@ -6,7 +6,7 @@ excerpt: "Din elregning er måske ikke høj på grund af det, du tror. Her er de
 date: "2026-09-29"
 updated: "2026-10-14"
 category: "Spar penge"
-keywords: ["strømslugere", "hvad bruger mest strøm", "spare strøm", "standby forbrug", "spar penge på strøm"]
+keywords: ["strømslugere", "hvad bruger mest strøm", "spare strøm", "standby forbrug", "apparater strømforbrug"]
 summary:
   - "Gamle frysere, gulvvarme, standby-elektronik og routere kører ofte døgnet rundt uden at du tænker over det."
   - "Aflæs måleren om natten, og brug en energimåler for at finde dit eget grundforbrug."

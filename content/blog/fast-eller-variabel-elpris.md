@@ -1,12 +1,12 @@
 ---
 title: "Fast eller variabel elpris – hvad skal du vælge?"
-seoTitle: "Fast eller variabel elpris – hvad skal du vælge?"
+seoTitle: "Fast eller variabel elpris? Sådan vælger du"
 description: "Fast eller variabel elpris? Se forskellen på fastpris, spotpris og flexpris, fordele og ulemper ved hver, og 3 spørgsmål der hjælper dig med at vælge rigtigt."
 excerpt: "Fastpris giver forudsigelighed, variabel pris følger markedet. Her er, hvad du skal overveje, før du vælger."
 date: "2026-07-20"
-updated: "2026-10-14"
+updated: "2026-10-20"
 category: "Elaftaler"
-keywords: ["fast eller variabel elpris", "fastpris eller spotpris", "variabel elpris", "flexpris", "elaftale"]
+keywords: ["fast eller variabel elpris", "fastpris eller spotpris", "variabel elpris", "flexpris", "hvilken elaftale skal jeg vælge"]
 summary:
   - "Fastpris giver en fast kWh-pris i en aftalt periode og beskytter mod prisstigninger."
   - "Variabel pris følger spotprisen time for time og har historisk ofte været billigst over tid."
@@ -59,6 +59,21 @@ Overvej følgende spørgsmål:
 3. **Hvor lang tid vil du binde dig?** Jo længere binding, jo vigtigere er det, at du er tryg ved prisniveauet.
 
 Uanset hvad du vælger, er det en god idé at [sammenligne elpriser](/sammenlign-elpriser) fra flere elselskaber, så du kan se, hvordan tillæg og vilkår varierer på tværs af udbydere, før du beslutter dig.
+
+## Tre typiske husstande – hvad passer til hvem?
+
+**Mette, enlig i lejlighed, ca. 1.500 kWh om året.**
+Hendes forbrug er lavt og svært at flytte, fordi hun er på arbejde i dagtimerne. Udsving i spotprisen betyder kun lidt i kroner og øre. For Mette er den vigtigste parameter et lavt abonnement, og en variabel aftale uden binding er ofte et fornuftigt valg.
+
+**Familien Hansen, hus med elbil og varmepumpe, ca. 9.000 kWh om året.**
+De har et stort, men fleksibelt forbrug: Elbilen kan lade om natten, og varmepumpen kan styres. Her kan en variabel pris med timeafregning give en stor besparelse – men kun, hvis de faktisk flytter forbruget. Et lavt tillæg pr. kWh betyder mere end abonnementet.
+
+**Bent og Inger, pensionister i hus, ca. 4.000 kWh om året.**
+De har et fast budget og bryder sig ikke om overraskelser på elregningen. For dem kan en fastpris give ro i maven, selvom den på lang sigt kan koste lidt mere end en variabel pris. Alternativt kan en flexpris være et kompromis.
+
+## Kan du skifte undervejs?
+
+Ja. Har du en variabel aftale uden binding, kan du typisk skifte til en fastpris med kort varsel, hvis du begynder at frygte stigende priser. Omvendt kan du være bundet, hvis du har valgt en fastpris. Tjek derfor altid opsigelsesvilkårene, før du vælger – fleksibiliteten er i sig selv noget værd.
 
 ## Konklusion
 

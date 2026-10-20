@@ -1,12 +1,12 @@
 ---
 title: "Batterilagring i hjemmet: Fremtidens måde at spare på strøm?"
-seoTitle: "Hjemmebatteri: Kan batterilagring betale sig?"
+seoTitle: "Hjemmebatteri: Kan det betale sig?"
 description: "Kan et hjemmebatteri sænke din elregning? Se hvordan batterilagring virker med solceller og variabel elpris – og hvornår investeringen kan betale sig."
 excerpt: "Hjemmebatterier bliver stadig mere udbredte. Her er, hvordan de fungerer, og hvornår det kan betale sig at investere i ét."
 date: "2026-08-08"
-updated: "2026-10-14"
+updated: "2026-10-20"
 category: "Spar penge"
-keywords: ["batterilagring", "hjemmebatteri", "batteri til solceller", "kan hjemmebatteri betale sig", "spar penge på strøm"]
+keywords: ["hjemmebatteri", "batterilagring", "batteri til solceller", "kan hjemmebatteri betale sig", "tilbagebetalingstid batteri"]
 summary:
   - "Et hjemmebatteri gemmer strøm fra solceller eller fra nettet i billige timer, så du kan bruge den, når prisen er høj."
   - "Størst gavn har husstande med solceller eller et stort, planlægbart forbrug på en variabel elaftale."
@@ -45,6 +45,25 @@ Selv uden solceller kan et batteri bruges til at "købe billigt og bruge dyrt": 
 ## Er det en god investering lige nu?
 
 Batteriteknologi er stadig relativt dyr i anskaffelse sammenlignet med den årlige besparelse, det typisk giver – tilbagebetalingstiden afhænger meget af dit forbrug, din elaftale og prisen på det konkrete batteri. For mange husstande vil en billigere elaftale alene give en hurtigere og mere sikker besparelse. Se [hvor meget du kan spare på strøm](/spar-paa-stroem) uden en stor investering.
+
+## Sådan regner du på et hjemmebatteri
+
+Om et batteri kan betale sig, afhænger af tre tal: hvad batteriet koster installeret, hvor mange kWh det reelt flytter pr. døgn, og hvor stor prisforskellen er mellem de timer, du lader, og de timer, du bruger strømmen.
+
+1. **Den reelle kapacitet.** Et batteri tømmes sjældent helt, og der går typisk 5-15 % tabt ved op- og afladning. Et batteri på 10 kWh flytter derfor ofte kun 8-9 kWh brugbar strøm.
+2. **Prisforskellen pr. kWh.** Medregn ikke kun spotprisen, men også nettariffen, som er højest i spidslasttimerne sidst på eftermiddagen.
+3. **Antal fulde cyklusser om året.** Om sommeren med solcelleoverskud bliver batteriet brugt næsten hver dag. Om vinteren er der ofte færre dage, hvor det giver gevinst.
+
+**Et forenklet eksempel:** Flytter batteriet 8 kWh om dagen med en gennemsnitlig gevinst på 1 kr. pr. kWh i 250 dage om året, giver det omkring 2.000 kr. om året. Koster batteriet 40.000 kr. installeret, er tilbagebetalingstiden 20 år – og det er længere end mange batteriers forventede levetid. Er gevinsten derimod 2 kr. pr. kWh, halveres tilbagebetalingstiden. Tallene er kun til illustration, men regnestykket viser, hvorfor prisforskellen er så afgørende.
+
+### Spørgsmål, du bør stille installatøren
+
+- Hvor mange ladecyklusser er batteriet garanteret til, og hvor stor restkapacitet garanteres efter garantiperioden?
+- Kan batteriet automatisk styres efter spotprisen og tarifferne?
+- Kræver installationen en ny inverter eller en opgradering af eltavlen?
+- Kan batteriet levere nødstrøm ved strømafbrydelse? Det kan langt fra alle.
+
+Husk, at et batteri kun kan *flytte* strøm – det gør ikke selve strømmen billigere. Derfor bør du først sikre dig en elaftale med lavt tillæg og abonnement, før du investerer i lagring.
 
 ## Konklusion
 

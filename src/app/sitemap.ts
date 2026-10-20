@@ -5,7 +5,7 @@ import { siteConfig } from "@/lib/constants";
 // Date the static pages were last meaningfully changed. Bing in particular
 // relies on <lastmod>, and it stops trusting it if every URL claims to change
 // on every deploy – so bump this by hand when page content changes.
-const STATIC_PAGES_UPDATED = "2026-10-14";
+const STATIC_PAGES_UPDATED = "2026-10-20";
 
 const staticRoutes: { path: string; priority: number; changeFrequency: "daily" | "weekly" | "monthly" | "yearly" }[] = [
   { path: "", priority: 1, changeFrequency: "weekly" },

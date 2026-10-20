@@ -1,12 +1,12 @@
 ---
 title: "De skjulte gebyrer i din elaftale, du skal kigge efter"
-seoTitle: "Skjulte gebyrer i din elaftale – det skal du tjekke"
+seoTitle: "Skjulte gebyrer i elaftalen: Tjekliste"
 description: "Abonnement, opkrævningsgebyr, oprettelse og framelding: Se de skjulte gebyrer i elaftaler, og lær at regne den reelle årlige pris ud, før du vælger elselskab."
 excerpt: "En lav kWh-pris er ikke altid det samme som en billig aftale. Her er de gebyrer, du skal holde øje med."
 date: "2026-06-22"
-updated: "2026-10-14"
+updated: "2026-10-20"
 category: "Elaftaler"
-keywords: ["skjulte gebyrer", "gebyrer elaftale", "elselskab gebyrer", "abonnement elselskab", "elaftale"]
+keywords: ["skjulte gebyrer", "gebyrer elaftale", "elselskab gebyrer", "abonnement elselskab", "gebyr framelding el"]
 summary:
   - "Typiske gebyrer er abonnement, opkrævningsgebyr, oprettelsesgebyr og gebyr ved framelding."
   - "Årlig totalpris = kWh-pris × forbrug + abonnement × 12 + øvrige gebyrer."
@@ -60,6 +60,28 @@ På den måde ser du den reelle pris, i stedet for kun at blive forblændet af e
 ## Hvorfor er gennemsigtighed vigtig?
 
 Skjulte gebyrer er en af de primære grunde til, at to "billige" tilbud kan ende med at koste forskelligt i praksis. Ved at kende faldgruberne på forhånd kan du undgå at blive overrasket, og du står stærkere, når du skal vælge mellem flere tilbud fra forskellige elselskaber.
+
+## Gebyrer og vilkår, der sjældent står på forsiden
+
+Ud over de klassiske gebyrer er der en række vilkår, der kan gøre en aftale dyrere, end den ser ud:
+
+- **Introduktionspriser:** Et lavt tillæg eller gratis abonnement de første måneder, som derefter stiger.
+- **Gebyr for papirfaktura eller betaling med kort:** Små beløb, der løber op over et år.
+- **Rykkergebyrer:** Kan være høje, hvis en betaling bliver forsinket.
+- **Tillæg for grøn strøm:** Nogle selskaber lægger et særskilt tillæg på for oprindelsesgarantier.
+- **Tillæg for fastpris:** En fastpris indeholder ofte en risikopræmie, som ikke fremgår som et separat gebyr.
+- **Mulighed for prisændringer:** Tjek, med hvilket varsel selskabet kan ændre tillæg og abonnement.
+
+## Spørgsmål til kundeservice
+
+Ring eller skriv til elselskabet, før du skriver under, og spørg:
+
+1. Hvad bliver min samlede pris om året ved mit forbrug – inklusive alle faste gebyrer?
+2. Ændrer prisen sig efter en introperiode, og i så fald hvornår og med hvor meget?
+3. Hvad koster det at forlade aftalen før tid?
+4. Med hvilket varsel kan I ændre tillæg og abonnement?
+
+Få gerne svarene på skrift, så du har dokumentation, hvis noget senere ikke stemmer.
 
 ## Kom videre
 

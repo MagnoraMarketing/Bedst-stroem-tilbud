@@ -4,9 +4,9 @@ seoTitle: "Spar penge på elregningen i 2026: 5 råd"
 description: "5 konkrete måder at spare penge på din elregning i 2026: Sammenlign elpriser, vælg rigtig aftaletype, flyt forbrug, undgå gebyrer og sænk dit forbrug."
 excerpt: "Vil du sænke elregningen i 2026? Her får du de mest effektive greb, sorteret efter, hvor meget de reelt batter."
 date: "2026-08-10"
-updated: "2026-10-14"
+updated: "2026-10-20"
 category: "Spar penge"
-keywords: ["spar penge på strøm", "spar penge på elregningen", "billig strøm", "elregning 2026", "sænk elregningen"]
+keywords: ["spar penge på elregningen", "sænk elregningen", "elregning 2026", "billigere elregning", "spare på el 2026"]
 summary:
   - "Den hurtigste besparelse er at sammenligne elpriser og skifte til en billigere aftale."
   - "Vælg bevidst mellem fast og variabel pris, og flyt forbrug til billige timer."
@@ -41,6 +41,23 @@ Et lavt kWh-tillæg er ikke altid ensbetydende med en billig aftale. Abonnements
 ## 5. Sænk det generelle forbrug
 
 Ud over selve elaftalen kan du spare penge ved at reducere standby-forbrug, sænke temperaturen en anelse og bruge energieffektive hvidevarer. Vi har samlet 15 konkrete tips i artiklen om, [hvordan du bruger mindre strøm i hverdagen](/blog/saadan-bruger-du-mindre-stroem-i-hverdagen).
+
+## Hvor meget kan du spare? Et realistisk eksempel
+
+Lad os tage en typisk husstand med et årligt forbrug på 4.000 kWh og se på, hvad de fem råd kan give tilsammen. Tallene er afrundede og kun til illustration:
+
+| Tiltag | Antagelse | Besparelse pr. år |
+|---|---|---|
+| Skift til billigere aftale | 10 øre lavere tillæg og 20 kr. lavere abonnement pr. md. | ca. 640 kr. |
+| Flyt forbrug | 1.000 kWh flyttes til timer, der er 50 øre billigere | ca. 500 kr. |
+| Undgå gebyrer | Fx opkrævnings- og papirgebyr | ca. 100-300 kr. |
+| Sænk forbruget | 5 % lavere forbrug ved en gennemsnitlig totalpris på 2 kr./kWh | ca. 400 kr. |
+
+Tilsammen kan det løbe op i 1.500-2.000 kr. om året – uden store investeringer. Den største og hurtigste gevinst kommer typisk fra selve elaftalen, fordi det er et engangsarbejde, der virker hver måned derefter.
+
+## Sæt et årligt eltjek i kalenderen
+
+Elmarkedet ændrer sig hele tiden, og det samme gør dit forbrug. Vælg en fast dato hvert år – fx når du får din årsopgørelse – hvor du tjekker dit forbrug, din aftale og aktuelle tilbud. Det tager under en halv time og sikrer, at besparelserne holder år efter år.
 
 ## Sådan prioriterer du indsatsen
 

@@ -1,10 +1,10 @@
 ---
 title: "Hvorfor stiger elpriserne, og hvad kan du gøre?"
-seoTitle: "Hvorfor stiger elpriserne? 4 årsager forklaret"
+seoTitle: "Hvorfor stiger elpriserne? 4 årsager"
 description: "Hvorfor stiger elpriserne? Se de 4 vigtigste årsager – vejr, efterspørgsel, gaspriser og afgifter – og hvad du selv kan gøre for at holde elregningen nede."
 excerpt: "Elpriserne påvirkes af langt flere faktorer, end de fleste tror. Her får du forklaringen – og dine muligheder."
 date: "2026-07-06"
-updated: "2026-10-14"
+updated: "2026-10-20"
 category: "Elpriser"
 keywords: ["elpriser stiger", "hvorfor stiger elpriserne", "strømpriser", "elpris", "stigende elpriser"]
 summary:
@@ -52,6 +52,19 @@ Selvom du ikke kan påvirke de underliggende markedskræfter, kan du gøre flere
 ## Er høje elpriser kommet for at blive?
 
 Elpriserne har historisk svinget meget og vil sandsynligvis fortsætte med at gøre det, i takt med at produktionen bliver mere afhængig af vejret. Den bedste beskyttelse er derfor ikke at forudsige markedet, men at sikre dig den bedst mulige aftale for din situation og holde øje med dit forbrug.
+
+## Sådan læser du nyhederne om elpriser
+
+Overskrifter om "rekordhøje elpriser" handler som regel om spotprisen i en enkelt time eller på en enkelt dag. Det er ikke det samme som din elregning. Når du læser den slags nyheder, er det godt at huske:
+
+- **En dyr time er ikke en dyr måned.** Din regning afhænger af gennemsnittet over hele perioden – vægtet efter, hvornår du bruger strømmen.
+- **Spotprisen er kun en del af regningen.** Nettarif, elafgift og moms udgør en stor del af den samlede pris, og de ændrer sig efter andre regler end spotprisen.
+- **Har du fastpris, rammer udsvingene dig ikke med det samme.** Du mærker dem først, når din aftale skal fornyes.
+- **Faldende priser kan også være midlertidige.** Et par billige uger med meget vind betyder ikke, at niveauet er faldet permanent.
+
+## Hold øje med de rigtige tal
+
+Vil du vide, om elpriserne reelt stiger for dig, så sammenlign din gennemsnitlige pris pr. kWh (inkl. alt) måned for måned eller år for år. Du kan regne den ud ved at dividere regningens samlede beløb med dit forbrug i kWh. Stiger tallet over tid, mens markedet generelt er faldet, er det et tegn på, at du bør sammenligne din aftale med andre.
 
 ## Kom videre
 

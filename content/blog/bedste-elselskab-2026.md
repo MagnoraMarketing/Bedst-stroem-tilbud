@@ -1,10 +1,10 @@
 ---
 title: "Bedste elselskab 2026: Hvad kigger danskerne efter?"
-seoTitle: "Bedste elselskab 2026: 5 ting du skal se efter"
+seoTitle: "Bedste elselskab 2026: 5 ting at tjekke"
 description: "Hvilket elselskab er bedst i 2026? Se de 5 ting, du skal kigge efter – pris, vilkår, produkter, kundeservice og grøn strøm – og find det bedste for dig."
 excerpt: "Det bedste elselskab er ikke nødvendigvis det billigste. Her er, hvad danskerne typisk lægger vægt på i 2026."
 date: "2026-06-01"
-updated: "2026-10-14"
+updated: "2026-10-20"
 category: "Elselskaber"
 keywords: ["bedste elselskab", "bedste elselskab 2026", "bedst elselskab", "hvilket elselskab er bedst", "elselskab"]
 summary:
@@ -45,6 +45,23 @@ Et stigende antal danskere ønsker strøm dækket af oprindelsesgarantier fra ve
 ## Findes der ét "bedste" elselskab?
 
 Ikke i praksis. Fordi priser og produkter ændrer sig løbende, og fordi husstande har forskellige behov, giver det mere mening at tale om, hvilket elselskab der er bedst for netop din situation lige nu. Det kræver, at du sammenligner aktuelle, tilpassede tilbud i stedet for at stole blindt på generelle ranglister.
+
+## 6 spørgsmål, du bør stille, før du vælger elselskab
+
+- Hvad er tillægget pr. kWh oven i spotprisen – og hvor hurtigt kan selskabet ændre det?
+- Hvad koster abonnementet pr. måned, og er der opkrævnings- eller oprettelsesgebyrer?
+- Er der binding, og hvad koster det at forlade aftalen før tid?
+- Bliver du afregnet efter dit faktiske forbrug time for time, eller efter en gennemsnitspris?
+- Har selskabet en app eller en oversigt, der viser dit forbrug og din pris løbende?
+- Hvordan dokumenteres den grønne strøm – og fra hvilke typer anlæg kommer den?
+
+Kan selskabet ikke svare klart på spørgsmålene, er det i sig selv et advarselstegn.
+
+## Pas på med ranglister og kåringer
+
+Lister over "årets bedste elselskab" kan være et fint udgangspunkt, men de har begrænsninger. De er et øjebliksbillede, de vægter kriterier, som ikke nødvendigvis passer til dig, og nogle bygger på introduktionstilbud, der stiger efter få måneder.
+
+Det billigste selskab for en familie med elbil og et højt forbrug er heller ikke nødvendigvis det billigste for en enlig i en lejlighed. Ved et lavt forbrug fylder det faste abonnement relativt meget, mens tillægget pr. kWh betyder mest ved et højt forbrug. Find dit faktiske årsforbrug på Eloverblik.dk, og brug det som grundlag, når du sammenligner.
 
 ## Sådan finder du det bedste elselskab for dig
 

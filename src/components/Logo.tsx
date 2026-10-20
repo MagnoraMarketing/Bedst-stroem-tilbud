@@ -9,7 +9,7 @@ export default function Logo() {
       </span>
       <span className="font-display text-lg font-bold leading-none text-brand-navy">
         Billig
-        <span className="text-brand-blue">-Elrengning</span>
+        <span className="text-brand-blue">elrengning</span>
         <span className="text-accent-dark">.dk</span>
       </span>
     </Link>

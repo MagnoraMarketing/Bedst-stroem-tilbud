@@ -4,7 +4,7 @@ seoTitle: "Elpriser for lejere vs. boligejere"
 description: "Kan du som lejer frit vælge elselskab? Se forskellene for lejere og boligejere, hvad du skal være opmærksom på, og hvordan du får den billigste elaftale."
 excerpt: "Elprisen i sig selv er den samme, men rammerne omkring elaftalen kan se forskellige ud, afhængigt af om du lejer eller ejer."
 date: "2026-08-04"
-updated: "2026-10-14"
+updated: "2026-10-20"
 category: "Elselskaber"
 keywords: ["lejer elselskab", "lejer elpriser", "boligejer elpriser", "elselskab lejlighed", "vælge elselskab som lejer"]
 summary:
@@ -44,6 +44,26 @@ Nej. Elselskaberne skelner ikke mellem lejere og boligejere i deres prissætning
 ## Flytter du snart?
 
 Hvis du er lejer og flytter ofte, er det særligt vigtigt at holde styr på framelding og tilmelding ved hver flytning. Læs mere i vores guide om, [hvordan en flytning påvirker din elaftale](/blog/flytning-og-ny-bolig-din-elaftale).
+
+## Særlige situationer: Fælles måler, andelsbolig og fremleje
+
+Ikke alle boliger er ens, og nogle situationer gør det sværere at vælge elselskab frit:
+
+- **El inkluderet i huslejen:** I nogle lejeboliger, fx værelser og kollegier, er el en del af huslejen eller fordeles via en fælles måler. Så er det udlejeren, der har elaftalen, og du kan ikke selv skifte.
+- **Bimålere:** Har boligen en bimåler bag en fælles hovedmåler, afregner du typisk med udlejeren eller foreningen og ikke direkte med et elselskab.
+- **Andelsbolig og ejerlejlighed:** Her har du som regel din egen måler og kan vælge elselskab frit – præcis som i et hus.
+- **Fremleje:** Aftal tydeligt, hvem der står på elaftalen, og aflæs måleren ved indflytning og fraflytning, så der ikke opstår uenighed om forbruget.
+
+## Tjekliste til din lejekontrakt
+
+Før du skriver under, så tjek:
+
+1. Har lejemålet sin egen elmåler?
+2. Er el inkluderet i huslejen eller i et aconto-beløb til udlejeren?
+3. Hvilken opvarmningsform har boligen? Elvarme eller varmepumpe giver et markant højere elforbrug.
+4. Hvilke hvidevarer følger med, og hvor gamle er de?
+
+Svarene fortæller dig, om du selv kan vælge elselskab, og hvor stor en elregning du skal regne med.
 
 ## Konklusion
 

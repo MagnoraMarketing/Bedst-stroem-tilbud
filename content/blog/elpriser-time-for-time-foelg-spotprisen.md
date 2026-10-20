@@ -1,12 +1,12 @@
 ---
 title: "Elpriser time for time: Sådan følger du spotprisen"
-seoTitle: "Elpriser time for time: Sådan følger du spotprisen"
+seoTitle: "Spotpris: Sådan følger du strømprisen"
 description: "Hvad er spotprisen, og hvorfor svinger elprisen time for time? Lær at følge elpriserne og flytte forbruget til de billigste timer, så du sparer penge."
 excerpt: "Elprisen svinger time for time. Her lærer du at læse mønstret og bruge det til at flytte dit forbrug til de billige timer."
 date: "2026-07-27"
-updated: "2026-10-14"
+updated: "2026-10-20"
 category: "Elpriser"
-keywords: ["elpriser time for time", "spotpris", "strømpris i dag", "hvornår er strøm billigst", "strømpriser"]
+keywords: ["spotpris", "hvad er spotpris", "strømpris i dag", "hvornår er strøm billigst", "følg spotprisen"]
 summary:
   - "Spotprisen fastsættes time for time på elbørsen Nord Pool – separat for DK1 og DK2."
   - "Prisen påvirkes af vind, sol, forbrug, temperatur og handel med nabolandene."
@@ -52,6 +52,24 @@ Ikke nødvendigvis for alle. Hvis du har mulighed for at flytte en stor del af d
 ## Forskel på DK1 og DK2
 
 Fordi Danmark er delt i to prisområder, kan spotprisen være forskellig i øst og vest. Det skyldes blandt andet forskellige forbindelser til nabolandene og forskellig produktionssammensætning. Du kan læse mere om forskellene i vores artikel om [elpriser i DK1 vs. DK2](/blog/elpriser-i-dk1-vs-dk2).
+
+## Hvornår kender man morgendagens elpriser?
+
+Spotpriserne for det kommende døgn fastsættes på den fælles europæiske elbørs dagen før. Resultatet offentliggøres normalt omkring kl. 13, og derefter kan du se morgendagens priser i elselskabernes apps og på prisoversigter. Det betyder, at du hver eftermiddag kan planlægge, hvornår opvaskemaskinen, vaskemaskinen eller elbilen skal køre næste dag.
+
+## Fra timer til kvarterer
+
+Siden efteråret 2025 handles strøm på spotmarkedet i perioder af 15 minutter i stedet for hele timer. Mange apps og elselskaber viser dog stadig en gennemsnitspris pr. time, fordi det er nemmere at overskue. For de fleste husstande gør det ingen stor forskel i praksis – rådet er det samme: læg det fleksible forbrug i de billigste perioder.
+
+## Husk, at spotprisen kun er en del af prisen
+
+Når du ser en meget lav – eller endda negativ – spotpris, er det fristende at tro, at strømmen er gratis. Men oven i spotprisen betaler du:
+
+- elselskabets tillæg
+- nettarif til dit netselskab, som er højest i spidslasttimerne sidst på eftermiddagen og om aftenen
+- elafgift og moms
+
+Den billigste time er derfor den, hvor den *samlede* pris er lavest – ikke nødvendigvis den, hvor spotprisen er lavest. Mange apps kan vise totalprisen inklusive tariffer, og det er den, du bør planlægge efter.
 
 ## Kom i gang
 
