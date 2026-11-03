@@ -19,6 +19,16 @@ import {
   ShieldCheckIcon,
 } from "@/components/icons";
 import { getAllPosts } from "@/lib/blog";
+import {
+  PRICE_AREAS,
+  PRICE_AREA_LABELS,
+  formatDanishDateTime,
+  formatOre,
+  getSpotSnapshot,
+  hourLabel,
+} from "@/lib/elpriser";
+
+export const revalidate = 900;
 
 const faqItems = [
   {
@@ -48,8 +58,9 @@ const faqItems = [
   },
 ];
 
-export default function Home() {
+export default async function Home() {
   const latestPosts = getAllPosts().slice(0, 6);
+  const snapshot = await getSpotSnapshot();
 
   return (
     <>
@@ -73,8 +84,8 @@ export default function Home() {
             </h1>
             <p className="mt-5 max-w-xl text-lg text-foreground/70">
               Indhent op til 3 skarpe, uforpligtende tilbud fra danske
-              elselskaber på under 2 minutter – og se, hvor meget din
-              husstand kan spare på strømmen i 2026.
+              elselskaber, følg de officielle elpriser time for time, og regn
+              selv efter, hvilken elaftale der er billigst for din husstand.
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
               <CtaButton size="lg">Hent 3 gratis tilbud</CtaButton>
@@ -87,7 +98,7 @@ export default function Home() {
                 <CheckIcon className="w-4 h-4 text-success" /> Danske elselskaber
               </li>
               <li className="flex items-center gap-1.5">
-                <CheckIcon className="w-4 h-4 text-success" /> Ingen skjulte gebyrer
+                <CheckIcon className="w-4 h-4 text-success" /> Officielle elpriser
               </li>
               <li className="flex items-center gap-1.5">
                 <CheckIcon className="w-4 h-4 text-success" /> Skift på minutter
@@ -98,43 +109,55 @@ export default function Home() {
           <div className="relative mx-auto w-full max-w-sm">
             <div className="rounded-3xl border border-border bg-white p-6 shadow-xl">
               <p className="text-sm font-semibold text-foreground/50">
-                Estimeret årlig besparelse
+                Spotpris i dag · inkl. moms
               </p>
-              <p className="mt-1 font-display text-4xl font-bold text-success">
-                op til 2.400 kr.*
-              </p>
-              <div className="mt-5 space-y-3">
-                {[
-                  { label: "Dit nuværende elselskab", value: 100, color: "bg-foreground/20" },
-                  { label: "Gennemsnitligt elselskab", value: 78, color: "bg-brand-blue/50" },
-                  { label: "Billigste elselskab", value: 55, color: "bg-success" },
-                ].map((row) => (
-                  <div key={row.label}>
-                    <div className="mb-1 flex items-center justify-between text-xs text-foreground/60">
-                      <span>{row.label}</span>
-                    </div>
-                    <div className="h-2.5 w-full rounded-full bg-surface">
-                      <div
-                        className={`h-2.5 rounded-full ${row.color}`}
-                        style={{ width: `${row.value}%` }}
-                      />
-                    </div>
+              {snapshot ? (
+                <>
+                  <div className="mt-3 space-y-4">
+                    {PRICE_AREAS.map((area) => {
+                      const day = snapshot.today[area];
+                      if (!day) return null;
+                      return (
+                        <div key={area}>
+                          <p className="text-xs font-semibold uppercase tracking-wide text-brand-blue">
+                            {PRICE_AREA_LABELS[area]}
+                          </p>
+                          <p className="mt-1 font-display text-3xl font-bold text-brand-navy">
+                            {formatOre(day.average, true)}
+                            <span className="ml-1 text-sm font-medium text-foreground/50">/kWh gns.</span>
+                          </p>
+                          <p className="text-xs text-foreground/60">
+                            Billigst kl. {hourLabel(day.min)} ({formatOre(day.min.price, true)})
+                          </p>
+                        </div>
+                      );
+                    })}
                   </div>
-                ))}
-              </div>
-              <p className="mt-5 text-xs text-foreground/40">
-                *Eksempel baseret på et gennemsnitligt dansk elforbrug. Din
-                faktiske besparelse afhænger af dit forbrug og din nuværende
-                aftale.
-              </p>
-            </div>
-            <div className="absolute -bottom-6 -left-6 hidden rounded-2xl bg-accent px-4 py-3 shadow-lg sm:block">
-              <p className="text-xs font-semibold text-accent-foreground">
-                Op til 3 tilbud
-              </p>
-              <p className="text-[11px] text-accent-foreground/70">
-                fra danske elselskaber
-              </p>
+                  <Link
+                    href="/elpriser-time-for-time"
+                    className="mt-5 inline-block text-sm font-semibold text-brand-blue hover:underline"
+                  >
+                    Se alle timer i dag og i morgen →
+                  </Link>
+                  <p className="mt-4 text-xs text-foreground/40">
+                    Kilde: Energinet (Energi Data Service), opdateret{" "}
+                    {formatDanishDateTime(snapshot.fetchedAt)}. Kun spotpris – tillæg,
+                    tariffer og elafgift kommer oveni.
+                  </p>
+                </>
+              ) : (
+                <>
+                  <p className="mt-3 text-foreground/70">
+                    Se dagens og morgendagens officielle elpriser time for time for DK1 og DK2.
+                  </p>
+                  <Link
+                    href="/elpriser-time-for-time"
+                    className="mt-5 inline-block text-sm font-semibold text-brand-blue hover:underline"
+                  >
+                    Se elpriser time for time →
+                  </Link>
+                </>
+              )}
             </div>
           </div>
         </Container>
@@ -146,7 +169,7 @@ export default function Home() {
           <StatCard value="100%" label="Gratis & uforpligtende" />
           <StatCard value="op til 3" label="Tilbud pr. henvendelse" />
           <StatCard value="~2 min." label="At udfylde formularen" />
-          <StatCard value="24/7" label="Elpriser time for time" />
+          <StatCard value="DK1 + DK2" label="Live elpriser fra Energinet" />
         </Container>
       </section>
 

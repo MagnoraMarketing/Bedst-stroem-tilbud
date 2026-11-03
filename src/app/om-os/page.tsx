@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Container from "@/components/Container";
 import PageHero from "@/components/PageHero";
 import CtaBanner from "@/components/CtaBanner";
@@ -53,24 +54,34 @@ export default function OmOsPage() {
               indgår en aftale via et af vores links. Det påvirker ikke den
               pris, du bliver tilbudt, og det koster ikke ekstra for dig. Du
               kan læse mere om dette i vores{" "}
-              <a href="/ansvarsfraskrivelse" className="underline">
-                ansvarsfraskrivelse
-              </a>
+              <Link href="/saadan-tjener-vi-penge" className="underline">
+                affiliate-oplysning
+              </Link>
               .
             </p>
 
             <h2>Hvorfor stole på os?</h2>
             <ul>
-              <li>Vi er uafhængige af de enkelte elselskaber.</li>
-              <li>Vores indhold er skrevet for at være letforståeligt og opdateret.</li>
-              <li>Det er altid gratis og uforpligtende at indhente tilbud.</li>
-              <li>Du bestemmer selv, om du vil sige ja tak til et tilbud.</li>
+              <li>
+                Elpriserne på siden er officielle spotpriser, som hentes automatisk fra Energinet – se{" "}
+                <Link href="/saadan-beregner-vi-elpriser">Sådan beregner vi elpriser</Link>.
+              </li>
+              <li>
+                Vores artikler følger en{" "}
+                <Link href="/redaktionel-politik">redaktionel politik</Link> med krav om primære{" "}
+                <Link href="/kilder">kilder</Link>.
+              </li>
+              <li>
+                Vi er åbne om, hvordan siden finansieres – se{" "}
+                <Link href="/saadan-tjener-vi-penge">Sådan tjener vi penge</Link>.
+              </li>
+              <li>Det er altid gratis og uforpligtende at indhente tilbud, og du bestemmer selv.</li>
             </ul>
           </div>
 
           <ul className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-2">
             {[
-              "Uafhængig sammenligning",
+              "Officielle elpriser fra Energinet",
               "Ingen forpligtelser",
               "Fokus på gennemsigtighed",
               "Danske elselskaber",

@@ -16,8 +16,10 @@ import {
   getPostBySlug,
   getRelatedPosts,
   getToc,
+  isIndexable,
   slugify,
 } from "@/lib/blog";
+import { getAuthor } from "@/lib/authors";
 import { AFFILIATE_URL, siteConfig } from "@/lib/constants";
 import { pageMetadata } from "@/lib/seo";
 
@@ -78,6 +80,8 @@ const formatDate = (date: string) =>
     year: "numeric",
   });
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
 }
@@ -99,16 +103,22 @@ export async function generateMetadata({
     keywords: post.keywords,
   });
 
+  const author = getAuthor(post.author);
+
   return {
     ...base,
-    authors: [{ name: siteConfig.name, url: `${siteConfig.url}/om-os` }],
+    // Thin or incomplete posts render but stay out of the index.
+    ...(isIndexable(post) ? {} : { robots: { index: false, follow: true } }),
+    authors: author
+      ? [{ name: author.name, url: `${siteConfig.url}/forfattere/${author.slug}` }]
+      : [{ name: `Redaktionen, ${siteConfig.name}`, url: `${siteConfig.url}/om-os` }],
     openGraph: {
       ...base.openGraph,
       title: post.title,
       type: "article",
       publishedTime: post.date,
       modifiedTime: post.updated,
-      authors: [siteConfig.name],
+      authors: [author ? author.name : siteConfig.name],
       section: post.category,
       tags: post.keywords,
     },
@@ -132,6 +142,7 @@ export default async function BlogPostPage({
   const related = getRelatedPosts(post);
   const toc = getToc(post.content);
   const url = `${siteConfig.url}/blog/${post.slug}`;
+  const author = getAuthor(post.author);
 
   // Split the markdown body on top-level headings so we can insert an
   // in-article CTA roughly halfway through the piece.
@@ -162,12 +173,21 @@ export default async function BlogPostPage({
     articleSection: post.category,
     inLanguage: "da-DK",
     isAccessibleForFree: true,
-    author: {
-      "@type": "Organization",
-      "@id": `${siteConfig.url}/#organization`,
-      name: siteConfig.name,
-      url: `${siteConfig.url}/om-os`,
-    },
+    author: author
+      ? {
+          "@type": "Person",
+          "@id": `${siteConfig.url}/forfattere/${author.slug}#person`,
+          name: author.name,
+          jobTitle: author.jobTitle,
+          url: `${siteConfig.url}/forfattere/${author.slug}`,
+          sameAs: author.sameAs,
+        }
+      : {
+          "@type": "Organization",
+          "@id": `${siteConfig.url}/#organization`,
+          name: siteConfig.name,
+          url: `${siteConfig.url}/om-os`,
+        },
     publisher: { "@id": `${siteConfig.url}/#organization` },
     isPartOf: { "@id": `${siteConfig.url}/#website` },
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
@@ -211,9 +231,29 @@ export default async function BlogPostPage({
           </h1>
           <p className="mt-4 text-lg text-foreground/70">{post.excerpt}</p>
           <p className="mt-3 text-sm text-foreground/50">
-            Af redaktionen på{" "}
-            <Link href="/om-os" className="underline underline-offset-2 hover:text-brand-blue">
-              {siteConfig.name}
+            {author ? (
+              <>
+                Af{" "}
+                <Link href={`/forfattere/${author.slug}`} className="underline underline-offset-2 hover:text-brand-blue">
+                  {author.name}
+                </Link>
+                , {author.jobTitle.toLowerCase()}
+              </>
+            ) : (
+              <>
+                Af redaktionen på{" "}
+                <Link href="/om-os" className="underline underline-offset-2 hover:text-brand-blue">
+                  {siteConfig.name}
+                </Link>
+              </>
+            )}{" "}
+            ·{" "}
+            <Link href="/redaktionel-politik" className="underline underline-offset-2 hover:text-brand-blue">
+              Redaktionel politik
+            </Link>{" "}
+            ·{" "}
+            <Link href="/kilder" className="underline underline-offset-2 hover:text-brand-blue">
+              Kilder
             </Link>
           </p>
 

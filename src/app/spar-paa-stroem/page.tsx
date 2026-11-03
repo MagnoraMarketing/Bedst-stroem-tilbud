@@ -21,25 +21,25 @@ export const metadata: Metadata = pageMetadata({
 const savingsTips = [
   {
     title: "Skift til en billigere elaftale",
-    saving: "Op til 2.400 kr./år",
+    saving: "Eks.: 800 kr./år*",
     description:
       "Den enkeltstående faktor, der oftest gør den største forskel, er selve elprisen. Et skift væk fra en dyr, gammel aftale kan mærkes direkte på bundlinjen.",
   },
   {
     title: "Flyt dit forbrug til billige timer",
-    saving: "200-600 kr./år",
+    saving: "Afhænger af prisforskellen",
     description:
       "Ved at bruge vaskemaskine, opvasker og elbil-oplader uden for spidsbelastning kan du udnytte de billigere timer på spotprisen.",
   },
   {
     title: "Sænk standby-forbruget",
-    saving: "300-800 kr./år",
+    saving: "30 W standby ≈ 263 kWh/år",
     description:
       "Standby-strøm fra tv, router, spillekonsol og opladere kan hurtigt løbe op. Brug stikkontakter med afbryder på apparater, du sjældent bruger.",
   },
   {
     title: "Optimer varme og varmt vand",
-    saving: "500-1.500 kr./år",
+    saving: "Største post i elopvarmede boliger",
     description:
       "Sænk temperaturen én grad, efterisoler, og indstil varmepumpen korrekt. Varme og varmt vand er ofte de største strømposter i en husstand.",
   },
@@ -49,7 +49,7 @@ const faqItems = [
   {
     question: "Hvor meget kan en gennemsnitlig husstand spare på strøm?",
     answer:
-      "Det afhænger meget af dit nuværende elselskab og forbrug, men mange husstande kan realistisk spare mellem 500 og 2.500 kroner om året ved at skifte til en billigere elaftale og justere forbrugsvaner.",
+      "Det afhænger af dit forbrug og din nuværende aftale. Regn det selv ud: forskellen i kWh-pris (inkl. moms) gange dit årlige forbrug plus forskellen i abonnement. Eksempel: 20 øre lavere pris pr. kWh ved 4.000 kWh om året giver 800 kr. – før forskel i abonnement. Brug vores beregner til at regne på dine egne tilbud.",
   },
   {
     question: "Er det besværligt at ændre sine strømvaner?",
@@ -77,15 +77,15 @@ export default function SparPaaStroemPage() {
       <section className="py-14">
         <Container>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
-            <StatCard value="2.400 kr." label="Potentiel årlig besparelse*" />
+            <StatCard value="800 kr." label="Regneeksempel pr. år*" />
             <StatCard value="4" label="Konkrete spareområder" />
             <StatCard value="2 min." label="At sammenligne priser" />
             <StatCard value="0 kr." label="I gebyr hos os" />
           </div>
           <p className="mt-3 text-center text-xs text-foreground/50">
-            *Estimat baseret på et gennemsnitligt elforbrug. Din faktiske
-            besparelse afhænger af dit nuværende forbrug og din nuværende
-            aftale.
+            *Regneeksempel: 4.000 kWh om året × 20 øre lavere kWh-pris inkl. moms = 800 kr. Det er ikke
+            et løfte om en bestemt besparelse – din besparelse afhænger af dit forbrug og din nuværende
+            aftale. <Link href="/sammenlign-elpriser#beregner" className="underline">Regn på dine egne tilbud</Link>.
           </p>
         </Container>
       </section>

@@ -25,7 +25,18 @@ export type BlogFrontmatter = {
   // "Kort fortalt" key takeaways shown at the top of the article.
   summary: string[];
   faq: BlogFaq[];
+  /** Slug of a real author in src/lib/authors.ts (optional). */
+  author?: string;
+  /** Drafts are never rendered, listed or put in the sitemap. */
+  draft: boolean;
 };
+
+/**
+ * Minimum word count for a post to be indexable. Thinner posts still render
+ * (so links don't break) but get `noindex` and are left out of the sitemap,
+ * RSS and llms.txt, so incomplete pages never reach search engines.
+ */
+export const MIN_INDEXABLE_WORDS = 400;
 
 export type BlogPost = BlogFrontmatter & {
   slug: string;
@@ -71,11 +82,25 @@ export function getToc(content: string): TocItem[] {
     });
 }
 
-export function getAllSlugs(): string[] {
+function getAllFileSlugs(): string[] {
   return fs
     .readdirSync(BLOG_DIR)
     .filter((file) => file.endsWith(".md"))
     .map((file) => file.replace(/\.md$/, ""));
+}
+
+/** Slugs of all published (non-draft) posts. */
+export function getAllSlugs(): string[] {
+  return getAllFileSlugs().filter((slug) => !getPostBySlug(slug).draft);
+}
+
+export function isIndexable(post: BlogPost): boolean {
+  return !post.draft && post.wordCount >= MIN_INDEXABLE_WORDS && Boolean(post.description);
+}
+
+/** Published posts that are complete enough for sitemap/RSS/llms.txt. */
+export function getIndexablePosts(): BlogPost[] {
+  return getAllPosts().filter(isIndexable);
 }
 
 export function getPostBySlug(slug: string): BlogPost {
@@ -97,6 +122,8 @@ export function getPostBySlug(slug: string): BlogPost {
     keywords: data.keywords ?? [],
     summary: data.summary ?? [],
     faq: data.faq ?? [],
+    author: data.author,
+    draft: data.draft === true,
     readingTime: `${Math.max(1, Math.round(stats.minutes))} min. læsning`,
     wordCount: stats.words,
   };
