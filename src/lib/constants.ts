@@ -7,6 +7,15 @@ export const siteConfig = {
   locale: "da_DK",
 };
 
+// Company behind the site (dataansvarlig). The CVR number is read from the
+// environment so it is only shown once it has been entered – never a
+// placeholder. Set NEXT_PUBLIC_COMPANY_CVR in Vercel.
+export const companyInfo = {
+  name: "Magnora Marketing",
+  url: "https://magnoramarketing.dk",
+  cvr: process.env.NEXT_PUBLIC_COMPANY_CVR || "",
+};
+
 // Partner-ads.com affiliate tracking link – all primary CTAs on the site point here.
 export const AFFILIATE_URL =
   "https://www.partner-ads.com/dk/klikbanner.php?partnerid=52168&bannerid=112206";
