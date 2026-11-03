@@ -1,4 +1,4 @@
-import { getAllPosts } from "@/lib/blog";
+import { getIndexablePosts } from "@/lib/blog";
 import { siteConfig } from "@/lib/constants";
 
 export const dynamic = "force-static";
@@ -14,7 +14,7 @@ const escapeXml = (value: string) =>
 // RSS 2.0 feed of all blog posts. Bing, feed readers and news aggregators use
 // it to discover new and updated articles faster than via the sitemap alone.
 export async function GET() {
-  const posts = getAllPosts();
+  const posts = getIndexablePosts();
   const feedUrl = `${siteConfig.url}/blog/rss.xml`;
   const lastBuild = posts.reduce(
     (latest, post) => (post.updated > latest ? post.updated : latest),

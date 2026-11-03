@@ -6,24 +6,31 @@ import CtaBanner from "@/components/CtaBanner";
 import SectionHeading from "@/components/SectionHeading";
 import FaqAccordion from "@/components/FaqAccordion";
 import JsonLd, { faqJsonLd } from "@/components/JsonLd";
-import { ClockIcon } from "@/components/icons";
+import SpotPriceBoard from "@/components/SpotPriceBoard";
+import DataSourceNote from "@/components/DataSourceNote";
 import { pageMetadata } from "@/lib/seo";
+import { siteConfig } from "@/lib/constants";
+import {
+  PRICE_AREAS,
+  PRICE_AREA_LABELS,
+  SPOT_SOURCE,
+  formatDanishDate,
+  formatOre,
+  getSpotSnapshot,
+  hourLabel,
+} from "@/lib/elpriser";
+
+// Regenerate at most every 15 minutes (ISR), so the page is static and fast
+// but picks up new day-ahead prices shortly after they are published.
+export const revalidate = 900;
 
 export const metadata: Metadata = pageMetadata({
-  title: "Elpriser time for time – se spotprisen på strøm",
+  title: "Elpriser time for time i dag og i morgen (DK1 og DK2)",
   description:
-    "Se hvordan elpriser time for time (spotprisen) fungerer, hvorfor prisen svinger hen over døgnet, og hvordan du kan flytte dit elforbrug til de billige timer.",
+    "Dagens og morgendagens elpriser time for time for Vest- og Østdanmark. Officielle spotpriser fra Energinet, opdateret automatisk – se de billigste timer.",
   path: "/elpriser-time-for-time",
-  keywords: ["elpriser time for time", "spotpris strøm", "elpris i dag", "elpriser i morgen"],
+  keywords: ["elpriser time for time", "elpris i dag", "elpriser i morgen", "spotpris strøm", "elpris DK1", "elpris DK2"],
 });
-
-const hours = [
-  { time: "00-06", label: "Nat", level: 25 },
-  { time: "06-09", label: "Morgen", level: 70 },
-  { time: "09-16", label: "Dag", level: 45 },
-  { time: "16-20", label: "Aften", level: 90 },
-  { time: "20-24", label: "Sen aften", level: 40 },
-];
 
 const faqItems = [
   {
@@ -43,56 +50,90 @@ const faqItems = [
   },
 ];
 
-export default function ElpriserTimeForTimePage() {
+export default async function ElpriserTimeForTimePage() {
+  const snapshot = await getSpotSnapshot();
+  const url = `${siteConfig.url}/elpriser-time-for-time`;
+
+  const datasetJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    name: "Elpriser time for time i Danmark (DK1 og DK2)",
+    description:
+      "Day-ahead spotpriser på el for Vestdanmark (DK1) og Østdanmark (DK2) i øre/kWh, vist som timegennemsnit. Gengivet fra Energinets Energi Data Service.",
+    url,
+    inLanguage: "da-DK",
+    isAccessibleForFree: true,
+    spatialCoverage: { "@type": "Place", name: "Danmark" },
+    temporalCoverage: snapshot?.today.DK1?.date ?? snapshot?.today.DK2?.date,
+    dateModified: snapshot?.fetchedAt,
+    variableMeasured: "Spotpris på el (øre/kWh ekskl. moms)",
+    creator: { "@type": "Organization", name: "Energinet", url: "https://energinet.dk" },
+    isBasedOn: SPOT_SOURCE.url,
+    publisher: { "@id": `${siteConfig.url}/#organization` },
+    distribution: {
+      "@type": "DataDownload",
+      encodingFormat: "application/json",
+      contentUrl: SPOT_SOURCE.apiUrl,
+    },
+  };
+
   return (
     <>
       <JsonLd data={faqJsonLd(faqItems)} />
+      {snapshot && <JsonLd data={datasetJsonLd} />}
       <PageHero
         eyebrow="Elpriser time for time"
-        title="Elpriser time for time: Se spotprisen på strøm"
-        lead="Elprisen ændrer sig time for time hen over døgnet. Her får du overblikket over, hvornår strømmen typisk er billigst og dyrest – og hvordan du kan bruge det til at spare penge."
+        title="Elpriser time for time – i dag og i morgen"
+        lead="Se den officielle spotpris på strøm for hver time i Vest- og Østdanmark. Priserne hentes automatisk fra Energinet, så du kan lægge dit forbrug i de billigste timer."
         breadcrumb={[{ name: "Elpriser time for time", href: "/elpriser-time-for-time" }]}
       />
 
       <section className="py-14">
         <Container className="max-w-4xl">
-          <div className="rounded-2xl border border-border bg-white p-6 sm:p-8">
-            <div className="flex items-center gap-2 text-brand-navy">
-              <ClockIcon className="w-5 h-5" />
-              <h2 className="font-display font-bold">Typisk prismønster i løbet af døgnet</h2>
+          {snapshot ? (
+            <>
+              <div id="kort-fortalt" className="mb-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
+                {PRICE_AREAS.map((area) => {
+                  const day = snapshot.today[area];
+                  if (!day) return null;
+                  return (
+                    <div key={area} className="rounded-2xl border border-border bg-brand-sky/50 p-5">
+                      <p className="text-xs font-semibold uppercase tracking-wide text-brand-blue">
+                        {PRICE_AREA_LABELS[area]} · {formatDanishDate(day.date)}
+                      </p>
+                      <p className="mt-2 text-sm text-brand-navy">
+                        Gennemsnit i dag: <strong>{formatOre(day.average, true)}</strong> pr. kWh inkl. moms.
+                        Billigste time er <strong>kl. {hourLabel(day.min)}</strong> ({formatOre(day.min.price, true)}),
+                        dyreste er <strong>kl. {hourLabel(day.max)}</strong> ({formatOre(day.max.price, true)}).
+                      </p>
+                      {snapshot.avg30d[area] && (
+                        <p className="mt-1 text-xs text-foreground/60">
+                          Gennemsnit de seneste {snapshot.avg30d[area]!.days} dage:{" "}
+                          {formatOre(snapshot.avg30d[area]!.average, true)} inkl. moms.
+                        </p>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+              <SpotPriceBoard snapshot={snapshot} />
+            </>
+          ) : (
+            <div className="rounded-2xl border border-border bg-white p-6 sm:p-8">
+              <h2 className="font-display font-bold text-brand-navy">Priserne kunne ikke hentes lige nu</h2>
+              <p className="mt-2 text-sm text-foreground/70">
+                Vi viser kun officielle priser og aldrig estimerede tal. Energi Data Service svarede ikke
+                ved seneste opdatering – prøv igen om lidt, eller se priserne direkte hos{" "}
+                <a href={SPOT_SOURCE.url} target="_blank" rel="noopener" className="underline">
+                  Energinet
+                </a>
+                .
+              </p>
             </div>
-            <p className="mt-2 text-sm text-foreground/60">
-              Illustrativt eksempel på, hvordan elprisen ofte fordeler sig
-              hen over et almindeligt hverdagsdøgn. De faktiske priser
-              varierer fra dag til dag afhængigt af vejr, forbrug og
-              produktion.
-            </p>
-            <div className="mt-6 space-y-4">
-              {hours.map((slot) => (
-                <div key={slot.time}>
-                  <div className="mb-1 flex items-center justify-between text-sm">
-                    <span className="font-medium text-brand-navy">
-                      {slot.time} – {slot.label}
-                    </span>
-                    <span className="text-foreground/50">
-                      {slot.level > 70 ? "Højt niveau" : slot.level > 40 ? "Middel niveau" : "Lavt niveau"}
-                    </span>
-                  </div>
-                  <div className="h-2.5 w-full rounded-full bg-surface">
-                    <div
-                      className={`h-2.5 rounded-full ${
-                        slot.level > 70
-                          ? "bg-accent-dark"
-                          : slot.level > 40
-                          ? "bg-brand-blue"
-                          : "bg-success"
-                      }`}
-                      style={{ width: `${slot.level}%` }}
-                    />
-                  </div>
-                </div>
-              ))}
-            </div>
+          )}
+
+          <div className="mt-6">
+            <DataSourceNote fetchedAt={snapshot?.fetchedAt} resolutionMinutes={snapshot?.resolutionMinutes} />
           </div>
 
           <div className="prose-article mt-8">

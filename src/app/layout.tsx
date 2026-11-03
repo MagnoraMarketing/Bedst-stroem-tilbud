@@ -109,6 +109,9 @@ export default function RootLayout({
           url: `${siteConfig.url}/icon.svg`,
         },
         areaServed: { "@type": "Country", name: "Danmark" },
+        publishingPrinciples: `${siteConfig.url}/redaktionel-politik`,
+        correctionsPolicy: `${siteConfig.url}/redaktionel-politik`,
+        ownershipFundingInfo: `${siteConfig.url}/saadan-tjener-vi-penge`,
         knowsAbout: [
           "elpriser",
           "billig strøm",

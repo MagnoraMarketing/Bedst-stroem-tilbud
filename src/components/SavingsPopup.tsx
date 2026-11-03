@@ -6,7 +6,8 @@ import { AFFILIATE_URL } from "@/lib/constants";
 import { ArrowRightIcon, CloseIcon } from "./icons";
 
 const STORAGE_KEY = "bsp-savings-popup-shown";
-const DELAY_MS = 10000;
+// Kept late and once per session so it does not interrupt reading (UX/INP).
+const DELAY_MS = 30000;
 
 export default function SavingsPopup() {
   const [mounted, setMounted] = useState(false);
@@ -62,12 +63,12 @@ export default function SavingsPopup() {
           id="savings-popup-title"
           className="font-display text-2xl font-bold leading-snug text-brand-navy sm:text-3xl"
         >
-          Du kan muligvis spare over{" "}
-          <span className="text-brand-blue">2.000 kr.</span> årligt!
+          Betaler du{" "}
+          <span className="text-brand-blue">for meget</span> for din strøm?
         </h2>
 
         <p className="mt-5 text-foreground/70">
-          Er du sikker på du har den billigste elaftale?
+          Mange sidder på en ældre elaftale med højere tillæg eller abonnement end nødvendigt.
         </p>
         <p className="mt-3 text-foreground/70">
           Det koster dig intet at prøve, men kan muligvis spare mange penge –
@@ -84,6 +85,7 @@ export default function SavingsPopup() {
           Okay, lad mig prøve
           <ArrowRightIcon className="w-4 h-4" />
         </a>
+        <p className="mt-4 text-[11px] text-foreground/45">Annonce – vi modtager provision via findelpriser.dk, hvis du indgår en aftale.</p>
       </div>
     </div>,
     document.body

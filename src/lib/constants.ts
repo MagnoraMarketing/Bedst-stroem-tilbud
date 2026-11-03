@@ -58,6 +58,10 @@ export const footerNav = {
   ],
   about: [
     { label: "Om os", href: "/om-os" },
+    { label: "Redaktionel politik", href: "/redaktionel-politik" },
+    { label: "Sådan beregner vi elpriser", href: "/saadan-beregner-vi-elpriser" },
+    { label: "Sådan tjener vi penge", href: "/saadan-tjener-vi-penge" },
+    { label: "Kilder", href: "/kilder" },
     { label: "Kontakt", href: "/kontakt" },
     { label: "Privatlivspolitik", href: "/privatlivspolitik" },
     { label: "Ansvarsfraskrivelse", href: "/ansvarsfraskrivelse" },

@@ -8,11 +8,16 @@ import FaqAccordion from "@/components/FaqAccordion";
 import JsonLd, { faqJsonLd } from "@/components/JsonLd";
 import { CheckIcon } from "@/components/icons";
 import { pageMetadata } from "@/lib/seo";
+import OfferCalculator from "@/components/OfferCalculator";
+import DataSourceNote from "@/components/DataSourceNote";
+import { getSpotSnapshot } from "@/lib/elpriser";
+
+export const revalidate = 900;
 
 export const metadata: Metadata = pageMetadata({
   title: "Sammenlign elpriser og elselskaber",
   description:
-    "Sammenlign elpriser og elselskaber i Danmark. Se forskellen på fastpris, variabel pris og flexpris, og find frem til den billigste elaftale for din husstand.",
+    "Sammenlign elpriser og elselskaber: beregn årsprisen ud fra spottillæg, abonnement, gebyrer og binding med aktuelle spotpriser fra Energinet for DK1 og DK2.",
   path: "/sammenlign-elpriser",
   keywords: [
     "sammenlign elpriser",
@@ -31,7 +36,12 @@ const faqItems = [
   {
     question: "Kan jeg sammenligne alle elselskaber ét sted?",
     answer:
-      "Ja, ved at udfylde vores formular sammenligner du automatisk tilbud fra flere danske elselskaber, i stedet for selv at skulle undersøge hvert selskab enkeltvis.",
+      "Forsyningstilsynets officielle prisportal elpris.dk viser elselskabernes anmeldte produkter. Har du allerede konkrete tilbud, kan du bruge vores beregner ovenfor til at sammenligne den samlede årlige pris. Via vores samarbejdspartner kan du desuden få op til 3 uforpligtende tilbud.",
+  },
+  {
+    question: "Hvorfor viser I ikke en færdig liste over alle elselskabers priser?",
+    answer:
+      "Fordi vi kun vil vise priser, vi kan dokumentere og holde opdateret. Der findes i dag ingen åben, maskinlæsbar kilde til alle elselskabers spottillæg og gebyrer, som vi kan hente automatisk. Indtil vi har en verificerbar datakilde, viser vi officielle spotpriser fra Energinet og lader dig indtaste tallene fra de tilbud, du selv har fået.",
   },
   {
     question: "Er det bedst med fast eller variabel elpris?",
@@ -40,14 +50,20 @@ const faqItems = [
   },
 ];
 
-export default function SammenlignElpriserPage() {
+export default async function SammenlignElpriserPage() {
+  const snapshot = await getSpotSnapshot();
+  const avgSpot = {
+    DK1: snapshot?.avg30d.DK1?.average ?? snapshot?.today.DK1?.average ?? null,
+    DK2: snapshot?.avg30d.DK2?.average ?? snapshot?.today.DK2?.average ?? null,
+  };
+
   return (
     <>
       <JsonLd data={faqJsonLd(faqItems)} />
       <PageHero
         eyebrow="Elpriser"
         title="Sammenlign elpriser og elselskaber"
-        lead="Elmarkedet i Danmark er fyldt med forskellige produkter og priser. Her får du et hurtigt overblik, så du nemmere kan gennemskue, hvad der reelt kan betale sig for din husstand."
+        lead="Sammenlign elaftaler på det, der faktisk koster penge: spottillæg, abonnement, gebyrer, introtilbud og binding. Brug beregneren med dagsaktuelle spotpriser fra Energinet."
         breadcrumb={[{ name: "Sammenlign elpriser", href: "/sammenlign-elpriser" }]}
       />
 
@@ -109,7 +125,24 @@ export default function SammenlignElpriserPage() {
             </table>
           </div>
 
-          <div className="prose-article mt-8">
+          <section id="beregner" className="mt-12 scroll-mt-24">
+            <h2 className="font-display text-2xl font-bold text-brand-navy">
+              Beregn og sammenlign dine eltilbud
+            </h2>
+            <p className="mt-2 text-foreground/70">
+              Indtast tallene fra de tilbud, du har fået (spottillæg, abonnement, gebyrer, introrabat
+              og binding), og se den samlede estimerede årspris side om side. Alle beløb indtastes
+              inkl. moms, som elselskaberne skal oplyse dem til private.
+            </p>
+            <div className="mt-6">
+              <OfferCalculator avgSpot={avgSpot} />
+            </div>
+            <div className="mt-4">
+              <DataSourceNote fetchedAt={snapshot?.fetchedAt} resolutionMinutes={snapshot?.resolutionMinutes} />
+            </div>
+          </section>
+
+          <div className="prose-article mt-12">
             <h2>Sådan er din elregning sat sammen</h2>
             <p>
               Den samlede pris, du betaler pr. kWh, består typisk af fire
@@ -128,8 +161,16 @@ export default function SammenlignElpriserPage() {
             <h2>Hvad bør du kigge efter, når du sammenligner?</h2>
             <ul>
               <li>
-                <strong>Pris pr. kWh</strong> – den vigtigste faktor, men se
+                <strong>Pris pr. kWh / spottillæg</strong> – den vigtigste faktor, men se
                 den i sammenhæng med abonnement.
+              </li>
+              <li>
+                <strong>Introtilbud</strong> – en rabat de første måneder er fin, men
+                sammenlign altid prisen <em>efter</em> introperioden.
+              </li>
+              <li>
+                <strong>Gebyrer og betalingsform</strong> – nogle selskaber tager gebyr for
+                papirfaktura eller bestemte betalingsformer.
               </li>
               <li>
                 <strong>Abonnement/gebyr</strong> – et månedligt fast beløb,
@@ -159,11 +200,22 @@ export default function SammenlignElpriserPage() {
               <strong>sammenligne aktivt</strong> – og gerne med jævne
               mellemrum, da priserne ændrer sig løbende.
             </p>
+
+            <h2>Officielle kilder til elselskabernes priser</h2>
+            <p>
+              Forsyningstilsynet driver den officielle prisportal{" "}
+              <a href="https://elpris.dk" target="_blank" rel="noopener">elpris.dk</a>, hvor
+              elselskaberne skal anmelde deres produkter. Den dagsaktuelle spotpris for DK1 og DK2
+              finder du på vores side med{" "}
+              <Link href="/elpriser-time-for-time">elpriser time for time</Link>, som henter data
+              direkte fra Energinet. Læs mere om vores metode og kilder i{" "}
+              <Link href="/saadan-beregner-vi-elpriser">Sådan beregner vi elpriser</Link>.
+            </p>
           </div>
 
           <div className="mt-10 grid grid-cols-1 gap-3 sm:grid-cols-2">
             {[
-              "Ingen skjulte gebyrer i vores sammenligning",
+              "Beregneren viser alle faste beløb og gebyrer",
               "Tilbud fra danske elselskaber",
               "100% gratis og uforpligtende",
               "Du bestemmer selv, om du siger ja tak",

@@ -26,6 +26,7 @@ export default function CtaBanner({
         <div>
           <p className="font-display font-bold text-brand-navy">{title}</p>
           <p className="text-sm text-foreground/70">{subtitle}</p>
+          <p className="mt-1 text-[11px] text-foreground/45">Annonce · provision via findelpriser.dk</p>
         </div>
         <CtaButton size="md" className="shrink-0">
           {buttonText}

@@ -6,7 +6,7 @@ import { AFFILIATE_URL } from "@/lib/constants";
 import { ArrowRightIcon, BoltIcon, CloseIcon } from "./icons";
 
 const STORAGE_KEY = "bsp-side-widget-shown";
-const DELAY_MS = 20000;
+const DELAY_MS = 60000;
 
 export default function SideWidget() {
   const [mounted, setMounted] = useState(false);
@@ -72,7 +72,7 @@ export default function SideWidget() {
         Stadig ikke tjekket din elpris?
       </p>
       <h3 className="mt-1 font-display text-lg font-bold leading-snug text-brand-navy">
-        Du kan muligvis spare over 2.000 kr. om året
+        Tjek om din elaftale er for dyr
       </h3>
       <p className="mt-2 text-sm text-foreground/65">
         Se gratis og uforpligtende, om du betaler for meget for din strøm.
@@ -88,6 +88,7 @@ export default function SideWidget() {
         Se mine tilbud
         <ArrowRightIcon className="w-3.5 h-3.5" />
       </a>
+      <p className="mt-2 text-center text-[10px] text-foreground/45">Annonce · provision via findelpriser.dk</p>
     </div>,
     document.body
   );
