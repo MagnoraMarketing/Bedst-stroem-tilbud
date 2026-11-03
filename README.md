@@ -65,5 +65,7 @@ Opdater `updated`, når du ændrer et indlæg væsentligt, og bump
 
 - `NEXT_PUBLIC_SITE_URL` – sæt til det endelige domæne (bruges i metadata,
   Open Graph og sitemap).
-- `src/app/privatlivspolitik/page.tsx` – virksomhedsnavn og CVR-nummer
-  (markeret med `[Virksomhedsnavn]` / `[CVR-nummer]`).
+- `NEXT_PUBLIC_COMPANY_CVR` – CVR-nummer for Magnora Marketing. Vises i
+  privatlivspolitik, kontakt og Organization-schema, når det er sat.
+- Forfattere: tilføj rigtige personer i `src/lib/authors.ts` og `author:` i
+  artiklernes frontmatter.

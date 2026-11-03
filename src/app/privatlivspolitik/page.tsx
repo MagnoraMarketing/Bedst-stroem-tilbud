@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import Container from "@/components/Container";
 import PageHero from "@/components/PageHero";
-import { siteConfig } from "@/lib/constants";
+import { companyInfo, siteConfig } from "@/lib/constants";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
@@ -24,14 +24,17 @@ export default function PrivatlivspolitikPage() {
         <Container className="max-w-3xl">
           <div className="prose-article">
             <p>
-              Sidst opdateret: {new Date().toLocaleDateString("da-DK", { year: "numeric", month: "long", day: "numeric" })}
+              Sidst opdateret: 3. november 2026
             </p>
 
             <h2>1. Dataansvarlig</h2>
             <p>
-              {siteConfig.name} ejes og drives af [Virksomhedsnavn], CVR-nr.
-              [CVR-nummer]. Har du spørgsmål til denne privatlivspolitik,
-              kan du <Link href="/kontakt">kontakte os</Link>.
+              {siteConfig.name} ejes og drives af{" "}
+              <a href={companyInfo.url} target="_blank" rel="noopener">
+                {companyInfo.name}
+              </a>
+              {companyInfo.cvr ? `, CVR-nr. ${companyInfo.cvr}` : ""}. Har du spørgsmål til denne
+              privatlivspolitik, kan du <Link href="/kontakt">kontakte os</Link>.
             </p>
 
             <h2>2. Hvilke oplysninger indsamler vi?</h2>

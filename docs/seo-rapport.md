@@ -36,7 +36,7 @@ Karaktererne er en faglig vurdering på en skala fra 1 til 10. De er ikke målte
 | --- | --- | --- |
 | K1 | Siden "Elpriser time for time" viste et **illustrativt** prismønster og ingen rigtige priser. Det er en svag match til søgeintentionen for et af nichens største søgeord. | **Rettet:** Siden viser nu live DK1/DK2-spotpriser fra Energinet for i dag og i morgen, med inkl./ekskl. moms, de billigste timer, dagsgennemsnit og 30-dages gennemsnit. |
 | K2 | Udokumenterede besparelsestal: "op til 2.400 kr." (forside og Spar på strøm), "over 2.000 kr." (popup og sidewidget), intervaller som "500-1.500 kr./år" og et opdigtet søjlediagram (100/78/55 %). | **Rettet:** Tallene er fjernet eller erstattet af gennemsigtige regneeksempler med forudsætninger. Hero-diagrammet er erstattet af live-spotpriser. |
-| K3 | `/privatlivspolitik` indeholder stadig `[Virksomhedsnavn]` og `[CVR-nummer]`. | **Mangler – kræver ejerens data.** Det skader troværdigheden, og det er sandsynligvis et lovkrav. |
+| K3 | `/privatlivspolitik` indeholdt `[Virksomhedsnavn]` og `[CVR-nummer]`. | **Rettet:** Magnora Marketing står som ejer. CVR vises automatisk, når `NEXT_PUBLIC_COMPANY_CVR` er sat i Vercel. |
 
 ### Høj
 | # | Fund | Status |
@@ -44,7 +44,7 @@ Karaktererne er en faglig vurdering på en skala fra 1 til 10. De er ikke målte
 | H1 | Der var ingen side om metode, kilder, redaktionel politik eller finansiering. | **Rettet:** `/saadan-beregner-vi-elpriser`, `/kilder`, `/redaktionel-politik` og `/saadan-tjener-vi-penge` er oprettet og linket fra footer, Om os og artikelbyline. |
 | H2 | Sammenligningssiden havde ingen sammenligningsfunktion. | **Rettet:** Beregneren sammenligner op til 3 tilbud på spottillæg/kWh-pris, abonnement, gebyrer, introrabat, binding og betalingsform. Den viser pris for 1. år og efterfølgende år. |
 | H3 | Ingen forfattere: alle artikler er skrevet af "redaktionen". | **Delvist:** Forfattersystemet (`src/lib/authors.ts`, `/forfattere/[slug]`, Person-schema og byline) er bygget, men det er **tomt med vilje**. Tilføj rigtige personer. Der er ikke opfundet nogen. |
-| H4 | Kontaktsiden har ingen kontaktoplysninger (e-mail blev fjernet i et tidligere commit). | **Mangler – ejerens beslutning.** Anbefaling: en kontaktformular eller en e-mail plus virksomhedsnavn og CVR. |
+| H4 | Kontaktsiden havde ingen kontaktoplysninger. | **Delvist:** Siden viser nu ejer og link til magnoramarketing.dk. Der er ikke tilføjet en e-mail igen, fordi den blev fjernet med vilje. |
 | H5 | Affiliate-CTA'er i den kompakte banner, popup og sidewidget var ikke markeret som annonce. | **Rettet:** De har nu "Annonce · provision via findelpriser.dk". |
 
 ### Middel
@@ -54,7 +54,7 @@ Karaktererne er en faglig vurdering på en skala fra 1 til 10. De er ikke målte
 | M2 | Der var ingen mekanisme mod indeksering af tynde eller ufærdige artikler. | **Rettet:** Frontmatter kan nu have `draft: true`, og indlæg under 400 ord får `noindex`. Begge dele holdes ude af sitemap, RSS og llms.txt. |
 | M3 | Popup efter 10 sekunder og sidewidget efter 20 sekunder forstyrrede læsningen. | **Rettet:** Ændret til 30 og 60 sekunder (stadig kun én gang pr. session). |
 | M4 | Der manglede security headers. | **Rettet:** nosniff, Referrer-Policy, X-Frame-Options og Permissions-Policy. |
-| M5 | Organization-logoet er en SVG. Google anbefaler et rasterlogo på mindst 112×112 px. | Mangler. Tilføj `/logo.png` og opdatér `layout.tsx`. |
+| M5 | Organization-logoet var en SVG. | **Rettet:** `/logo.png` (512×512) bruges i Organization-schema. |
 | M6 | `/billigste-elselskab` nævner ikke konkrete selskaber eller priser, fordi der ikke findes en verificerbar datakilde. | Se afsnit 6 om dataintegration. |
 
 ### Lav
@@ -169,10 +169,9 @@ fejler, viser siden en ærlig besked i stedet for tal.
 
 ## 9. Resterende problemer (kræver ejeren)
 
-1. Virksomhedsnavn og CVR i privatlivspolitik og Om os (K3).
-2. Kontaktmulighed (H4).
+1. CVR-nummer: sæt `NEXT_PUBLIC_COMPANY_CVR` i Vercel (K3).
+2. Eventuelt en direkte e-mail eller kontaktformular (H4).
 3. Rigtige forfattere med bio og LinkedIn i `src/lib/authors.ts` og `author:` i frontmatter (H3).
-4. Rasterlogo (M5).
 5. Datakilde til elselskabernes priser (afsnit 6).
 6. Tjek af partner-ads' provisionsmodel, så teksten på `/saadan-tjener-vi-penge` er præcis.
 

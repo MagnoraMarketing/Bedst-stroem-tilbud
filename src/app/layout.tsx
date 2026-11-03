@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 import SavingsPopup from "@/components/SavingsPopup";
 import SideWidget from "@/components/SideWidget";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
-import { siteConfig } from "@/lib/constants";
+import { companyInfo, siteConfig } from "@/lib/constants";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -106,7 +106,15 @@ export default function RootLayout({
         description: siteConfig.description,
         logo: {
           "@type": "ImageObject",
-          url: `${siteConfig.url}/icon.svg`,
+          url: `${siteConfig.url}/logo.png`,
+          width: 512,
+          height: 512,
+        },
+        parentOrganization: {
+          "@type": "Organization",
+          name: companyInfo.name,
+          url: companyInfo.url,
+          ...(companyInfo.cvr && { vatID: `DK${companyInfo.cvr}` }),
         },
         areaServed: { "@type": "Country", name: "Danmark" },
         publishingPrinciples: `${siteConfig.url}/redaktionel-politik`,

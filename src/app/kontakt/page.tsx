@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Container from "@/components/Container";
 import PageHero from "@/components/PageHero";
 import CtaBanner from "@/components/CtaBanner";
-import { siteConfig } from "@/lib/constants";
+import { companyInfo, siteConfig } from "@/lib/constants";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
@@ -22,7 +22,24 @@ export default function KontaktPage() {
       />
 
       <section className="py-14">
-        <Container className="max-w-2xl">
+        <Container className="max-w-2xl space-y-6">
+          <div className="rounded-2xl border border-border bg-white p-8">
+            <h2 className="font-display text-xl font-bold text-brand-navy">
+              Hvem står bag {siteConfig.name}?
+            </h2>
+            <p className="mt-2 text-foreground/70">
+              Siden ejes og drives af{" "}
+              <a href={companyInfo.url} target="_blank" rel="noopener" className="underline hover:text-brand-blue">
+                {companyInfo.name}
+              </a>
+              {companyInfo.cvr ? ` (CVR-nr. ${companyInfo.cvr})` : ""}. Spørgsmål til siden, fejl i
+              vores tal eller henvendelser om samarbejde kan sendes via kontaktoplysningerne på{" "}
+              <a href={companyInfo.url} target="_blank" rel="noopener" className="underline hover:text-brand-blue">
+                magnoramarketing.dk
+              </a>
+              .
+            </p>
+          </div>
           <div className="rounded-2xl border border-border bg-white p-8">
             <h2 className="font-display text-xl font-bold text-brand-navy">
               Spørgsmål om en konkret elaftale?
